@@ -1,13 +1,13 @@
 h1 {
  text-align: center;
   color: red;
-  font-size: 20rem;
+  font-size: 8rem;
   margin-top:4rem;
 }
 
 @media (max-width: 1050px) {
   h1 {
-    font-size: 8rem;
+    font-size: 3rem;
   }
 }
 body {
