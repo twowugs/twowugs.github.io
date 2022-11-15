@@ -1,0 +1,4 @@
+function rainbow() {
+    const colrText = []
+}
+
