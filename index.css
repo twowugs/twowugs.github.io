@@ -4,3 +4,12 @@ h1 {
   font-size: 20rem;
   margin-top:4rem;
 }
+
+@media (max-width: 1050px) {
+  h1 {
+    font-size: 8rem;
+  }
+}
+body {
+  background-color: rgb(175, 181, 62);
+}
