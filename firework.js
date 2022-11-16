@@ -1,39 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EVIL</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <h1 alt="aaaaaaaaaa">God hates faggots >:)</h1>
-    <!-- god loves fags, actually-->
-    <center>
-        <button id="external" type="button" onclick="location.href='secret.html'">LARD SPACE</button>
-    </center>
-    
-    <br>
-    <br>
-    <img src="vend.jpg" alt="b&w image of vending machine"  style="max-width: 640px;width:100%;" class="center">
-    <center>
-        <button id="goats" class="center" type="button" onclick="alert('eat my ass')">Nooooooooooo</button>
-    </center>
-    <br>
-    <br>
-    <br>
-    <p class="center"> if god loves you, why did he let you see this?</p>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-</body>
-<script type="javascript" scr="fireworks.js" ></script>
-<!--uhhhh firework effect sorry! -->
- <script type="text/javascript">
     // <![CDATA[
     var sparks=75; // how many sparks per clicksplosion
     var speed=33; // how fast - smaller is faster
@@ -186,9 +150,7 @@
       }
     }
     // ]]>
-    </script>
-        <script type="text/javascript">
-    
+      
     var rev = "fwd";
     
     function titlebar(val)
@@ -261,11 +223,3 @@
     
     titlebar(0);
     
-    </script> 
-
-<style>
-    body {
-      background-image: url('vend.jpg');
-    }
-    </style>
-</html> 
