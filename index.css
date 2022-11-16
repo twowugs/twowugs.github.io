@@ -1,15 +1,32 @@
+/* heading1*/
 h1 {
  text-align: center;
   color: red;
   font-size: 8rem;
   margin-top:4rem;
 }
-
 @media (max-width: 1050px) {
   h1 {
     font-size: 3rem;
   }
 }
+h1 {
+  animation: color-change 5s infinite;
+}
+@keyframes color-change {
+  0% { color: rgb(255, 0, 0); }
+  25% { color: rgb(255, 115, 0)}
+  75% { color: rgb(170, 0, 255); }
+  100% { color: rgb(255, 0, 0); }
+}
+/* heading2 */
+h2 {
+  text-align: auto;
+  color: rgb(59, 213, 79);
+  font-size: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+/* body */
 body {
   background-color: rgb(175, 181, 62);
   cursor: crosshair;
@@ -21,20 +38,20 @@ body {
   margin-right: auto;
   width: 50%;
 }
-h1 {
-  animation: color-change 5s infinite;
-}
-
-@keyframes color-change {
-  0% { color: rgb(255, 0, 0); }
-  25% { color: rgb(255, 115, 0)}
-  75% { color: rgb(170, 0, 255); }
-  100% { color: rgb(255, 0, 0); }
-}
 p {
   color:rgb(205, 92, 0);
   font-weight: 900;
   font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+}
+p1 {
+  font-size:15rem;
+  text-align:center;
+  padding-left: 5rem;
+}
+@media (max-width: 1050px) {
+  p1 {
+    font-size: 5rem;
+  }
 }
 #goats {
   border: 3rem coral;
