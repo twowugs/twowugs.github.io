@@ -12,7 +12,7 @@ h1 {
 }
 body {
   background-color: rgb(175, 181, 62);
-  cursor:not-allowed;
+  cursor:progress;
 }
 .center {
   display: block;
@@ -26,6 +26,21 @@ h1 {
 
 @keyframes color-change {
   0% { color: rgb(255, 0, 0); }
-  50% { color: rgb(255, 115, 0)}
-  100% { color: rgb(170, 0, 255); }
+  25% { color: rgb(255, 115, 0)}
+  75% { color: rgb(170, 0, 255); }
+  100% { color: rgb(255, 0, 0); }
+}
+p {
+  color:rgb(205, 92, 0);
+  font-weight: 900;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+}
+#goats {
+  border: 3rem coral;
+  background-color: blue;
+  color: rgb(255, 0, 0);
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  cursor:not-allowed;
 }
