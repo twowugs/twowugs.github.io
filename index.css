@@ -12,7 +12,8 @@ h1 {
 }
 body {
   background-color: rgb(175, 181, 62);
-  cursor:progress;
+  cursor: crosshair;
+  height: 10000vh;
 }
 .center {
   display: block;
