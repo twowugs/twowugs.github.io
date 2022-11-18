@@ -137,5 +137,22 @@ document.addEventListener('keydown', function(e) {
     snake.dx = 0;
   }
 });	
+//CONTROL SNAKE W/ BUTTONS
+function snakeLeft() {
+    snake.dx = grid;
+    snake.dy = 0;
+}
+function snakeRight() {
+    snake.dx = -grid;
+    snake.dy = 0;
+}
+function snakeUp() {
+    snake.dy = -grid;
+    snake.dx = 0;
+}
+function snakeDown() {
+    snake.dy = grid;
+    snake.dx = 0;
+}
 // start the game
 requestAnimationFrame(loop);
