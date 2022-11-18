@@ -1,7 +1,7 @@
 var canvas = document.getElementById('game');
 var context = canvas.getContext('2d');
 
-var grid = 16;
+var grid = 10;
 var count = 0;
   
 var snake = {
@@ -19,8 +19,8 @@ var snake = {
   maxCells: 4
 };
 var apple = {
-  x: 320,
-  y: 320
+  x: 120,
+  y: 120
 };
 
 // get random whole numbers in a specific range
