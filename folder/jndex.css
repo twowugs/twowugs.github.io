@@ -5,6 +5,7 @@ h1 {
      font-size: 3rem;
      margin-top:1rem;
      font-family: 'Rubik Glitch', cursive;
+     padding-top: 1rem;
    }
    @media (max-width: 1050px) {
      h1 {
@@ -20,6 +21,28 @@ h1 {
      75% { color: rgb(170, 0, 255); }
      100% { color: rgb(255, 0, 0); }
    }
-   body {
+body {
     background-color: black;
+}
+    .hoverable {
+        transition: transform .7s ease-in-out;
     }
+        .hoverable:hover {
+            transform: rotate(360deg);
+        }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+        grid-template-rows: 5rem auto;
+        background-color: #000000;           
+        padding: 10px;
+        align-items: center;
+        }
+          
+    .grid-item {
+        background-color: rgba(0, 0, 0, 0);
+         border: 1px solid rgba(0, 0, 0, 0.8);
+         padding: 20px;
+         font-size: 30px;
+         text-align: center;
+         }
