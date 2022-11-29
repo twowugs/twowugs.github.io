@@ -36,6 +36,7 @@
      }
 .grid-item2:hover {
     fill: #D52AE9;
+    cursor:pointer;
 }
 
 /*Body*/
