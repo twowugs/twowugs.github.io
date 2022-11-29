@@ -2,10 +2,15 @@
 h1 {
     text-align: center;
      color: rgb(0, 0, 0);
-     font-size: 3rem;
+     font-size: 3.5rem;
      margin-top:1rem;
      font-family: 'Rubik Glitch', cursive;
      padding-top: 1rem;
+   }
+   @media (max-width: 800px) {
+    h1 {
+        font-size: 3rem;
+    }
    }
    @media (max-width: 600px) {
      h1 {
