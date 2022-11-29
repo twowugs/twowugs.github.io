@@ -27,10 +27,11 @@ h1 {
      75% { color: rgb(170, 0, 255); }
      100% { color: rgb(255, 0, 0); }
    }
-
+/*Body*/
 body {
     background-color: black;
 }
+/*this doesn't work rn. was linked to Home icon*/
     .hoverable {
         transition: transform .7s ease-in-out;
     }
@@ -103,9 +104,9 @@ body {
   animation-fill-mode: forwards;
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
-  cursor:pointer;
-  fill: aqua;
+  
 }
+/*GRID!!!!*/
     .grid-container {
         display: grid;
         grid-template-columns: auto auto auto;
@@ -121,7 +122,11 @@ body {
          padding: 1.5rem;
          text-align: center;
          }
-     /* #Trash {
-        margin-left: -10rem;
-        margin-right: 6rem;
-      } */
+     #Trash:hover {
+       cursor:pointer;
+       fill: #FF55ED; 
+      }
+     #Home:hover {
+      cursor:pointer;
+       fill: aqua; 
+     }
