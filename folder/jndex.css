@@ -41,6 +41,7 @@ body {
     background-color: black;
     background-image: linear-gradient(rgb(224, 58, 185) 20%, blue 85%);
     background-attachment: fixed; 
+    background-size: cover;
 }
 
 /*this doesn't work rn. was linked to Home icon*/
