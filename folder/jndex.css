@@ -1,0 +1,22 @@
+/* heading1*/
+h1 {
+    text-align: center;
+     color: rgb(0, 0, 0);
+     font-size: 3rem;
+     margin-top:1rem;
+     font-family: 'Rubik Glitch', cursive;
+   }
+   @media (max-width: 1050px) {
+     h1 {
+       font-size: 3rem;
+     }
+   }
+   h1 {
+     animation: color-change 5s infinite;
+   }
+   @keyframes color-change {
+     0% { color: rgb(255, 0, 0); }
+     25% { color: rgb(255, 115, 0)}
+     75% { color: rgb(170, 0, 255); }
+     100% { color: rgb(255, 0, 0); }
+   }
