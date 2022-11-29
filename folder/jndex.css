@@ -15,7 +15,7 @@ h1 {
       width: 2.5rem;
       height: 2.5rem;
     }
-   
+
    }
    @media (max-width: 600px) {
      h1 {
@@ -39,7 +39,10 @@ h1 {
 /*Body*/
 body {
     background-color: black;
+    background-image: linear-gradient(rgb(224, 58, 185) 20%, blue 85%);
+    background-attachment: fixed; 
 }
+
 /*this doesn't work rn. was linked to Home icon*/
     .hoverable {
         transition: transform .7s ease-in-out;
@@ -118,13 +121,13 @@ body {
 /*GRID!!!!*/
     .grid-container {
         display: grid;
-        grid-template-columns: auto auto auto auto auto;
+        grid-template-columns: auto auto auto auto;
         grid-template-rows: auto;
-        background-color: #000000;   
+        background-color: black;
+        align-items: center;
         padding-top: .1rem;        
         padding-left: 3%;
         padding-right: 4%;
-        align-items: center;
         margin-top: .5rem;
         }
           
