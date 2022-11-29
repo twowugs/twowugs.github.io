@@ -1,0 +1,108 @@
+/*GRID!!!!*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 3rem auto;
+    grid-template-rows: auto;
+    background-color: black;
+    align-items: center;
+    padding-top: .1rem;        
+    padding-left: 3%;
+    padding-right: 4%;
+    margin-top: .5rem;
+    }
+      
+.grid-item {
+    background-color: rgba(0, 0, 0, 0);
+     padding: .6rem;
+     text-align: center;
+     }
+
+/*Body*/
+body {
+    background-color: black;
+    background-image: linear-gradient(rgb(224, 58, 185) 20%, blue 85%);
+    background-attachment: fixed; 
+    background-size: cover;
+}
+#Home:hover {
+    cursor:pointer;
+     fill: aqua; 
+   }
+#Home {
+    margin-left: 2rem;
+  }
+/* heading1*/
+h1 {
+    text-align: center;
+     color: #FF55ED;
+     font-size: 3.5rem;
+     margin-top: 1rem;
+     font-family: 'Rubik Glitch', cursive;
+     padding-top: 1rem;
+   }
+
+@-webkit-keyframes hvr-hang {
+    0% {
+      -webkit-transform: translateY(8px);
+      transform: translateY(8px);
+    }
+    50% {
+      -webkit-transform: translateY(4px);
+      transform: translateY(4px);
+    }
+    100% {
+      -webkit-transform: translateY(8px);
+      transform: translateY(8px);
+    }
+  }
+  @keyframes hvr-hang {
+    0% {
+      -webkit-transform: translateY(8px);
+      transform: translateY(8px);
+    }
+    50% {
+      -webkit-transform: translateY(4px);
+      transform: translateY(4px);
+    }
+    100% {
+      -webkit-transform: translateY(8px);
+      transform: translateY(8px);
+    }
+  }
+  @-webkit-keyframes hvr-hang-sink {
+    100% {
+      -webkit-transform: translateY(8px);
+      transform: translateY(8px);
+    }
+  }
+  @keyframes hvr-hang-sink {
+    100% {
+      -webkit-transform: translateY(8px);
+      transform: translateY(8px);
+    }
+  }
+  .hvr-hang {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-hang:hover, .hvr-hang:focus, .hvr-hang:active {
+    -webkit-animation-name: hvr-hang-sink, hvr-hang;
+    animation-name: hvr-hang-sink, hvr-hang;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+    
+  }
+  

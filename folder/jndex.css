@@ -43,6 +43,13 @@ body {
     background-attachment: fixed; 
     background-size: cover;
 }
+/*PHOTOS PAGE SPECIFICALLY!*/
+h2 {
+  font-size: 2rem;
+  color: #FF55ED;
+  text-align: center;
+}
+/*END OF PHOTOS PAGE!*/
 
 /*this doesn't work rn. was linked to Home icon*/
     .hoverable {
