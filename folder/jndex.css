@@ -16,6 +16,7 @@ h1 {
      h1 {
        font-size: 2rem;
      }
+
    }
    h1 {
      animation: color-change 5s infinite;
@@ -34,6 +35,8 @@ body {
     }
         .hoverable:hover {
             transform: rotate(360deg);
+            cursor:pointer;
+            fill: aqua;
         }
     .grid-container {
         display: grid;
