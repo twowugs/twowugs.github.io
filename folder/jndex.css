@@ -7,9 +7,9 @@ h1 {
      font-family: 'Rubik Glitch', cursive;
      padding-top: 1rem;
    }
-   @media (max-width: 1050px) {
+   @media (max-width: 600px) {
      h1 {
-       font-size: 3rem;
+       font-size: 2rem;
      }
    }
    h1 {
