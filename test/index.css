@@ -29,6 +29,7 @@ h2 {
 /* body */
 body {
   background-color: rgb(175, 181, 62);
+  background-image: url ('/images/vend.jpg');
   cursor: crosshair;
   height: 10000vh;
 }
