@@ -1,4 +1,4 @@
-/*GRID!!!!*/
+/*HEADER GRID!!!!*/
 .grid-container {
     display: grid;
     grid-template-columns: 3rem auto;
@@ -16,6 +16,27 @@
      padding: .6rem;
      text-align: center;
      }
+/*BODY GRID*/
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    align-items: center;
+    padding-top: .1rem;        
+    padding-left: 3%;
+    padding-right: 4%;
+    margin-top: .5rem;
+    }
+      
+.grid-item2 {
+    background-color: rgba(0, 0, 0, 0);
+     padding: .6rem;
+     text-align: center;
+     fill: black;
+     }
+.grid-item2:hover {
+    fill: #D52AE9;
+}
 
 /*Body*/
 body {
