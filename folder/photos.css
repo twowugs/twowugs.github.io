@@ -34,12 +34,13 @@
      text-align: center;
      fill: black;
      }
-.grid-item2:hover {
+
+#Eye:hover {
     fill: #D52AE9;
     cursor:pointer;
 }
 
-/*Body*/
+/*BODY*/
 body {
     background-color: black;
     background-image: linear-gradient(rgb(224, 58, 185) 20%, blue 85%);
@@ -51,9 +52,10 @@ body {
      fill: aqua; 
    }
 #Home {
-    margin-left: 2rem;
+    margin-left: 3%;
   }
-/* heading1*/
+
+/*heading1*/
 h1 {
     text-align: center;
      color: #FF55ED;
@@ -63,6 +65,7 @@ h1 {
      padding-top: 1rem;
    }
 
+/*HOVER EFFECT*/
 @-webkit-keyframes hvr-hang {
     0% {
       -webkit-transform: translateY(8px);
@@ -128,3 +131,22 @@ h1 {
     
   }
   
+  @media screen and (max-width: 800px) {
+    h1 {
+        font-size: 2rem;
+    }
+      .hvr-hang {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+
+   }
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    .hvr-hang {
+        width: 2rem;
+        height: 2rem;
+    }
+}
