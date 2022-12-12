@@ -1,6 +1,7 @@
 body {
-    background-image: url("blue.jpg");
+    background-image:  url("blue2.png");
     background-size: cover;
+    background-attachment: fixed;
     }
 h1 {
     font-family: 'Rubik Spray Paint', cursive;
