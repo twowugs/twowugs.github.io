@@ -42,7 +42,7 @@ h1 {
     }
     
     /* Change color of dropdown links on hover */
-    .dropdown-content a:hover {background-color: #ddd;}
+    .dropdown-content a:hover {background-color: rgba(221, 221, 221, 0.897);}
     
     /* Show the dropdown menu on hover */
     .dropdown:hover .dropdown-content {
@@ -116,5 +116,4 @@ h3 {
 .hoverable-link:hover {
     color: rgba(201, 202, 182, 0.89);
     cursor: pointer;
-    text-shadow: #ddd;
 }
