@@ -17,6 +17,10 @@ h1 {
     .home-stage {
         margin-top: 10rem;
     }
+    .home-stage {
+        margin-left: 1rem;
+        margin-right: 2rem;
+    }
    }
  /* Dropdown Button */
  .dropbtn {
@@ -81,8 +85,9 @@ h1 {
     display: grid;
     grid-template-columns: 20rem auto ;
     column-gap: 2rem;
-    margin-left: 5rem;
-    margin-right: 7rem;
+    margin-left: 6.5%;
+    margin-right: 8.9%;
+    margin-bottom: 3%;
 }
 .home-stage-content {
     text-align: center;

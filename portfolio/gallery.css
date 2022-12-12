@@ -89,7 +89,11 @@ h1 {
 .photo-grid > img {
     width: 23rem;
     padding: .5rem;
-
+    padding-bottom: .8rem;
+    opacity: 85%;
+}
+.photo-grid > img:hover {
+    opacity: 100%;
 }
 
 @media (max-width: 1200px) {
@@ -108,7 +112,6 @@ h1 {
     .photo-grid > img {
         width: 20rem;
         padding: .5rem;
-    
     }
 }
 @media (max-width: 1058px) {
