@@ -1,6 +1,6 @@
 body {
     background-image: url("blue.jpg");
-    background-size: cover;
+    background-size:cover;
     }
 h1 {
     font-family: 'Rubik Spray Paint', cursive;
@@ -20,7 +20,17 @@ h2 {
      margin-top: 1rem;
      padding-top: 1rem;
 }
-
+@media (max-width: 800px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: .9rem;
+    }
+.content-grid-container {
+    margin-right: 20%;
+}
+}
 /* Dropdown Button */
  .dropbtn {
     background: none;
