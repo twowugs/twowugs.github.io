@@ -113,3 +113,8 @@ h3 {
     width: 10rem;
 
 }
+.hoverable-link:hover {
+    color: rgba(201, 202, 182, 0.89);
+    cursor: pointer;
+    text-shadow: #ddd;
+}
