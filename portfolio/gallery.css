@@ -53,8 +53,8 @@ h1 {
     
     /* Change the background color of the dropdown button when the dropdown content is shown */
     .dropdown:hover .dropbtn {background-color: none;} 
-#Home:hover {
-    cursor: pointer;
+#Camera:hover {
+    cursor: default;
 }
 /*HEADER GRID*/
 .head-grid-container {
