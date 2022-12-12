@@ -108,6 +108,30 @@ h1 {
   scrollbar-width: none;  /* Firefox */
 }
 
+.textWordC {
+    position: relative;
+    color: rgba(249, 245, 255, 0.548);
+    text-align: center;
+    opacity: 1;
+}
+
+#always {
+    position: absolute;
+    top: 300%;
+    right: 50%;
+    font-size: 2rem;
+    opacity: 1;
+}
+
+#textWord {
+    position: absolute;
+    top: 35%;
+    right: 30%;
+    font-size: 2rem;
+    opacity: 1;
+}
+
+
 h2 {
     font-family: 'Press Start 2P', cursive;
     font-size: 1.5rem;
