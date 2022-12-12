@@ -119,7 +119,7 @@ h1 {
         padding-top: 2rem;
         padding-bottom: 2rem;
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
         grid-template-rows: auto;
         place-items: center;
         align-content: center;
@@ -128,7 +128,7 @@ h1 {
         margin: 1rem;
         }
     .photo-grid > img {
-        width: 25rem;
+        width: 15rem;
         padding: .5rem;
     
     }
@@ -139,7 +139,7 @@ h1 {
         padding-top: 2rem;
         padding-bottom: 2rem;
         display: grid;
-        grid-template-columns: auto ;
+        grid-template-columns: auto auto ;
         grid-template-rows: auto;
         place-items: center;
         align-content: center;
@@ -148,12 +148,30 @@ h1 {
         margin: 1rem;
         }
     .photo-grid > img {
-        width: 30rem;
+        width: 20rem;
         padding: .5rem;
     
     }
 }
-
+@media (max-width: 727px) {
+    .photo-grid {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto;
+        place-items: center;
+        align-content: center;
+        overflow: hidden;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.35);
+        margin: 1rem;
+        }
+    .photo-grid > img {
+        width: 15rem;
+        padding: .5rem;
+    
+    }
+}
 @media (max-width: 600px) {
     .photo-grid {
         padding-top: 2rem;
