@@ -95,6 +95,9 @@ h1 {
     overflow: hidden;
     overflow-y: auto;
 }
+.home-stage-content > img {
+    opacity:75%;
+}
 /* Hide scrollbar for Chrome, Safari and Opera */
 .home-stage-content:-webkit-scrollbar {
     display: none;
