@@ -10,6 +10,14 @@ h1 {
      margin-top: 1rem;
      padding-top: 1rem;
 }
+@media (max-width: 800px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .home-stage {
+        margin-top: 10rem;
+    }
+   }
  /* Dropdown Button */
  .dropbtn {
     background: none;
@@ -74,7 +82,7 @@ h1 {
      }
 .home-stage {
     display: grid;
-    grid-template-columns: 20rem auto;
+    grid-template-columns: 20rem ;
     max-width: 20rem;
     margin-left: 5rem;
   
