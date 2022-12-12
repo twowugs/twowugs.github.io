@@ -4,12 +4,23 @@ body {
     }
 h1 {
     font-family: 'Rubik Spray Paint', cursive;
-    text-align: center;
+    text-align: left;
      color: rgba(244, 238, 255, 0.548);
      font-size: 3.5rem;
+     padding-left: 2rem;
      margin-top: 1rem;
      padding-top: 1rem;
 }
+h2 {
+    font-family: 'Space Mono', monospace;
+    text-align: left;
+     color: rgba(244, 238, 255, 0.548);
+     font-size: 1.5rem;
+     padding-left: 2rem;
+     margin-top: 1rem;
+     padding-top: 1rem;
+}
+
 /* Dropdown Button */
  .dropbtn {
     background: none;
@@ -72,3 +83,23 @@ h1 {
      padding: .6rem;
      text-align: center;
      }
+.content-grid-container {
+    display: grid;
+    grid-template-columns: 15rem 40rem;
+    margin-left: 7%;
+    margin-right: 8.9%;
+    column-gap: 2rem;
+}
+.content-grid-element {
+    text-align: left;
+    color: rgba(247, 243, 255, 0.548);
+    max-height: 20rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+.content-grid-element > img {
+    max-height: 15rem;
+    width: auto;
+    overflow: hidden;
+    overflow-y: hidden;
+}
