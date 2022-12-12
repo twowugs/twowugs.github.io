@@ -7,6 +7,7 @@ h1 {
      font-family: 'Rubik Glitch', cursive;
      padding-top: 1rem;
    }
+
    @media (max-width: 800px) {
     h1 {
         font-size: 3rem;
@@ -36,6 +37,7 @@ h1 {
      75% { color: rgb(170, 0, 255); }
      100% { color: rgb(255, 0, 0); }
    }
+
 /*Body*/
 body {
     background-color: black;
@@ -54,7 +56,7 @@ body {
             fill: aqua;
         }
 
-      /* Hang */
+/* Hang Effect */
 @-webkit-keyframes hvr-hang {
   0% {
     -webkit-transform: translateY(8px);
@@ -137,6 +139,7 @@ body {
          padding: .6rem;
          text-align: center;
          }
+
      #Trash:hover {
        cursor:pointer;
        fill: #FF55ED; 
