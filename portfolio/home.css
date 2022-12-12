@@ -119,6 +119,10 @@ h3 {
   text-align: left;
   padding: 1rem;
 }
+h3 > a {
+    color: rgba(247, 243, 255, 0.548);
+    text-decoration: none;
+}
 .photo {
     max-height: 20rem;
     width: 10rem;
