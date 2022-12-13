@@ -5,9 +5,10 @@ body {
     }
 h1 {
     font-family: 'Rubik Spray Paint', cursive;
-    text-align: center;
+    text-align: left;
      color: rgba(244, 238, 255, 0.548);
      font-size: 3.5rem;
+     margin-left: 2rem;
      margin-top: 1rem;
      padding-top: 1rem;
 }
