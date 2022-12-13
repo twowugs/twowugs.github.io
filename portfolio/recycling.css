@@ -1,5 +1,5 @@
 body {
-    background-image: url("blue2.png");
+    background-image: url("blue.jpg");
     background-size: cover;
     background-attachment: fixed;
     }
@@ -84,9 +84,10 @@ h1 {
      }
 .home-stage {
     display: grid;
-    grid-template-columns: 10rem 10rem 10rem 10rem ;
+    grid-template-columns: 10rem 10rem 10rem ;
     grid-template-rows: 10rem 10rem ;
     column-gap: 2rem;
+    row-gap: 2rem;
     margin-left: 6.5%;
     margin-right: 8.9%;
     margin-bottom: 3%;
@@ -132,9 +133,30 @@ h1 {
     font-size: 2rem;
     opacity: 1;
 }
+#always2 {
+    position: absolute;
+    top: 420%;
+    right: 20%;
+    font-size: 2rem;
+    opacity: 1;
+}
+#always3 {
+    position: absolute;
+    top: 340%;
+    right: 20%;
+    font-size: 2rem;
+    opacity: 1;
+}
 #you {
     position: absolute;
-    top: 600%;
+    top: 480%;
+    right: 20%;
+    font-size: 2rem;
+    opacity: 1;
+}
+#you2 {
+    position: absolute;
+    top: 420%;
     right: 20%;
     font-size: 2rem;
     opacity: 1;
@@ -143,6 +165,20 @@ h1 {
     position: absolute;
     top: 500%;
     right: 20%;
+    font-size: 2rem;
+    opacity: 1;
+}
+#everything {
+    position: absolute;
+    top: 400%;
+    right: 2%;
+    font-size: 2rem;
+    opacity: 1;
+}
+#everything2 {
+    position: absolute;
+    top: 300%;
+    right: 2%;
     font-size: 2rem;
     opacity: 1;
 }
