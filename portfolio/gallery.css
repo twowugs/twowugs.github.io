@@ -96,7 +96,14 @@ h1 {
          padding-top: 1rem; 
     }   
 }
-@media (max-width: 1110px) {
+@media (max-width: 1000px) {
+    .dropdown:hover .dropdown-content {
+        display:grid;
+        grid-template-columns: auto auto auto;
+        position: relative;
+    }
+}
+@media (max-width: 600px) {
     .dropdown:hover .dropdown-content {
         display:grid;
         grid-template-columns: auto auto auto;

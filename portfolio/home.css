@@ -165,3 +165,23 @@ h3 > a {
     color: rgba(201, 202, 182, 0.89);
     cursor: pointer;
 }
+/*DROPDOWN RESIZING PARAMETERS*/
+@media (max-width: 800px) {
+    .hvr-hang {
+        width: 2rem;
+        height: 2rem;
+    }
+    }
+
+@media (max-width: 800px) {
+    .content-grid-element > img {
+        max-height: 10rem;
+        width: auto;
+    }
+}
+@media (max-width: 800px) {
+    .dropdown:hover .dropdown-content {
+        display:grid;
+        grid-template-columns: auto;
+    }
+}
