@@ -14,7 +14,7 @@ h1 {
 h2 {
     font-family: 'Space Mono', monospace;
     text-align: left;
-     color: rgba(47, 59, 65, 0.8);
+     color: rgba(101, 121, 125, 0.8);
      font-size: 1rem;
      padding-left: 2rem;
      margin-top: 1rem;
@@ -28,9 +28,6 @@ h2 {
     h2 {
         font-size: .9rem;
     }
-.content-grid-container {
-    margin-right: 20%;
-}
 }
 /* Dropdown Button */
  .dropbtn {
@@ -101,6 +98,7 @@ h2 {
     margin-left: 7%;
     margin-right: 20%;
     column-gap: 2rem;
+    
 }
 .content-grid-element {
     text-align: left;
@@ -113,13 +111,18 @@ h2 {
     width: auto;
     overflow: hidden;
     overflow-y: hidden;
+    padding-top: 1rem;
 }
 .content-grid-element > h2 {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    background-color: rgba(221, 221, 221, 0.505);
+    background-color: rgba(221, 221, 221, 0.614);
     overflow-y: auto;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
+    padding-right: .5rem;
+    padding-left: .7rem;
+   
 }
+/*RESIZING PARAMETERS*/
 @media (max-width: 1020px) {
     .hvr-hang {
         width: 2rem;
