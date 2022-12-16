@@ -169,7 +169,7 @@ h3 > a {
 @media (max-width: 800px) {
     .hvr-hang {
         width: 2rem;
-        height: 2rem;
+        height: 2rem; 
     }
     }
 @media (max-width: 800px) {
