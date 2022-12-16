@@ -1,0 +1,23 @@
+.grid-container {
+    display: inline-grid;
+    grid-row-gap: 0px;
+    grid-column-gap: 0px;
+    grid-template-columns: 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem;
+    grid-template-rows: 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem;
+    background-color: #778899;
+    padding: 1px;
+    margin-left: 15px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: .5px dashed  rgba(122, 122, 122, 0.8);
+  }
+
+  .grid-item:hover {
+    background-color: blue;
+  }
+
+  .onClick {
+    background: green;
+  }

@@ -20,7 +20,8 @@ h2 {
      margin-top: 1rem;
      padding-top: 1rem;
 }
-@media (max-width: 800px) {
+
+@media (max-width: 1020px) {
     h1 {
         font-size: 2rem;
     }
@@ -54,7 +55,7 @@ h2 {
       font-family: 'Rubik Spray Paint', cursive;
     }
     
-    /* Links inside the dropdown */
+    /* Links inside the dropdown */ 
     .dropdown-content a {
     color: rgba(80, 101, 95, 0.486);
     padding: 12px 16px;
@@ -70,6 +71,7 @@ h2 {
         display:grid;
         grid-template-columns: 5rem;
     }
+
     
     /* Change the background color of the dropdown button when the dropdown content is shown */
     .dropdown:hover .dropbtn {background-color: none;} 
@@ -95,7 +97,7 @@ h2 {
      }
 .content-grid-container {
     display: grid;
-    grid-template-columns: 15rem 40rem;
+    grid-template-columns: auto auto;
     margin-left: 7%;
     margin-right: 20%;
     column-gap: 2rem;
@@ -104,8 +106,7 @@ h2 {
     text-align: left;
     color: rgba(247, 243, 255, 0.548);
     max-height: 20rem;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    background-color: rgba(221, 221, 221, 0.505);
+    align-content: center;
 }
 .content-grid-element > img {
     max-height: 15rem;
@@ -113,3 +114,38 @@ h2 {
     overflow: hidden;
     overflow-y: hidden;
 }
+.content-grid-element > h2 {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: rgba(221, 221, 221, 0.505);
+    overflow-y: auto;
+    padding-bottom: 1rem;
+}
+@media (max-width: 1020px) {
+    .hvr-hang {
+        width: 2rem;
+        height: 2rem;
+    }
+    }
+
+@media (max-width: 1020px) {
+    .content-grid-element > img {
+        max-height: 10rem;
+        width: auto;
+    }
+}
+@media (max-width: 1020px) {
+    .dropdown:hover .dropdown-content {
+        display:grid;
+        grid-template-columns: auto;
+    }
+}
+@media (max-width: 600px) {
+    .content-grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 7%;
+        margin-right: 20%;
+        column-gap: 2rem;
+    }
+}
+
