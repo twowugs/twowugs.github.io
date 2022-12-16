@@ -165,7 +165,6 @@ h3 > a {
     color: rgba(201, 202, 182, 0.89);
     cursor: pointer;
 }
-/*testtesttest*/
 /*DROPDOWN RESIZING PARAMETERS*/
 @media (max-width: 800px) {
     .hvr-hang {
@@ -177,5 +176,14 @@ h3 > a {
     .dropdown:hover .dropdown-content {
         display:grid;
         grid-template-columns: auto;
+    } 
+}
+/*GRID RESIZING PARAMETERS*/
+@media (max-width: 600px) {
+    .home-stage {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        row-gap: 1.5rem;
     }
 }
