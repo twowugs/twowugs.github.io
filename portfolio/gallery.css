@@ -1,5 +1,5 @@
 body {
-    background-image:  url("blue.jpg");
+    background-image:  url("blue2.png");
     background-size: cover;
     background-attachment: fixed;
     }
@@ -9,7 +9,7 @@ h1 {
      color: rgba(244, 238, 255, 0.548);
      font-size: 3.5rem;
      margin-top: 1rem;
-     padding-top: 1rem;
+     padding-top: 1rem; 
 }
 /* Dropdown Button */
 .dropbtn {
