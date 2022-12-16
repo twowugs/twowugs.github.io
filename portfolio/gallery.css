@@ -103,14 +103,19 @@ h1 {
         position: relative;
     }
 }
-@media (max-width: 600px) {
-    .dropdown:hover .dropdown-content {
-        display:grid;
-        grid-template-columns: auto auto auto;
-        position: relative;
+@media (max-width: 660px) {
+    .hvr-hang {
+        width: 2rem;
+        height: 2rem;
     }
-}
-
+    }
+    @media (max-width: 500px) {
+        .dropdown:hover .dropdown-content {
+            display:grid;
+            grid-template-columns: auto;
+           
+        }
+    }
 
 
 /*PHOTO GRID*/
