@@ -1,3 +1,4 @@
+//all of the following code is for the gallery lightboxes
 var modal = document.getElementById('myModal');
 // to all images -- note I'm using a class!
 var images = document.getElementsByClassName('myImages');
