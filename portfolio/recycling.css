@@ -214,4 +214,38 @@ h1 {
     font-size: 2rem;
     opacity: 1;
 }
+/*TEXT RESIZE*/
+@media (max-width: 700px) {
+    .textWordC {
+        font-size: 1.5rem;
+    }
+    #textWord {
+        font-size: 1.5rem;
+    }
+    #always {
+        font-size: 1.5rem;
+    }
+    #always2 {
+        font-size: 1.5rem;
+    }
+    #always3 {
+        font-size: 1.5rem;
+    }
+    #you {
+        font-size: 1.5rem;
+    }
+    #you2 {
+        font-size: 1.5rem;
+    }
+    #forever {
+        font-size: 1.5rem;
+    }
+    #everything {
+        font-size: 1.5rem;
+    }
+    #everything2 {
+        font-size: 1.5rem;
+    }
+    
+}
 
