@@ -125,6 +125,14 @@ h1 {
         position: relative;
     }
 }
+@media (max-width: 700px) {
+    .home-stage {
+        grid-template-columns: 8rem 8rem 8rem ;
+        grid-template-rows: 8rem 8rem ;
+        column-gap: .5rem;
+        row-gap: .5rem;
+    }
+}
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 .home-stage-content::-webkit-scrollbar {
@@ -140,6 +148,7 @@ h1 {
     position: relative;
     color: rgba(249, 245, 255, 0.548);
     text-align: center;
+    font-size: 2rem;
     opacity: 1;
 }
 #textWord {
