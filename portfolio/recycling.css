@@ -127,8 +127,8 @@ h1 {
 }
 @media (max-width: 700px) {
     .home-stage {
-        grid-template-columns: 8rem 8rem 8rem ;
-        grid-template-rows: 8rem 8rem ;
+        grid-template-columns: 7.5rem 7.5rem 7.5rem ;
+        grid-template-rows: 7.5rem 7.5rem ;
         column-gap: .5rem;
         row-gap: .5rem;
     }
@@ -148,6 +148,15 @@ h1 {
     position: relative;
     color: rgba(249, 245, 255, 0.548);
     text-align: center;
+    font-size: 2rem;
+    opacity: 1;
+}
+#yesWord {
+    position: absolute;
+    color: rgba(249, 245, 255, 0.548);
+    /*color: rgba(32, 82, 62, 0.548);*/
+    top: 35%;
+    right: 20%;
     font-size: 2rem;
     opacity: 1;
 }
@@ -219,32 +228,36 @@ h1 {
     .textWordC {
         font-size: 1.5rem;
     }
+    #yesWord {
+        font-size: 1.4rem;
+        text-shadow: 10rem;
+    }
     #textWord {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     #always {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     #always2 {
-        font-size: 1.5rem;
+        font-size: 1.4rem; 
     }
     #always3 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     #you {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     #you2 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     #forever {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     #everything {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     #everything2 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     
 }
