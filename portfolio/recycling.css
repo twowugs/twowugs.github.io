@@ -153,8 +153,6 @@ h1 {
 }
 #yesWord {
     position: absolute;
-    color: rgba(249, 245, 255, 0.548);
-    /*color: rgba(32, 82, 62, 0.548);*/
     top: 35%;
     right: 20%;
     font-size: 2rem;
