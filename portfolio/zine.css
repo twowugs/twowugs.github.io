@@ -10,6 +10,18 @@ h1 {
      margin-top: 1rem;
      padding-top: 1rem;
 }
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.2rem;
+}
+.link {
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+  background-color: rgba(231, 245, 253, 0.15);
+  text-align: left;
+  
+}
+
 /*GRIDS!!!!*/
 .head-grid-container {
     display: grid;
@@ -67,8 +79,8 @@ h1 {
   cursor: pointer;
   display: inline-flex;
   fill: currentcolor;
-  font-family: "Google Sans",Roboto,Arial,sans-serif;
-  font-size: 14px;
+  font-family: 'Space Mono', monospace;
+  font-size: .8rem;
   font-weight: 500;
   height: 48px;
   justify-content: center;
