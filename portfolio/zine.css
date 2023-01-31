@@ -150,6 +150,7 @@ h3 {
 .zineCover {
     max-width: 10rem;
     max-height: 15rem;
+    padding-left: 5rem;
 }
 .desc {
     text-align: center;
