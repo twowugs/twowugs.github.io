@@ -29,6 +29,8 @@ h3 {
 .desc {
   color: #323232;
   text-align: center;
+  font-family: 'Space Mono', monospace;
+  font-size:.7rem;
 }
 
 /*GRIDS!!!!*/
