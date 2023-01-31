@@ -14,12 +14,21 @@ h2 {
     font-family: 'Press Start 2P', cursive;
     font-size: 1.2rem;
 }
+h3 {
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+  background-color: rgba(231, 245, 253, 0.272);
+  text-align: left;
+  padding-left: 1rem;
+}
 .link {
   font-family: 'Space Mono', monospace;
   font-size: 1rem;
-  background-color: rgba(231, 245, 253, 0.15);
   text-align: left;
-  
+}
+.desc {
+  color: #323232;
+  text-align: center;
 }
 
 /*GRIDS!!!!*/
