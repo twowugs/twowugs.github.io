@@ -29,10 +29,22 @@
   }
   
   .modal-content {
-    margin: auto;
+    margin: auto ;
     display: block;
     width: 80%;
     max-width: 700px;
+  }
+  .image-nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .arrow-button {
+    color: white;
+    font-size: 35px;
+    margin: 20px;
+    cursor: pointer;
   }
   
   #caption {

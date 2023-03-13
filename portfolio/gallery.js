@@ -17,6 +17,7 @@ for (var i = 0; i < images.length; i++) {
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
   }
+
 }
 
 var span = document.getElementsByClassName("close")[0];
@@ -24,3 +25,33 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+//editing below to add arrows maybe??
+
+// add click event listener
+document.getElementById('next').addEventListener('click', () => {
+  // convert nodelist to array
+  const imageElements = [...images];
+  // get index of current image
+  const index = imageElements.map(element => element.src).indexOf(modalImg.src);
+  // get new index, use ternary expression to loop back to 0 index if at end of list
+  const newIndex = index === imageElements.length - 1 ? 0 : index + 1
+  // set new image src
+  modalImg.src = imageElements[newIndex].src;
+});
+// add click event listener
+document.getElementById('prev').addEventListener('click', () => {
+  // convert nodelist to array
+  const imageElements = [...images];
+  // get index of current image
+  const index = imageElements.map(element => element.src).indexOf(modalImg.src);
+  // get new index, use ternary expression to loop back to end if at 0 index
+  const newIndex = index === 0 ? imageElements.length - 1 : index - 1
+  // set new image src
+  modalImg.src = imageElements[newIndex].src;
+});
