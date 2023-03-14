@@ -32,11 +32,16 @@ html {
     background-color:#cbcdd0ca;
   }
 
-  .onClick {
+  /*.padClicked {
+    background-color:#bfcde3ca;
+  }*/
+
+ /* .onClick {
     size: 200%;
     background: green;
   }
-  
+  */
+
 .decorative-knob {
   width: 2rem;
   height: 2rem;
