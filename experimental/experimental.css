@@ -29,6 +29,7 @@ html {
   }
 
   .onClick {
+    size: 200%;
     background: green;
   }
   
