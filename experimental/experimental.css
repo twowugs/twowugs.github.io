@@ -28,14 +28,14 @@ html {
     
   }
 
+  .padClicked {
+    background-color:#778d93a6;
+  }
   .grid-item:hover {
     background-color:#cbcdd0ca;
   }
 
-  /*.padClicked {
-    background-color:#bfcde3ca;
-  }*/
-
+ 
  /* .onClick {
     size: 200%;
     background: green;
