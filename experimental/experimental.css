@@ -1,23 +1,40 @@
+html {
+  background-image: url("../portfolio/blue.jpg");
+  background-size: cover;
+  background-color: #778899aa;
+  }
+
 .grid-container {
     display: inline-grid;
     grid-row-gap: 0px;
     grid-column-gap: 0px;
-    grid-template-columns: 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem;
-    grid-template-rows: 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem;
-    background-color: #778899;
+    grid-template-columns: 6rem 6rem 6rem;
+    grid-template-rows: 6rem 6rem 6rem;
+    background-color:  #d7cfce67;
     padding: 1px;
-    margin-left: 15px;
+    margin-top: 10%;
+    margin-left: 25%;
+    border-radius: 2px;
+    align-content: center;
   }
   
   .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: .5px dashed  rgba(122, 122, 122, 0.8);
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    border: .5px solid  rgba(122, 122, 122, 0.8);
+    border-radius: 2px;
   }
 
   .grid-item:hover {
-    background-color: blue;
+    background-color:#cbcdd0ca;
   }
 
   .onClick {
     background: green;
   }
+  
+.decorative-knob {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 20px;
+  margin-left: .7rem;
+}
