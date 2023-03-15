@@ -4,7 +4,7 @@ function colorPad01() {
   element.classList.toggle("padClicked");
 } 
 
-function colorPad02() {
+function colorPad02() { 
   var element = document.getElementById("pad02");
   element.classList.toggle("padClicked");
 } 
