@@ -148,7 +148,7 @@ html {
 #octave-bar {
   display: grid;
   grid-template-columns: 1.5rem;
-  grid-template-rows: 1rem 1rem 1rem;
+  grid-template-rows: 1rem 1rem 1rem 1rem 1rem;
   background-color:  #d7cfce67;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -156,7 +156,7 @@ html {
   padding-left: .4rem;
   row-gap: .3rem;
   border-radius: .6rem;
-  padding-top: 0rem;
+  padding-top: .3rem;
   box-shadow: #292929a5;
   border: .5px solid  rgba(179, 179, 179, 0.8);
 }
@@ -171,4 +171,8 @@ html {
 
 .octave-fraction:hover {
   background-color:  #b3a59d96;
+}
+
+#increase-icon {
+  align-content: center;
 }
