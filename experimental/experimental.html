@@ -9,38 +9,52 @@
     <script src="experimental.js"></script>
 </head> 
 <body>
-  <div>
-      <div class="grid-container" id="grid">
-        <div id=pad01 class="grid-item" onclick="colorPad01()"></div>
-        <div id=pad02 class="grid-item" onclick="colorPad02()"></div>
-        <div id=pad03 class="grid-item" onclick="colorPad03()"></div>
-        <div id=pad04 class="grid-item" onclick="colorPad04()"></div>
-        <div id=pad05 class="grid-item" onclick="colorPad05()"></div>
-        <div id=pad06 class="grid-item" onclick="colorPad06()"></div>
-        <div id=pad07 class="grid-item" onclick="colorPad07()"></div>
-        <div id=pad08 class="grid-item" onclick="colorPad08()"></div>
-        <div id=pad09 class="grid-item" onclick="colorPad09()"></div>
+  <div id="main-grid">
+    <div id="soundPad-flexbox">
+      <div id="fullSoundpad-grid">
+        <div class="grid-container" id="grid">
+          <div id=pad01 class="grid-item" onclick="colorPad01()"></div>
+          <div id=pad02 class="grid-item" onclick="colorPad02()"></div>
+          <div id=pad03 class="grid-item" onclick="colorPad03()"></div>
+          <div id=pad04 class="grid-item" onclick="colorPad04()"></div>
+          <div id=pad05 class="grid-item" onclick="colorPad05()"></div>
+          <div id=pad06 class="grid-item" onclick="colorPad06()"></div>
+          <div id=pad07 class="grid-item" onclick="colorPad07()"></div>
+          <div id=pad08 class="grid-item" onclick="colorPad08()"></div>
+          <div id=pad09 class="grid-item" onclick="colorPad09()"></div>
+        </div>
+        <div id="decorativeKnob-grid">
+          <button class="decorative-knob" >|</button>
+          <button class="decorative-knob">|</button>
+        </div>
       </div>
-      <button class="decorative-knob" >|</button>
-      <button class="decorative-knob">|</button>
     </div>
-    <div id="keyboard-grid">
-      <div id=blank01 class="blank"></div>
-      <div id=blackKey01 class="blackKey" onclick="colorBlackKey01()"></div>
-      <div id=blackKey01 class="blackKey" onclick="colorBlackKey01()"></div>
-      <div id=blackKey01 class="blackKey" onclick="colorBlackKey01()"></div>
-      <div id=blank01 class="blank"></div>
-      <div id=blackKey01 class="blackKey" onclick="colorBlackKey01()"></div>
-      <div id=blackKey01 class="blackKey" onclick="colorBlackKey01()"></div>
-      <div id=blank01 class="blank"></div>
-      <div id=key01 class="key" onclick="colorKey01()"></div>
-      <div id=key02 class="key" onclick="colorKey02()"></div>
-      <div id=key03 class="key" onclick="colorKey03()"></div>
-      <div id=key04 class="key" onclick="colorKey04()"></div>
-      <div id=key05 class="key" onclick="colorKey05()"></div>
-      <div id=key06 class="key" onclick="colorKey06()"></div>
-      <div id=key07 class="key" onclick="colorKey07()"></div>
-      <div id=key08 class="key" onclick="colorKey08()"></div>
+    <div id="keyBoard-flexbox">
+      <div id="fullKeyboard-grid">
+        <div id="keyboard-grid">
+          <div id=blank01 class="blank"></div>
+          <div id=blackKey01 class="blackKey" onclick="colorBlackKey01()"></div>
+          <div id=blackKey01 class="blackKey" onclick="colorBlackKey01()"></div>
+          <div id=blackKey01 class="blackKey" onclick="colorBlackKey01()"></div>
+          <div id=blank01 class="blank"></div>
+          <div id=blackKey01 class="blackKey" onclick="colorBlackKey01()"></div>
+          <div id=blackKey01 class="blackKey" onclick="colorBlackKey01()"></div>
+          <div id=blank01 class="blank"></div>
+          <div id=key01 class="key" onclick="colorKey01()"></div>
+          <div id=key02 class="key" onclick="colorKey02()"></div>
+          <div id=key03 class="key" onclick="colorKey03()"></div>
+          <div id=key04 class="key" onclick="colorKey04()"></div>
+          <div id=key05 class="key" onclick="colorKey05()"></div>
+          <div id=key06 class="key" onclick="colorKey06()"></div>
+          <div id=key07 class="key" onclick="colorKey07()"></div>
+          <div id=key08 class="key" onclick="colorKey08()"></div>
+        </div>
+          <div id="octave-bar">
+            <div id="fraction01" class="octave-fraction"></div>
+            <div id="fraction01" class="octave-fraction"></div>
+            <div id="fraction01" class="octave-fraction"></div>
+          </div>
     </div>
+  
 </body>
 </html>
