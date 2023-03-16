@@ -1,7 +1,7 @@
 // I DONT KNOW LOOPS //
 function colorPad01() {
   var element = document.getElementById("pad01");
-  element.classList.toggle("padClicked");
+  //element.classList.toggle("padClicked");
   var ateOhAte = new Audio();
   ateOhAte.pause();
   ateOhAte = new Audio("808.wav");
@@ -10,7 +10,7 @@ function colorPad01() {
 
 function colorPad02() { 
   var element = document.getElementById("pad02");
-  element.classList.toggle("padClicked");
+  //element.classList.toggle("padClicked");
   var Bass01 = new Audio();
   Bass01.pause();
   Bass01 = new Audio("Bass01.wav");
@@ -19,7 +19,7 @@ function colorPad02() {
 
 function colorPad03() {
   var element = document.getElementById("pad03");
-  element.classList.toggle("padClicked");
+  //element.classList.toggle("padClicked");
   var Bass02 = new Audio();
   Bass02.pause();
   Bass02 = new Audio("Bass02.wav");
@@ -28,7 +28,7 @@ function colorPad03() {
 
 function colorPad04() {
   var element = document.getElementById("pad04");
-  element.classList.toggle("padClicked");
+  //element.classList.toggle("padClicked");
   var Clap01 = new Audio();
   Clap01.pause();
   Clap01 = new Audio("Clap01.wav");
@@ -37,7 +37,7 @@ function colorPad04() {
 
 function colorPad05() {
   var element = document.getElementById("pad05");
-  element.classList.toggle("padClicked");
+  //element.classList.toggle("padClicked");
   var Crash01 = new Audio();
   Crash01.pause();
   Crash01 = new Audio("Crash01.wav");
@@ -46,7 +46,7 @@ function colorPad05() {
 
 function colorPad06() {
   var element = document.getElementById("pad06");
-  element.classList.toggle("padClicked");
+  //element.classList.toggle("padClicked");
   var Hat01 = new Audio();
   Hat01.pause();
   Hat01 = new Audio("Hat01.wav");
@@ -55,7 +55,7 @@ function colorPad06() {
 
 function colorPad07() {
   var element = document.getElementById("pad07");
-  element.classList.toggle("padClicked");
+  //element.classList.toggle("padClicked");
   var Kick01 = new Audio();
   Kick01.pause();
   Kick01 = new Audio("Kick01.wav");
@@ -64,7 +64,7 @@ function colorPad07() {
 
 function colorPad08() {
   var element = document.getElementById("pad08");
-  element.classList.toggle("padClicked");
+  //element.classList.toggle("padClicked");
   var Perc01 = new Audio();
   Perc01.pause();
   Perc01 = new Audio("Perc01.wav");
@@ -73,7 +73,7 @@ function colorPad08() {
 
 function colorPad09() {
   var element = document.getElementById("pad09");
-  element.classList.toggle("padClicked");
+  //element.classList.toggle("padClicked");
   var Snare01 = new Audio();
   Snare01.pause();
   Snare01 = new Audio("Snare01.wav");
