@@ -95,11 +95,6 @@ function colorPad09() {
 }  
 
 
-//not sure what this does... might've been for an on-click function i removed
-//document.querySelectorAll('.grid-item').forEach(el, index); {
-  //  if (index == num - 1) el.classList.add('onstate');
-    //else el.classList.remove('onstate');
-  //}
 
 // O C T A V E   B A R / K E Y B O A R D --------------------------//
 
@@ -218,3 +213,16 @@ function colorBlackKey05() {
   keyAsharp.play();
 } 
 
+//keycode activation idfk how to make this work //
+
+//document.getElementById('page-body').addEventListener('keydown', (event) => {
+  //if (event.keycode === 90) keyC.play();
+//});
+
+
+
+//not sure what this does... might've been for an on-click function i removed
+//document.querySelectorAll('.grid-item').forEach(el, index); {
+  //  if (index == num - 1) el.classList.add('onstate');
+    //else el.classList.remove('onstate');
+  //}
