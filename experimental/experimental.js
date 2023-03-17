@@ -1,5 +1,12 @@
 
 var keyC = new Audio();
+var keyD = new Audio();
+var keyE = new Audio();
+var keyF = new Audio();
+var keyG = new Audio();
+var keyA = new Audio();
+var keyB = new Audio();
+var keyC2 = new Audio();
 
 // S O U N D P A D    N O I S E S //
 function colorPad01() {
@@ -101,6 +108,19 @@ function setOctave01() {
   var element = document.getElementById("fraction03");
   element.classList.remove("fraction03Clicked");
   keyC = new Audio("808.wav");
+  keyD = new Audio();
+  keyE = new Audio();
+  keyF = new Audio();
+  keyG = new Audio();
+  keyA = new Audio();
+  keyB = new Audio();
+  keyC2 = new Audio();
+  keyCsharp = new Audio();
+  keyDsharp = new Audio();
+  keyFsharp = new Audio();
+  keyGsharp = new Audio();
+  keyAsharp = new Audio();
+
 } 
 
 function setOctave02() {
@@ -111,6 +131,18 @@ function setOctave02() {
   var element = document.getElementById("fraction03");
   element.classList.remove("fraction03Clicked");
   keyC = new Audio("Clap01.wav");
+  keyD = new Audio();
+  keyE = new Audio();
+  keyF = new Audio();
+  keyG = new Audio();
+  keyA = new Audio();
+  keyB = new Audio();
+  keyC2 = new Audio();
+  keyCsharp = new Audio();
+  keyDsharp = new Audio();
+  keyFsharp = new Audio();
+  keyGsharp = new Audio();
+  keyAsharp = new Audio();
 }
 
 function setOctave03() {
@@ -121,11 +153,24 @@ function setOctave03() {
   var element = document.getElementById("fraction01");
   element.classList.remove("fraction01Clicked");
   keyC = new Audio("Crash01.wav");
+  keyD = new Audio();
+  keyE = new Audio();
+  keyF = new Audio();
+  keyG = new Audio();
+  keyA = new Audio();
+  keyB = new Audio();
+  keyC2 = new Audio();
+  keyCsharp = new Audio();
+  keyDsharp = new Audio();
+  keyFsharp = new Audio();
+  keyGsharp = new Audio();
+  keyAsharp = new Audio();
 }
 
 
 // K E Y B O A R D //
 
+// W H I T E   K E Y S //
 function colorKey01() {
   keyC.play();
 } 
@@ -150,3 +195,22 @@ function colorKey07() {
 function colorKey08() {
   keyC2.play();
 } 
+
+// B L A C K    K E Y S //
+
+function colorBlackKey01() {
+  keyCsharp.play();
+} 
+function colorBlackKey02() {
+  keyDsharp.play();
+} 
+function colorBlackKey03() {
+  keyFsharp.play();
+} 
+function colorBlackKey04() {
+  keyGsharp.play();
+} 
+function colorBlackKey05() {
+  keyAsharp.play();
+} 
+
