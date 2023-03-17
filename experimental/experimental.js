@@ -1,4 +1,7 @@
-// I DONT KNOW LOOPS //
+
+var keyC = new Audio();
+
+// S O U N D P A D    N O I S E S //
 function colorPad01() {
   var element = document.getElementById("pad01");
   //element.classList.toggle("padClicked");
@@ -80,39 +83,70 @@ function colorPad09() {
   Snare01.play();
 }  
 
-// M U S I C S //
-//var music = new Audio();
-//function playSound() {
-  //  music.pause();
-    //music = new Audio("Coqui.mp3");
-    //music.play();
-//}
 
-
-
-document.querySelectorAll('.grid-item').forEach(el, index); {
-    if (index == num - 1) el.classList.add('onstate');
-    else el.classList.remove('onstate');
-  }
-
-   //function onClick() {
-  //classList.add('onClick');
+//not sure what this does... might've been for an on-click function i removed
+//document.querySelectorAll('.grid-item').forEach(el, index); {
+  //  if (index == num - 1) el.classList.add('onstate');
+    //else el.classList.remove('onstate');
   //}
 
-  //--------------------------------------------------
+// O C T A V E   B A R / K E Y B O A R D --------------------------//
 
-  // E X P E R I M E N T I N G
+// O C T A V E   B A R //
+function setOctave01() {
+  var element = document.getElementById("fraction01");
+  element.classList.toggle("fraction01Clicked");
+  var element = document.getElementById("fraction02");
+  element.classList.remove("fraction02Clicked");
+  var element = document.getElementById("fraction03");
+  element.classList.remove("fraction03Clicked");
+  keyC = new Audio("808.wav");
+} 
 
-//  var colorPads = document.getElementsByClassName('grid-item');
-  //var modalPad = document.getElementById("pad01");
+function setOctave02() {
+  var element = document.getElementById("fraction02");
+  element.classList.toggle("fraction02Clicked");
+  var element = document.getElementById("fraction01");
+  element.classList.remove("fraction01Clicked");
+  var element = document.getElementById("fraction03");
+  element.classList.remove("fraction03Clicked");
+  keyC = new Audio("Clap01.wav");
+}
 
-  //for (var i = 0; i < colorPads.length; i++) {
-    //var col = colorPads[i];
-    // and attach our click listener for this image.
-    //col.onclick = function(evt) {
-      //scroll(0,0);
-      //pad.style.background-color = "#bfcde3ca";
-      //modalImg.src = this.src;
-    //}
-  
- // }
+function setOctave03() {
+  var element = document.getElementById("fraction03");
+  element.classList.toggle("fraction03Clicked");
+  var element = document.getElementById("fraction02");
+  element.classList.remove("fraction02Clicked");
+  var element = document.getElementById("fraction01");
+  element.classList.remove("fraction01Clicked");
+  keyC = new Audio("Crash01.wav");
+}
+
+
+// K E Y B O A R D //
+
+function colorKey01() {
+  keyC.play();
+} 
+function colorKey02() {
+  keyD.play();
+} 
+function colorKey03() {
+  keyE.play();
+} 
+function colorKey04() {
+  keyF.play();
+} 
+function colorKey05() {
+  keyG.play();
+} 
+function colorKey06() {
+  keyA.play();
+} 
+function colorKey07() {
+  keyB.play();
+} 
+function colorKey08() {
+  keyC2.play();
+} 
