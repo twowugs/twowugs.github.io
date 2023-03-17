@@ -1,4 +1,3 @@
-
 var keyC = new Audio();
 var keyD = new Audio();
 var keyE = new Audio();
@@ -7,6 +6,11 @@ var keyG = new Audio();
 var keyA = new Audio();
 var keyB = new Audio();
 var keyC2 = new Audio();
+var keyCsharp = new Audio();
+var keyDsharp = new Audio();
+var keyFsharp = new Audio();
+var keyGsharp = new Audio();
+var keyAsharp = new Audio();
 
 // S O U N D P A D    N O I S E S //
 function colorPad01() {
