@@ -114,11 +114,11 @@ function setOctave01() {
   keyA = new Audio("a3.wav");
   keyB = new Audio("b3.wav");
   keyC2 = new Audio("c4.wav");
-  keyCsharp = new Audio("c#3.wav");
-  keyDsharp = new Audio("d#3.wav");
-  keyFsharp = new Audio("f#3.wav");
-  keyGsharp = new Audio("g#3.wav");
-  keyAsharp = new Audio("a#3.wav");
+  keyCsharp = new Audio("cSharp3.wav");
+  keyDsharp = new Audio("dSharp3.wav");
+  keyFsharp = new Audio("fSharp3.wav");
+  keyGsharp = new Audio("gSharp3.wav");
+  keyAsharp = new Audio("aSharp3.wav");
 
 } 
 
@@ -137,11 +137,11 @@ function setOctave02() {
   keyA = new Audio("a4.wav");
   keyB = new Audio("b4.wav");
   keyC2 = new Audio("c5.wav");
-  keyCsharp = new Audio("c#4.wav");
-  keyDsharp = new Audio("d#4.wav");
-  keyFsharp = new Audio("f#4.wav");
-  keyGsharp = new Audio("g#4.wav");
-  keyAsharp = new Audio("a#4.wav");
+  keyCsharp = new Audio("cSharp4.wav");
+  keyDsharp = new Audio("dSharp4.wav");
+  keyFsharp = new Audio("fSharp4.wav");
+  keyGsharp = new Audio("gSharp4.wav");
+  keyAsharp = new Audio("aSharp4.wav");
 }
 
 function setOctave03() {
@@ -159,11 +159,11 @@ function setOctave03() {
   keyA = new Audio("a5.wav");
   keyB = new Audio("b5.wav");
   //keyC2 = new Audio();
-  keyCsharp = new Audio("c#5.wav");
-  keyDsharp = new Audio("d#5.wav");
-  keyFsharp = new Audio("f#5.wav");
-  keyGsharp = new Audio("g#5.wav");
-  keyAsharp = new Audio("a#5.wav");
+  keyCsharp = new Audio("cSharp5.wav");
+  keyDsharp = new Audio("dSharp5.wav");
+  keyFsharp = new Audio("fSharp5.wav");
+  keyGsharp = new Audio("gSharp5.wav");
+  keyAsharp = new Audio("aSharp5.wav");
 }
 
 
@@ -171,45 +171,58 @@ function setOctave03() {
 
 // W H I T E   K E Y S //
 function colorKey01() {
+  keyC.pause();
   keyC.play();
 } 
 function colorKey02() {
+  keyD.pause();
   keyD.play();
 } 
 function colorKey03() {
+  keyE.pause();
   keyE.play();
 } 
 function colorKey04() {
+  keyF.pause();
   keyF.play();
 } 
 function colorKey05() {
+  keyG.pause();
   keyG.play();
 } 
 function colorKey06() {
+  keyA.pause();
   keyA.play();
 } 
 function colorKey07() {
+  keyB.pause();
   keyB.play();
 } 
 function colorKey08() {
+  keyC2.pause();
   keyC2.play();
 } 
 
 // B L A C K    K E Y S //
 
 function colorBlackKey01() {
+  keyCsharp.pause();
   keyCsharp.play();
 } 
 function colorBlackKey02() {
+  keyDsharp.pause();
   keyDsharp.play();
 } 
 function colorBlackKey03() {
+  keyFsharp.pause();
   keyFsharp.play();
 } 
 function colorBlackKey04() {
+  keyGsharp.pause();
   keyGsharp.play();
 } 
 function colorBlackKey05() {
+  keyAsharp.pause();
   keyAsharp.play();
 } 
 
