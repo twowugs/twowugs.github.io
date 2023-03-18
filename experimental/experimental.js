@@ -151,6 +151,20 @@ function setOctave03() {
   element.classList.remove("fraction02Clicked");
   var element = document.getElementById("fraction01");
   element.classList.remove("fraction01Clicked");
+  keyC.pause();
+  keyD.pause();
+  keyE.pause();
+  keyF.pause();
+  keyG.pause();
+  keyA.pause();
+  keyB.pause();
+  keyC2.pause();
+  keyCsharp.pause();
+  keyDsharp.pause();
+  keyFsharp.pause();
+  keyGsharp.pause();
+  keyAsharp.pause();
+
   keyC = new Audio("c5.wav");
   keyD = new Audio("d5.wav");
   keyE = new Audio("e5.wav");
@@ -171,58 +185,45 @@ function setOctave03() {
 
 // W H I T E   K E Y S //
 function colorKey01() {
-  keyC.pause();
   keyC.play();
 } 
 function colorKey02() {
-  keyD.pause();
   keyD.play();
 } 
 function colorKey03() {
-  keyE.pause();
   keyE.play();
 } 
 function colorKey04() {
-  keyF.pause();
   keyF.play();
 } 
 function colorKey05() {
-  keyG.pause();
   keyG.play();
 } 
 function colorKey06() {
-  keyA.pause();
   keyA.play();
 } 
 function colorKey07() {
-  keyB.pause();
   keyB.play();
 } 
 function colorKey08() {
-  keyC2.pause();
   keyC2.play();
 } 
 
 // B L A C K    K E Y S //
 
 function colorBlackKey01() {
-  keyCsharp.pause();
   keyCsharp.play();
 } 
 function colorBlackKey02() {
-  keyDsharp.pause();
   keyDsharp.play();
 } 
 function colorBlackKey03() {
-  keyFsharp.pause();
   keyFsharp.play();
 } 
 function colorBlackKey04() {
-  keyGsharp.pause();
   keyGsharp.play();
 } 
 function colorBlackKey05() {
-  keyAsharp.pause();
   keyAsharp.play();
 } 
 
