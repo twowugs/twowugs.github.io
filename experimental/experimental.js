@@ -106,19 +106,19 @@ function setOctave01() {
   element.classList.remove("fraction02Clicked");
   var element = document.getElementById("fraction03");
   element.classList.remove("fraction03Clicked");
-  keyC = new Audio("808.wav");
-  keyD = new Audio();
-  keyE = new Audio();
-  keyF = new Audio();
-  keyG = new Audio();
-  keyA = new Audio();
-  keyB = new Audio();
-  keyC2 = new Audio();
-  keyCsharp = new Audio();
-  keyDsharp = new Audio();
-  keyFsharp = new Audio();
-  keyGsharp = new Audio();
-  keyAsharp = new Audio();
+  keyC = new Audio("c3.wav");
+  keyD = new Audio("d3.wav");
+  keyE = new Audio("e3.wav");
+  keyF = new Audio("f3.wav");
+  keyG = new Audio("g3.wav");
+  keyA = new Audio("a3.wav");
+  keyB = new Audio("b3.wav");
+  keyC2 = new Audio("c4.wav");
+  keyCsharp = new Audio("c#3.wav");
+  keyDsharp = new Audio("d#3.wav");
+  keyFsharp = new Audio("f#3.wav");
+  keyGsharp = new Audio("g#3.wav");
+  keyAsharp = new Audio("a#3.wav");
 
 } 
 
@@ -129,19 +129,19 @@ function setOctave02() {
   element.classList.remove("fraction01Clicked");
   var element = document.getElementById("fraction03");
   element.classList.remove("fraction03Clicked");
-  keyC = new Audio("Clap01.wav");
-  keyD = new Audio();
-  keyE = new Audio();
-  keyF = new Audio();
-  keyG = new Audio();
-  keyA = new Audio();
-  keyB = new Audio();
-  keyC2 = new Audio();
-  keyCsharp = new Audio();
-  keyDsharp = new Audio();
-  keyFsharp = new Audio();
-  keyGsharp = new Audio();
-  keyAsharp = new Audio();
+  keyC = new Audio("c4.wav");
+  keyD = new Audio("d4.wav");
+  keyE = new Audio("e4.wav");
+  keyF = new Audio("f4.wav");
+  keyG = new Audio("g4.wav");
+  keyA = new Audio("a4.wav");
+  keyB = new Audio("b4.wav");
+  keyC2 = new Audio("c5.wav");
+  keyCsharp = new Audio("c#4.wav");
+  keyDsharp = new Audio("d#4.wav");
+  keyFsharp = new Audio("f#4.wav");
+  keyGsharp = new Audio("g#4.wav");
+  keyAsharp = new Audio("a#4.wav");
 }
 
 function setOctave03() {
@@ -151,19 +151,19 @@ function setOctave03() {
   element.classList.remove("fraction02Clicked");
   var element = document.getElementById("fraction01");
   element.classList.remove("fraction01Clicked");
-  keyC = new Audio("Crash01.wav");
-  keyD = new Audio();
-  keyE = new Audio();
-  keyF = new Audio();
-  keyG = new Audio();
-  keyA = new Audio();
-  keyB = new Audio();
-  keyC2 = new Audio();
-  keyCsharp = new Audio();
-  keyDsharp = new Audio();
-  keyFsharp = new Audio();
-  keyGsharp = new Audio();
-  keyAsharp = new Audio();
+  keyC = new Audio("c5.wav");
+  keyD = new Audio("d5.wav");
+  keyE = new Audio("e5.wav");
+  keyF = new Audio("f5.wav");
+  keyG = new Audio("g5.wav");
+  keyA = new Audio("a5.wav");
+  keyB = new Audio("b5.wav");
+  //keyC2 = new Audio();
+  keyCsharp = new Audio("c#5.wav");
+  keyDsharp = new Audio("d#5.wav");
+  keyFsharp = new Audio("f#5.wav");
+  keyGsharp = new Audio("g#5.wav");
+  keyAsharp = new Audio("a#5.wav");
 }
 
 
