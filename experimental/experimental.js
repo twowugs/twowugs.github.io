@@ -212,34 +212,42 @@ function setOctave03() {
 // W H I T E   K E Y S //
 function colorKey01() {
   keyC.pause();
+  keyC.currentTime = 0;
   keyC.play();
 } 
 function colorKey02() {
   keyD.pause();
+  keyD.currentTime = 0;
   keyD.play();
 } 
 function colorKey03() {
   keyE.pause();
+  keyE.currentTime = 0;
   keyE.play();
 } 
 function colorKey04() {
   keyF.pause();
+  keyF.currentTime = 0;
   keyF.play();
 } 
 function colorKey05() {
   keyG.pause();
+  keyG.currentTime = 0;
   keyG.play();
 } 
 function colorKey06() {
   keyA.pause();
+  keyA.currentTime = 0;
   keyA.play();
 } 
 function colorKey07() {
   keyB.pause();
+  keyB.currentTime = 0;
   keyB.play();
 } 
 function colorKey08() {
   keyC2.pause();
+  keyC2.currentTime = 0;
   keyC2.play();
 } 
 
@@ -247,22 +255,27 @@ function colorKey08() {
 
 function colorBlackKey01() {
   keyCsharp.pause();
+  keyCsharp.currentTime = 0;
   keyCsharp.play();
 } 
 function colorBlackKey02() {
   keyDsharp.pause();
+  keyDsharp.currentTime = 0;
   keyDsharp.play();
 } 
 function colorBlackKey03() {
   keyFsharp.pause();
+  keyFsharp.currentTime = 0;
   keyFsharp.play();
 } 
 function colorBlackKey04() {
   keyGsharp.pause();
+  keyGsharp.currentTime = 0;
   keyGsharp.play();
 } 
 function colorBlackKey05() {
   keyAsharp.pause();
+  keyAsharp.currentTime = 0;
   keyAsharp.play();
 } 
 
