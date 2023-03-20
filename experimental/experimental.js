@@ -236,7 +236,7 @@ function colorBlackKey04() {
   keyGsharp.play();
 } 
 function colorBlackKey05() {
-  keyCsharp.pause();
+  keyAsharp.pause();
   keyAsharp.play();
 } 
 
