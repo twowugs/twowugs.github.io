@@ -13,7 +13,7 @@ h1 {
 /* There's a kerning issue with the header in Chrome. 
 Also, somehow, if the color settings here are changed, 
 it messes up the color settings for the rest of the page! */
-@media (max-width: 800px) {
+@media (max-width: 800px) { 
     h1 {
         font-size: 2rem;
     }
