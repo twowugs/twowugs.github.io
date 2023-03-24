@@ -1,0 +1,103 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    /*background-image: url(../portfolio/c11.jpg);*/
+    background-size: auto;
+    background-color: rgb(217, 217, 217);
+}
+
+#page-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+}
+
+#fishy-tank {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color: rgba(158, 158, 158, 0.365);
+    border-radius: 1rem;
+    box-shadow: 1rem;
+}
+
+img {
+    width: 10rem;
+    height: auto;
+}
+
+img:hover {
+    /* flip horizontally */
+    transform: scaleX(-1);
+}
+
+/*M A R Q U E E   F I S H --------------------------------------------------------------------*/
+
+/*SCROLLING FISH PARENT*/
+.scrollBar {
+    width: 100%;
+    padding: 25px 0;
+    overflow: hidden;
+}
+
+/*SCROLLING FISH*/
+.scrollContent {
+    display: block;
+    width: 100%;
+    transform: translateX(100%);
+    animation: move 30s linear infinite;
+}
+
+@keyframes move {
+  to { transform: translateX(-100%); }
+}
+
+#fishy01 {
+    animation: move 17s linear infinite;
+}
+
+#fishy02 {
+    animation: move 10s linear infinite;
+}
+
+#fishy03 {
+    animation: move 15s linear infinite;
+}
+
+/*SPEECH BOX*/
+
+#speechBox-flexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+#speechBox-grid {
+    display: grid;
+    grid-template-columns: 20rem;
+    grid-template-rows: auto auto;
+    margin-left: 50%;
+    margin-top: 5rem;
+    margin-right: 10rem;
+    background-color: rgb(202, 202, 202);
+    padding: 1rem;
+}
+
+#speechBox {
+    color: black;
+}
+
+#speech-button {
+    border-color: black;
+    border-style: dashed;
+    border-width: 1px;
+    padding: .5rem;
+    width: 2rem;
+}
+
+#speech-button:hover {
+    background-color: rgb(215, 215, 215);
+}
