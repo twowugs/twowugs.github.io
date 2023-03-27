@@ -86,7 +86,7 @@ body {
 }
 
 img {
-    width: 10rem;
+    width: 4rem;
     height: auto;
 }
 
@@ -117,11 +117,11 @@ img {
 }
 
 #fishy01 {
-    animation: move 17s linear infinite;
+    animation: move 12s linear infinite;
 }
 
 #fishy02 {
-    animation: move 10s linear infinite;
+    animation: move 8s linear infinite;
 }
 
 #fishy03 {

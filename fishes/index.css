@@ -75,19 +75,73 @@ img {
 .scrollContent {
     display: block;
     width: 100%;
-    font-family: 'Silkscreen', cursive;
-    text-align: center;
-    font-size: 17pt;
-    color: #10050b;
-    /*color: #ECE0E7;*/
     transform: translateX(-100%);
     animation: move 30s linear infinite;
 }
 
 @keyframes move {
-  to { transform: translateX(100%); }
+    to { transform: translateX(100%); }
+  }
+
+#fish01 {
+    animation: move 12s linear infinite;
 }
 
+#fish02 {
+    animation: move 8s linear infinite;
+}
+
+#fish03 {
+    animation: move 15s linear infinite;
+}
+
+
+
+#fishy-content-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+
+/*R O T A T I N G    E E L*/
+
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  .rotating:hover {
+    -webkit-animation: rotating 4s linear infinite;
+    -moz-animation: rotating 4s linear infinite;
+    -ms-animation: rotating 4s linear infinite;
+    -o-animation: rotating 4s linear infinite;
+    animation: rotating 4s linear infinite;
+  }
 
 /* DROPDOWN BUTTON */ 
 .dropbtn {
