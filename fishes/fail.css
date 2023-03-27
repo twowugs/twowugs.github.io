@@ -1,0 +1,210 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../portfolio/c9.jpg");
+    background-size: cover;
+    background-color: rgb(0, 9, 23);
+}
+
+#page-grid {
+    display: grid;
+    grid-template-columns: 25rem 100%;
+    grid-template-rows: auto;
+}
+
+.simple-page-text {
+    color: rgb(54, 51, 51);
+    font-size: medium;
+    font-weight: 600;
+}
+
+.simple-page-text:hover {
+    color: rgb(250, 99, 233);
+    font-size: large;
+}
+
+
+/*N A V B A R*/
+
+#navbar-flexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+#navbarLink-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    width: 100%;
+    height: 100%;
+}
+
+#navbarLink-grid {
+    text-decoration: none;
+    font-family: 'Silkscreen', cursive;
+    background-color: #d0dae9;
+    font-size: 1.5rem;
+    padding: 2.5rem 3rem;
+    text-align: center;
+    transition: 0.7s;
+    cursor: pointer;
+    overflow-wrap: normal;
+}
+
+.hvr-hang:hover {
+    background-color: #ffffff4e;
+}
+
+#fishy-flexbox {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+#fishy-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    width: 60rem;
+    max-width: 60rem;
+
+}
+
+#fishy-tank {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    margin-left: 1rem;
+    margin-right: 10%;
+    margin-top: 5%;
+    background-color: rgba(158, 158, 158, 0.178);
+    border-radius: .5rem;
+    box-shadow: .2rem .2rem .3rem #4e506870;
+    /*background-image: url("water.gif");*/
+    /*background-size: cover;*/
+}
+
+img {
+    width: 10rem;
+    height: auto;
+}
+
+.scrollContent:hover {
+    /* flip horizontally */
+    transform: scaleX(-1);
+}
+
+/*M A R Q U E E   F I S H --------------------------------------------------------------------*/
+
+/*SCROLLING FISH PARENT*/
+.scrollBar {
+    width: 100%;
+    padding: 25px 0;
+    overflow: hidden;
+}
+
+/*SCROLLING FISH*/
+.scrollContent {
+    display: block;
+    width: 100%;
+    transform: translateX(100%);
+    animation: move 30s linear infinite;
+}
+
+@keyframes move {
+  to { transform: translateX(-100%); }
+}
+
+#fishy01 {
+    animation: move 17s linear infinite;
+}
+
+#fishy02 {
+    animation: move 10s linear infinite;
+}
+
+#fishy03 {
+    animation: move 15s linear infinite;
+}
+
+/*SPEECH BOX*/
+
+#speechBox-flexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+#speechBox-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    margin-top: 1rem;
+    margin-left: 30%;
+    font-family: 'Space Mono', monospace;
+}
+ 
+#speechBox {
+    color: rgb(10, 12, 38);
+    margin-top: 1rem;
+    margin-left: 30%;
+    max-width: 20rem;
+    max-height: 20rem;
+    margin-right: 2rem;
+    background-color: rgba(114, 98, 116, 0.324);
+    box-shadow: .5rem .5rem .3rem #5b3c4e70;
+    padding: 1rem;
+    font-family: 'Space Mono', monospace;
+}
+
+#speech-button {
+    border-color: rgb(150, 150, 150);
+    border-style: dashed;
+    border-width: 1px;
+    padding: .5rem;
+    width: 2rem;
+}
+
+#speech-button:hover {
+    background-color: rgba(215, 215, 215, 0.404);
+}
+
+
+/*R O T A T I N G    E E L*/
+
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  .rotating:hover {
+    -webkit-animation: rotating 4s linear infinite;
+    -moz-animation: rotating 4s linear infinite;
+    -ms-animation: rotating 4s linear infinite;
+    -o-animation: rotating 4s linear infinite;
+    animation: rotating 4s linear infinite;
+  }
