@@ -1,3 +1,28 @@
+/*PAGE GRID*/
+#page-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+#header-flexbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#gallery-flexbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
 /*LIGHTBOX*/
 #myImg {
     border-radius: 5px;
@@ -109,7 +134,15 @@ h1 {
      font-size: 3.5rem;
      margin-top: 1rem;
      padding-top: 1rem; 
+     margin-right: 5rem;
 }
+
+@media (max-width: 500px) {
+    h1 {
+        margin: auto;
+    }
+}
+
 /* Dropdown Button */
 .dropbtn {
     background: none;
