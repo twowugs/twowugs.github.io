@@ -10,7 +10,7 @@
     /* Hidden by default */
     position: fixed;
     /* Stay in place */
-    z-index: 1;
+    z-index: 1; 
     /* Sit on top */
     padding-top: 100px;
     /* Location of the box */
@@ -96,6 +96,7 @@
     }
   }
 /*END OF LIGHTBOX*/
+
 body {
     background-image:  url("blue2.jpg");
     background-size: cover;
@@ -228,7 +229,9 @@ h1 {
     overflow: hidden;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.35);
     margin: 1.5rem;
+    max-width: fit-content;
     }
+    
 .photo-grid > img {
     width: 23rem;
     padding: .5rem;

@@ -2,9 +2,11 @@ body {
     background-image: url("blue.jpg");
     background-size: cover;
     }
+
 h1 {
     font-family: 'Rubik Spray Paint', cursive;
     text-align: center;
+    font-kerning: none;
      color: rgba(244, 238, 255, 0.79);
      font-size: 3.5rem;
      margin-top: 1rem;
@@ -13,6 +15,7 @@ h1 {
 /* There's a kerning issue with the header in Chrome. 
 Also, somehow, if the color settings here are changed, 
 it messes up the color settings for the rest of the page! */
+
 @media (max-width: 800px) { 
     h1 {
         font-size: 2rem;
@@ -130,6 +133,7 @@ h3 {
     color: rgba(249, 245, 255, 0.548);
     text-align: center;
     opacity: 1;
+    max-width: fit-content;
 }
 
 #always {
