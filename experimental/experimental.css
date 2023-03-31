@@ -2,7 +2,8 @@ html {
   background-image: url("../portfolio/images/blue.jpg");
   background-size: cover;
   background-color: #778899aa;
-  }
+  scrollbar-width: none;
+}
 
   /* M A I N-- G R I D S and F L E X B O X E S*/
 

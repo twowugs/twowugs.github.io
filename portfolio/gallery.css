@@ -1,4 +1,9 @@
 /*PAGE GRID*/
+
+html {
+    scrollbar-width: thin;
+}
+
 #page-grid {
     display: grid;
     grid-template-columns: auto;
@@ -6,6 +11,7 @@
     align-items: center;
     align-content: center;
     align-self: center;
+   
 }
 #header-flexbox {
     display: flex;

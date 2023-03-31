@@ -1,3 +1,7 @@
+html {
+    scrollbar-width: none;
+}
+
 body {
     background-image: url("../portfolio/images/blue.jpg");
     background-size: cover;
@@ -121,13 +125,25 @@ it messes up the color settings for the rest of the page! */
   scrollbar-width: none;  /* Firefox */
 }
 
+
+/*CAPTAIN'S LOG*/
+
+#captains-log {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+}
+
 h2 {
     font-family: 'Press Start 2P', cursive;
     font-size: 1.2rem;
+    margin-bottom: 0rem;
 }
 h3 {
   font-family: 'Space Mono', 
 }
+
+
 .textWordC {
     position: relative;
     color: rgba(249, 245, 255, 0.548);
@@ -186,6 +202,13 @@ h3 > a {
         display:grid;
         grid-template-columns: auto;
     } 
+
+    .home-stage {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        row-gap: 1.5rem;
+    }
 }
 /*GRID RESIZING PARAMETERS*/
 @media (max-width: 600px) {
