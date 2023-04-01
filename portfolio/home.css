@@ -147,11 +147,17 @@ h2 {
     width: 20rem;
     background-color: #758980e7;
 }
+
 h3 {
   font-family: 'Space Mono';
   margin-top: 3.5rem;
 }
 
+/* if you want the header transparent:
+    remove h2 < padding, position, background-color
+    set h2 < margin-top: 1rem
+    remove h3 < margin-top 
+*/
 
 .textWordC {
     position: relative;
