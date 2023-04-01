@@ -15,7 +15,7 @@ h1 {
      font-size: 3.5rem;
      margin-top: 1rem;
      padding-top: 1rem;
-}
+} 
 /* There's a kerning issue with the header in Chrome. 
 Also, somehow, if the color settings here are changed, 
 it messes up the color settings for the rest of the page! */
@@ -132,15 +132,24 @@ it messes up the color settings for the rest of the page! */
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
+    padding: 0%;
+    margin: 0%;
 }
 
 h2 {
     font-family: 'Press Start 2P', cursive;
     font-size: 1.2rem;
     margin-bottom: 0rem;
+    margin-top: 0%;
+    padding-top: 1rem;
+    padding-bottom: .6rem;
+    position: absolute;
+    width: 20rem;
+    background-color: #758980e7;
 }
 h3 {
-  font-family: 'Space Mono', 
+  font-family: 'Space Mono';
+  margin-top: 3.5rem;
 }
 
 
