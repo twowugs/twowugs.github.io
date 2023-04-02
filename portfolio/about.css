@@ -49,8 +49,8 @@ h1 {
     font-family: 'Rubik Spray Paint', cursive;
     text-align: left;
      color: rgba(244, 238, 255, 0.548);
-     font-size: 3.5rem;
-     padding-left: 2rem;
+     font-size: 3.3rem;
+     padding-left: 0rem;
      margin-top: 1rem; 
      padding-top: 1rem;
 }
@@ -149,7 +149,7 @@ h3 {
       
 .head-grid-item {
     background-color: rgba(148, 148, 148, 0);
-     padding: .6rem;
+     padding-right: .6rem;
      text-align: center;
      }
 .content-grid-container {

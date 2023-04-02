@@ -9,10 +9,13 @@ body {
 
 h1 {
     font-family: 'Rubik Spray Paint', cursive;
+    /*font-family: 'Silkscreen', cursive;*/
     text-align: center;
     font-kerning: none;
      color: rgba(244, 238, 255, 0.79);
-     font-size: 3.5rem;
+     font-size: 3.3rem;
+     /*font-size: 2.5rem;*/
+     /*text-shadow: 2px 2px 2px  rgba(80, 101, 95, 0.486);*/
      margin-top: 1rem;
      padding-top: 1rem;
 } 
