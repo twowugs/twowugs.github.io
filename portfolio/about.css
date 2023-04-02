@@ -62,6 +62,7 @@ h2 {
      font-size: 1rem;
      padding-left: 1rem;
      padding-right: .3rem;
+     margin-top: 1.5rem;
 }
 h3 {
     font-family: 'Space Mono', monospace;
@@ -176,6 +177,7 @@ h3 {
 }
 #bio > h2 {
     overflow-y: auto;
+   
     padding-bottom: 1.5rem;
     padding-right: 1rem;
     padding-left: .5rem;
