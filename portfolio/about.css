@@ -170,7 +170,9 @@ h3 {
     width: auto;
     overflow: hidden;
     overflow-y: hidden;
-    padding-top: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
 }
 #bio > h2 {
     overflow-y: auto;
