@@ -1,0 +1,10 @@
+#box-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1rem 20rem;
+    background-color: blue;
+}
+
+.bar-of-cohesion {
+    background-color: black;
+}
