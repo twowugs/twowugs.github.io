@@ -254,7 +254,7 @@ h3 > a {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     h1 {
         font-size: 2rem;
     }
