@@ -49,10 +49,11 @@ body {
 /*H E A D I N G S // T E X T*/
 
 h1 {
-    font-family: 'Rubik Spray Paint', cursive;
+    font-family: 'DotGothic16', cursive;
     text-align: center;
      color: rgba(244, 238, 255, 0.79);
      font-size: 3.3rem;
+     letter-spacing: .1rem;
 } 
 
 h2 {

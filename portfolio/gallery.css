@@ -134,13 +134,18 @@ body {
     background-attachment: fixed;
     }
 h1 {
-    font-family: 'Rubik Spray Paint', cursive;
+    font-family: 'Dotgothic16', cursive;
     text-align: right;
-     color: rgba(244, 238, 255, 0.548);
+     color: rgba(244, 238, 255, 0.838);
      font-size: 3.5rem;
      margin-top: 1rem;
      padding-top: 1rem; 
      margin-right: 5rem;
+     letter-spacing: .1rem;
+}
+
+.no-Ls {
+    letter-spacing: -.3rem;
 }
 
 @media (max-width: 500px) {
