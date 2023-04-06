@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-image: url("../images/blue.jpg");
+    background-image: url("../portfolio/images/blue.jpg");
     background-size: cover;
     }
 
@@ -251,5 +251,11 @@ h3 > a {
     }
     #captains-log {
         background-color: #758980e7;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 2rem;
     }
 }
