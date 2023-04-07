@@ -123,7 +123,7 @@ h2 {
 
 h3 {
     font-family: 'Space Mono';
-    color: rgba(247, 243, 255, 0.548);
+    color: rgba(247, 243, 255, 0.767);
     margin-top: 3.7rem;
 }
 
@@ -131,13 +131,13 @@ h3 {
 h3 {
     font-family: 'Space Mono', monospace;
     font-size: 1rem;
-    background-color: rgba(231, 245, 253, 0.15);
+    background-color: rgba(223, 244, 253, 0.176);
     text-align: left;
     padding: 1rem;
 }
 
 h3 > a {
-    color: rgba(247, 243, 255, 0.548);
+    color: rgba(247, 243, 255, 0.767);
     text-decoration: none;
 }
 .photo {
