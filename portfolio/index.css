@@ -100,7 +100,7 @@ h1 {
     overflow: hidden;
     overflow-y: auto;
     scrollbar-width: none;
-    background-color: rgba(231, 245, 253, 0.15);
+    /*background-color: rgba(231, 245, 253, 0.15);*/
     transition: 1s;
 }
 
