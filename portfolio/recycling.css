@@ -10,12 +10,13 @@ body {
 h1 {
     font-family: 'Dotgothic16', cursive;
     text-align: left;
-     color: rgba(244, 238, 255, 0.548);
+     color: rgba(244, 238, 255, 0.785);
      font-size: 3.5rem;
      margin-left: 2rem;
      margin-top: 1rem;
      padding-top: 1rem;
      letter-spacing: .1rem;
+     text-shadow: 1px 1px 1px #758980e7;
 }
 @media (max-width: 800px) {
     h1 {

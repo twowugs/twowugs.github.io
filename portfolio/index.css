@@ -84,6 +84,12 @@ h1 {
 
 /*CAPTAIN'S LOG*/
 
+#captains-log-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 #captains-log {
     display: grid;
     grid-template-columns: auto;
@@ -271,5 +277,13 @@ h3 > a {
 @media (max-width: 500px) {
     h1 {
         font-size: 2rem;
+    }
+    #captains-log {
+        width: 17rem;
+        overflow-y: auto;
+        overflow-x: auto;
+    }
+    h2 {
+        width: 17rem;
     }
 }
