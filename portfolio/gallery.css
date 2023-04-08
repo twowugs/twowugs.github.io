@@ -234,7 +234,6 @@ h1 {
 }
 @media (max-width: 1110px) {
     h1 {
-        font-family: 'Rubik Spray Paint', cursive;
         text-align: center;
          color: rgba(244, 238, 255, 0.548);
          font-size: 3.5rem;
