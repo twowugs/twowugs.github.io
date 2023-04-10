@@ -6,6 +6,8 @@ html {
 body {
     background-image: url("../portfolio/images/blue.jpg");
     background-size: cover;
+    background-color: #a9bcb3;
+    transition: 1s;
     }
 
 #page-grid {
@@ -232,6 +234,13 @@ h3 > a {
 
 
 /*M E D I A   Q U E R I E S*/
+
+/*stops background image from duplicating at smaller sizes*/
+@media (max-width: 1025px) {
+    #page-grid {
+        margin-bottom: 7rem;
+    }
+}
 
 @media (max-width: 800px) { 
     h1 {
