@@ -310,3 +310,7 @@ a:link {
         font-size: .9rem;
     }
 }
+
+.visible {
+    color: #42514aca;
+}

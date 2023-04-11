@@ -89,3 +89,7 @@ h3 > a {
     color: rgba(201, 202, 182, 0.89);
     cursor: pointer;
 }
+
+.visible {
+    color: #42514aca;
+}

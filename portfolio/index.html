@@ -11,6 +11,7 @@
     <title>TELEPATHY</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="index.css">
+    
 </head>
 <body>
     <div id="page-grid">
@@ -69,18 +70,19 @@
         </div>
         
     </div>
+    <script src="mobile.js"></script>
     <div id="mobile-page-grid">
         <div id="mobile-navbar-flexbox">
             <div id="mobile-navbarLink-grid">
-                <div class="mobile-dropdown">
+                <div class="mobile-dropdown" onclick="toggleNavbar()">
                     <!--set following line text to current page name-->
                         <div class="mobile-dropbtn text-icon">&#9776;</div>
-                        <div class="mobile-dropdown-content">
-                            <div id="home-link" class="mobile-hvr-hang"><a href="https://twowugs.github.io/portfolio/index.html"><span class="arrow">> </span>HOME</a></div>
-                            <div id="captainsLog-link" class="mobile-hvr-hang"><a href="https://twowugs.github.io/portfolio/log.html"><span class="arrow">> </span>CAPTAIN'S LOG</a></div>
-                            <div id="gallery-link" class="mobile-hvr-hang"><a href="https://twowugs.github.io/portfolio/gallery.html"><span class="arrow">> </span>GALLERY</a></div>
-                            <div id="about-link" class="mobile-hvr-hang"><a href="https://twowugs.github.io/portfolio/about.html"><span class="arrow">> </span>ABOUT</a></div>
-                            <div id="poetry-link" class="mobile-hvr-hang"><a href="https://twowugs.github.io/portfolio/recycling.html"><span class="arrow">> </span>POETRY GENERATOR</a></div>
+                        <div id="mobile-dropdown-content">
+                            <div id="home-link" class="mobile-hvr-hang"><a href="https://twowugs.github.io/portfolio/index.html"><span id="arrow01" class="arrow">> </span>HOME</a></div>
+                            <div id="captainsLog-link" class="mobile-hvr-hang"><a href="https://twowugs.github.io/portfolio/log.html"><span id="arrow02" class="arrow">> </span>CAPTAIN'S LOG</a></div>
+                            <div id="gallery-link" class="mobile-hvr-hang"><a href="https://twowugs.github.io/portfolio/gallery.html"><span id="arrow03" class="arrow">> </span>GALLERY</a></div>
+                            <div id="about-link" class="mobile-hvr-hang"><a href="https://twowugs.github.io/portfolio/about.html"><span id="arrow04" class="arrow">> </span>ABOUT</a></div>
+                            <div id="poetry-link" class="mobile-hvr-hang"><a href="https://twowugs.github.io/portfolio/recycling.html"><span id="arrow05" class="arrow">> </span>POETRY GENERATOR</a></div>
                         </div>
                 </div>
             </div>

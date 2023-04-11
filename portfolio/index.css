@@ -449,29 +449,29 @@ h3 > a {
 }
 
 /* Dropdown Content (Previously Hidden by Default) */
-.mobile-dropdown-content {
+/*#mobile-dropdown-content {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     grid-template-rows: auto;
-    /*position: absolute;*/
+    /*position: absolute;
     z-index: 1;
-}
+}*/
 
 /* Links inside the dropdown */
-.mobile-dropdown-content a {
-    color: rgba(80, 101, 95, 0.486);
+#mobile-dropdown-content a {
+    color: rgba(183, 216, 207, 0.573);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
 /* Change color of dropdown links on hover */
-.mobile-dropdown-content a:hover {
+#mobile-dropdown-content a:hover {
     background-color: rgba(221, 221, 221, 0.505);
 }
 
 
-    .mobile-dropdown:hover .mobile-dropdown-content {
+    .mobile-dropdown:hover #mobile-dropdown-content {
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto auto auto;
@@ -479,7 +479,7 @@ h3 > a {
     .mobile-dropbtn {
         display: block;
     }
-    .mobile-dropdown-content {
+    #mobile-dropdown-content {
         display: none;
     }
     .mobile-dropdown {
@@ -496,4 +496,8 @@ h3 > a {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .mobile-dropdown:hover .mobile-dropbtn {
     background-color: none;
+}
+
+.visible {
+    color: #42514aca;
 }
