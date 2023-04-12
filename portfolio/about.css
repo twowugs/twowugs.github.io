@@ -330,6 +330,7 @@ a:link {
         background-image: none;
         background-color: #a9bcb3;
         transition: 1s;
+        overflow-x: hidden;
     }
 
     #page-grid {
