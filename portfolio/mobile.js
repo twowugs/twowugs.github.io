@@ -36,3 +36,7 @@
     }
     
   }
+
+  function hideLinks() {
+    x.style.display = "none";
+  }
