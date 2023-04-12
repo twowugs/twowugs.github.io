@@ -26,3 +26,13 @@
     }
     
   }
+
+  function toggleLinkDropdown() {
+    var x = document.getElementById("aboutLinks-content");
+    if (x.style.display === "none") {
+      x.style.display = "grid";
+    } else {
+      x.style.display = "none";
+    }
+    
+  }
