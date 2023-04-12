@@ -442,6 +442,10 @@ a:link {
     border-radius: .4rem;
 }
 
+#aboutLinks-box:hover {
+    cursor: pointer;
+}
+
 #dropdown-arrow {
     padding-left: 3rem;
     color: #ECE0E7;
