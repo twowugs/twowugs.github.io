@@ -28,15 +28,16 @@
   }
 
   function toggleLinkDropdown() {
-    var x = document.getElementById("aboutLinks-content");
-    if (x.style.display === "none") {
-      x.style.display = "grid";
+    var a = document.getElementById("aboutLinks-content");
+    if (a.style.display === "none") {
+      a.style.display = "grid";
     } else {
-      x.style.display = "none";
+      a.style.display = "none";
     }
     
   }
 
   function hideLinks() {
-    x.style.display = "none";
+    var a = document.getElementById("aboutLinks-content");
+    a.style.display = "none";
   }
