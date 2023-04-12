@@ -457,6 +457,7 @@ a:link {
 
 #aboutLinks-content {
     margin-left: 1rem;
+    display: none;
 }
 
 /*N A V B A R*/
