@@ -156,7 +156,7 @@ h1 {
     }
     /*set/replace #[title]-link to current page title*/
     #captainsLog-link {
-        display: none;
+        display: none; 
     }
     #mobile-navbarLink-grid {
     font-size: 1rem;
