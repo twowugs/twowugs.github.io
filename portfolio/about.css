@@ -359,8 +359,12 @@ a:link {
     }
 
     .mobileContent-flexbox {
+         display: flex;
+        flex-direction: row;
         width: 100%;
         overflow: hidden;
+        justify-content: center;
+       
     }
     
     .mobileContent-grid {
@@ -440,6 +444,7 @@ a:link {
     margin-top: 1.7rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-bottom: 4rem;
     border-radius: .4rem;
 }
 
