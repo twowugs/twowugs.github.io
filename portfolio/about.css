@@ -452,7 +452,7 @@ a:link {
     cursor: pointer;
 }
 
-#dropdown-arrow {
+#dropdown-arrows {
     padding-left: 3rem;
     color: #ECE0E7;
     font-size: 1.5rem;
@@ -460,6 +460,12 @@ a:link {
     padding-top: .3rem;
     padding-bottom: .3rem;
 }
+
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
 
 .link-title {
     color: #42514a;
@@ -555,13 +561,13 @@ a:link {
     background-color: rgba(221, 221, 221, 0.505);
 }
 
-
-    .mobile-dropdown:hover #mobile-dropdown-content {
+/* \/ turned off mobile hover \/*/
+ /*   .mobile-dropdown:hover #mobile-dropdown-content {
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto auto auto;
     }
-
+*/
     #mobile-dropdown-content {
         display: grid;
         grid-template-columns: auto;

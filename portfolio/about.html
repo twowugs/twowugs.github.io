@@ -13,7 +13,7 @@
     <title>ego</title>
     <script src="mobile.js"></script>
 </head>
-<body onload="hideLinks()">
+<body onload="toggleLinkDropdown()">
     <div id="page-grid">
         <div id="titleBar-flexbox">
             <div id="titleBar-grid">
@@ -102,7 +102,7 @@
                         </div>
                     </div>
                     <div id="aboutLinks-box" onclick="toggleLinkDropdown()">
-                        <div id="dropdown-arrow">
+                        <div id="dropdown-arrows" class="prevent-select">
                             <span id="down-arrow">\/</span>
                             <span id="right-arrow">></span>
                         </div>
