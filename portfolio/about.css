@@ -448,6 +448,11 @@ a:link {
     border-radius: .4rem;
 }
 
+a #aboutLinks-box {
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
+}
+
 #aboutLinks-box:hover {
     cursor: pointer;
 }
