@@ -1,11 +1,3 @@
-//span.onclick = function() {
-  //  modal.style.display = "none";
-//  }
-
-//function toggleNavbar() {
-  //  var element = document.getElementById("mobile-dropdown-content");
-    //element.classList.toggle("mobile-js");
-  //}  
 
   function toggleNavbar() {
     var x = document.getElementById("mobile-dropdown-content");
@@ -26,7 +18,7 @@
     }
     
   }
-
+  // 
   function toggleLinkDropdown() {
     var a = document.getElementById("aboutLinks-content");
     if (a.style.display === "none") {
@@ -42,14 +34,4 @@
       var r = document.getElementById("right-arrow");
       r.style.display = "none";
     }
-    
-  }
-
-  function hideLinks() {
-    var a = document.getElementById("aboutLinks-content");
-    a.style.display = "none";
-    var d = document.getElementById("down-arrow");
-    d.style.display = "inline-block";
-    var r = document.getElementById("right-arrow");
-    r.style.display = "none";
-  }
+  } 
