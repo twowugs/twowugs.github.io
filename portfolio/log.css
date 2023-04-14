@@ -1,4 +1,10 @@
 /*F U L L   P A G E*/
+
+html {
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -40,7 +46,7 @@ h1 {
 /**/
 .text-icon {
     text-align: left;
-    padding-left: 2rem;
+    margin-left: 2rem;
     padding-top: .9rem;
     padding-bottom: .9rem;
     font-size: 1.3rem;

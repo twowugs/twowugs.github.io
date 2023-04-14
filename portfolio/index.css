@@ -1,6 +1,8 @@
 /*F U L L   P A G E*/
 html {
     scrollbar-width: none;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 body {
@@ -365,7 +367,7 @@ h3 > a {
 /*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
 .text-icon {
     text-align: left;
-    padding-left: 2rem;
+    margin-left: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }

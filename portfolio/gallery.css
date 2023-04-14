@@ -2,6 +2,8 @@
 
 html {
     scrollbar-width: thin;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 #page-grid {
