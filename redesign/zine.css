@@ -1,0 +1,160 @@
+body {
+    background-image: url("../portfolio/images/blue.jpg");
+    background-size: cover;
+    }
+h1 {
+    font-family: 'Dotgothic16', cursive;
+    text-align: center;
+     color: rgba(244, 238, 255, 0.79);
+     font-size: 3.5rem;
+     margin-top: 1rem;
+     padding-top: 1rem;
+     letter-spacing: .1rem;
+}
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.2rem;
+}
+h3 {
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+  background-color: rgba(231, 245, 253, 0.272);
+  text-align: left;
+  padding-left: 1rem;
+}
+.link {
+  font-family: 'Space Mono', monospace;
+  font-size: 1rem;
+  text-align: left;
+}
+.desc {
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-size:.7rem;
+    color: rgba(244, 238, 255, 0.79);
+  }
+
+/*GRIDS!!!!*/
+.head-grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto ;
+    align-items: center;
+    padding-top: 3rem;        
+    padding-left: 3%;
+    padding-right: 4%;
+    margin-top: .5rem;
+    }
+      
+.head-grid-item {
+    background-color: rgba(148, 148, 148, 0);
+     padding: .6rem;
+     text-align: center;
+     }
+     .home-stage {
+        display: grid;
+        grid-template-columns:23rem ;
+        column-gap: 2rem;
+        margin-left: 18%;
+        margin-bottom: 3%; 
+    }
+    .home-stage-content {
+        text-align: center;
+        color: rgba(247, 243, 255, 0.548);
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.35);
+        max-height: 20rem;
+        overflow: hidden;
+        overflow-y: auto;
+    }
+    .home-stage-content > img {
+        max-width: 10rem;
+        max-height: 15rem;
+    }
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .home-stage-content::-webkit-scrollbar {
+        display: none;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .home-stage-content {
+        -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+/* back button */
+.button-17 {
+  align-items: center;
+  appearance: none;
+  background-color: rgba(255, 255, 255, 0.265);
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #4b6278;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: 'Space Mono', monospace;
+  font-size: .8rem;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+
+.button-17:hover {
+  background: #f6f9fe71;
+  color: #647975;
+}
+
+.button-17:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.button-17:focus {
+  outline: none;
+  border: 2px solid #8fa2b0;
+}
+
+.button-17:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.button-17:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.button-17:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+.zineCover {
+    max-width: 10rem;
+    max-height: 15rem;
+    padding-left: 5rem;
+}
+.desc {
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-size:.7rem;
+  }
