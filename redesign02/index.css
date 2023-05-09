@@ -26,7 +26,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 #pageContent-grid {
@@ -35,25 +35,6 @@ body {
     grid-template-rows: auto;
 }
 
-#giantBox-flexbox {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#giantBox-grid {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    width: 10rem;
-    height: 10rem;
-    max-width: 10rem;
-    max-height: 10rem;
-    border-color: rgb(218, 218, 218);
-    border-width: .2rem;
-    border-style: solid;
-    margin-top: 2rem;
-}
 
 #colorBlock-flexbox {
     background-color: rgb(21, 21, 21);
@@ -61,16 +42,13 @@ body {
 }
 
 .main-image  {
-    max-width: 14rem;
-}
-
-.main-gif {
-    width: 5rem;
+    max-width: 18rem;
 }
 
 .main-link {
     color: rgb(45, 45, 45);
     font-family: 'Yuji Boku', serif;
+    font-size: 1.2rem;
 }
 
 .main-link:hover {
@@ -88,4 +66,29 @@ body {
     font-family: 'Yuji Boku', serif;
     text-align: center;
     letter-spacing: .5rem;
+    font-size: 1.5rem;
 }
+
+/*links*/
+
+ a:link {
+    color: rgb(45, 45, 45);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(45, 45, 45);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(45, 45, 45);
+    background-color: transparent;
+  }
+  
+  a:active {
+    color: rgb(45, 45, 45);
+    background-color: transparent;
+  }
