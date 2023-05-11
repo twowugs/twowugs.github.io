@@ -148,3 +148,145 @@ body {
     color: rgb(45, 45, 45);
     background-color: transparent;
   }
+
+  
+/*M O B I L E -------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+
+#mobile-page-grid {
+    display: none;
+}
+
+@media (max-width: 500px) {
+ 
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: none;
+        transition: 1s;
+        overflow-x: hidden;
+    }
+
+    #page-grid {
+        display: none;
+    }
+
+    #mobile-page-grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        }   
+}
+
+#mobile-titleBar-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mobile-title-text {
+    margin-top: 1rem;
+    color:rgb(21, 21, 21);
+    font-family: 'Yuji Boku', serif;
+    text-align: center;
+    letter-spacing: .5rem;
+    font-size: 1.5rem;
+}
+
+#mobile-pageContent-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#mobile-pageContent-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+
+#mobile-colorBlock-flexbox {
+    background-color: rgb(21, 21, 21);
+    height: .5rem;
+}
+
+/* M A I N    I M A G E*/
+
+#mobile-mainImage-flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-main-image  {
+    max-width: 10rem;
+}
+
+/* M A I N    L I N K   G R I D -- library navigation*/
+
+#mobile-mainContent-flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-main-link {
+    color: rgb(45, 45, 45);
+    font-family: 'Yuji Boku', serif;
+    font-size: .9rem;
+}
+
+.mobile-main-link:hover {
+    cursor: pointer;
+}
+
+.mobile-main-link:hover > a > .mobile-work-preview {
+    color: rgb(108, 108, 108);
+}
+
+#mobile-home-link:hover a {
+    color:rgb(108, 108, 108);
+}
+
+#mobile-mainLink-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-height: 15rem;
+    padding-right: .5rem;
+    max-width: 15rem;
+    column-gap: .3rem;
+}
+
+.mobile-work-title {
+    font-weight: 600;
+}
+
+.mobile-work-preview {
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+/* V I S U A L    N A V I G A T I O N*/
+
+#mobile-linkBox-flexbox {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    
+}
+
+#mobile-visualNav-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-content:space-evenly;
+}
+
+.mobile-space {
+    font-size: 3.8rem;
+}
