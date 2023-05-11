@@ -1,5 +1,5 @@
 html {
-    overflow-y: hidden;
+   scrollbar-width: none;
 }
     
 body {
@@ -14,8 +14,7 @@ body {
 #page-grid {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto;
-    margin-bottom: 40rem;    
+    grid-template-rows: auto; 
 }
 
 #titleBar-flexbox {
@@ -38,6 +37,8 @@ body {
     flex-direction: row;
     justify-content: center;
     margin-top: 3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 #pageContent-grid {
@@ -70,5 +71,14 @@ body {
 
 .contentDesc-text {
     font-weight: 400;
+}
+
+/* L I B R A R Y    E N T R Y*/
+
+#libraryEntry-flexbox {
+    display: flex;
+    flex-direction: row;
+    max-height: 15rem;
+    overflow-y: scroll;
 }
 
