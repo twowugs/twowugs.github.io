@@ -1,6 +1,6 @@
 
 html {
-    overflow-y: hidden;
+    scrollbar-width: none;
 }
     
 body {
@@ -15,8 +15,7 @@ body {
 #page-grid {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto;
-    margin-bottom: 40rem;    
+    grid-template-rows: auto;  
 }
 
 #titleBar-flexbox {
@@ -82,8 +81,12 @@ body {
     cursor: pointer;
 }
 
-.main-link:hover > .work-preview {
+.main-link:hover > a > .work-preview {
     color: rgb(108, 108, 108);
+}
+
+#home-link:hover a {
+    color:rgb(108, 108, 108);
 }
 
 #mainLink-grid {
@@ -139,11 +142,6 @@ body {
     color: rgb(45, 45, 45);
     background-color: transparent;
     text-decoration: none;
-  }
-  
-  a:hover {
-    color: rgb(45, 45, 45);
-    background-color: transparent;
   }
   
   a:active {
