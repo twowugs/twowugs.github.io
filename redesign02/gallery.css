@@ -286,6 +286,11 @@ h1 {
         padding: .5rem;
     
     }
+
+    #link-grid {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
 @media (max-width: 727px) {
     .photo-grid {
@@ -303,8 +308,13 @@ h1 {
         padding: .5rem;
     
     }
+
+    #link-grid {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
-@media (max-width: 600px) {
+@media (max-width: 676px) {
     .photo-grid {
         padding-top: 2rem;
         padding-bottom: 2rem;
@@ -315,14 +325,22 @@ h1 {
         align-content: center;
         overflow: hidden;
         margin: 1rem;
+        margin-left: 0rem;
+        padding-left: 1rem;
         }
     .photo-grid > img {
         width: 23rem;
         padding: .5rem;
     
     }
+
+    #link-grid {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: .9rem;
+    }
 }
-@media (max-width: 442px) {
+@media (max-width: 500px) {
     .photo-grid {
         padding-top: 2rem;
         padding-bottom: 2rem;
@@ -335,8 +353,14 @@ h1 {
         margin: 1rem;
         }
     .photo-grid > img {
-        width: 20rem;
+        width: 15rem;
         padding: .5rem;
     
+    }
+
+    #link-grid {
+        margin-left: .5rem;
+        margin-right: .5rem;
+        font-size: .9rem;
     }
 }
