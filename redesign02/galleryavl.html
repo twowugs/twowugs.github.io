@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&family=Lateef&family=Sigmar&family=Yuji+Boku&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+    <div id="page-grid"> 
+        <div id="page-grid">
+            <div id="colorBlock-flexbox">
+                <div id="colorBlock-grid"></div>
+            </div>
+            <div id="titleBar-flexbox">
+                <div id="titleBar-grid">
+                    <div class="title-text">
+                        asheville, nc
+                    </div>
+                </div>
+            </div>
+        <div id="gallery-flexbox">
+            <div id="link-grid">
+                <div id="home-link" class="main-link"><a href="../redesign02/index.html">> home</a></div>
+                <div id="galleryIndex-link" class="main-link"><a href="../redesign02/galleryindex.html">> back to library</a></div>
+            </div>
+            <!--gallery grid-->
+              <div class="photo-grid">
+                  <div id="imgDesc-flexbox">
+                    <span class="contentDesc-title">title: </span>
+                    <span class="contentDesc-text"> alt text text text</span>
+                  </div>
+                  <img class="myImages" id="myImg" src="../portfolio/images/bw1.JPG">
+                  <div id="imgDesc-flexbox">
+                    <span class="contentDesc-title">title: </span>
+                    <span class="contentDesc-text"> alt text text text</span>
+                  </div>
+                  <img class="myImages" id="myImg" src="../portfolio/images/c8.jpg">
+                  <div id="imgDesc-flexbox">
+                    <span class="contentDesc-title">title: </span>
+                    <span class="contentDesc-text"> alt text text text</span>
+                  </div>
+                  <img class="myImages" id="myImg" src="../portfolio/images/c9.jpg">
+                  <div id="imgDesc-flexbox">
+                    <span class="contentDesc-title">title: </span>
+                    <span class="contentDesc-text"> alt text text text</span>
+                  </div>
+                  <img class="myImages" id="myImg" src="../portfolio/images/c10.jpg">
+                  <div id="imgDesc-flexbox">
+                    <span class="contentDesc-title">title: </span>
+                    <span class="contentDesc-text"> alt text text text</span>
+                  </div>
+                  <img class="myImages" id="myImg" src="../portfolio/images/bw10.jpg">
+                  <div id="imgDesc-flexbox">
+                    <span class="contentDesc-title">title: </span>
+                    <span class="contentDesc-text"> alt text text text</span>
+                  </div>
+                  <img class="myImages" id="myImg" src="../portfolio/images/c7.jpg">
+          
+                  
+              <!--lightbox-->
+                  <div id="myModal" class="modal">
+                      <span class="close">&times;</span>
+              <!--adding some bullshit!-->
+              <div class="image-nav-container">
+                  <div class="arrow-button" id="prev">&#60;</div>
+                  <img class="modal-content" id="img01"/>
+                  <div class="arrow-button" id="next">&#62;</div>
+              </div>
+              <!--adding some bullshit!-->
+                      <div id="caption"></div>
+                    </div>
+            </div>
+              <!--runs lightbox js-->
+              <script src="gallery.js"></script>
+        </div>
+    </div>
+    
+</body>
+</html>
