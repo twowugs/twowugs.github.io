@@ -1,0 +1,74 @@
+html {
+    overflow-y: hidden;
+}
+    
+body {
+    /*background-image: linear-gradient(#bac9da, #bad9da);*/
+    background-color: rgb(218, 218, 218);
+    margin: 0;
+    padding: 0;
+}
+
+/* P A G E   G R I D*/
+
+#page-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    margin-bottom: 40rem;    
+}
+
+#titleBar-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title-text {
+    margin-top: 1rem;
+    color:rgb(21, 21, 21);
+    font-family: 'Yuji Boku', serif;
+    text-align: center;
+    letter-spacing: .5rem;
+    font-size: 1.5rem;
+}
+
+#pageContent-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#pageContent-grid {
+    display: grid;
+    grid-template-columns: 10rem auto;
+    grid-template-rows: auto;
+    max-width: 50rem;
+    column-gap: 6rem;
+}
+
+
+#colorBlock-flexbox {
+    background-color: rgb(21, 21, 21);
+    height: .5rem;
+}
+
+
+/* D E S C    B O X*/
+
+#contentDesc-flexbox {
+    display: flex;
+    flex-direction: column;
+    color:rgb(21, 21, 21);
+    font-family: 'Yuji Boku', serif;
+}
+
+.contentDesc-title {
+    font-weight: 600;
+}
+
+.contentDesc-text {
+    font-weight: 400;
+}
+

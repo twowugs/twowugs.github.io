@@ -1,0 +1,152 @@
+
+html {
+    overflow-y: hidden;
+}
+    
+body {
+    /*background-image: linear-gradient(#bac9da, #bad9da);*/
+    background-color: rgb(218, 218, 218);
+    margin: 0;
+    padding: 0;
+}
+
+/* P A G E   G R I D*/
+
+#page-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    margin-bottom: 40rem;    
+}
+
+#titleBar-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title-text {
+    margin-top: 1rem;
+    color:rgb(21, 21, 21);
+    font-family: 'Yuji Boku', serif;
+    text-align: center;
+    letter-spacing: .5rem;
+    font-size: 1.5rem;
+}
+
+#pageContent-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#pageContent-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+
+#colorBlock-flexbox {
+    background-color: rgb(21, 21, 21);
+    height: .5rem;
+}
+
+/* M A I N    I M A G E*/
+
+#mainImage-flexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-image  {
+    max-width: 16.5rem;
+}
+
+/* M A I N    L I N K   G R I D -- library navigation*/
+
+#mainContent-flexbox {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.main-link {
+    color: rgb(45, 45, 45);
+    font-family: 'Yuji Boku', serif;
+    font-size: 1.2rem;
+}
+
+.main-link:hover {
+    cursor: pointer;
+}
+
+.main-link:hover > .work-preview {
+    color: rgb(108, 108, 108);
+}
+
+#mainLink-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    max-height: 15rem;
+    padding-right: .5rem;
+    max-width: 15rem;
+    column-gap: .3rem;
+}
+
+.work-title {
+    font-weight: 600;
+}
+
+.work-preview {
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+/* V I S U A L    N A V I G A T I O N*/
+
+#linkBox-flexbox {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    
+}
+
+#visualNav-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-content:space-evenly;
+}
+
+.space {
+    font-size: 3.8rem;
+}
+
+/*links*/
+
+ a:link {
+    color: rgb(45, 45, 45);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(45, 45, 45);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(45, 45, 45);
+    background-color: transparent;
+  }
+  
+  a:active {
+    color: rgb(45, 45, 45);
+    background-color: transparent;
+  }
