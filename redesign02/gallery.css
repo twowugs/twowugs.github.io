@@ -25,6 +25,14 @@ body {
     height: .5rem;
 }
 
+#colorBlock-flexbox2 {
+    background-color: rgb(218, 218, 218);
+    height: .5rem;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+
 #titleBar-flexbox {
     display: flex;
     flex-direction: row;
@@ -231,6 +239,7 @@ h1 {
     padding: .5rem;
     padding-left: 2.5rem;
     text-align: left;
+    margin-bottom: 4rem;
     }
     
 .photo-grid > img {
