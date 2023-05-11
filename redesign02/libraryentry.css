@@ -63,6 +63,7 @@ body {
     flex-direction: column;
     color:rgb(21, 21, 21);
     font-family: 'Yuji Boku', serif;
+    font-size: 1rem;
 }
 
 .contentDesc-title {
@@ -73,12 +74,72 @@ body {
     font-weight: 400;
 }
 
+
 /* L I B R A R Y    E N T R Y*/
 
 #libraryEntry-flexbox {
     display: flex;
     flex-direction: row;
-    max-height: 15rem;
-    overflow-y: scroll;
+    font-size: 1rem;
+    scrollbar-width: none;
+    max-height: 20rem;
 }
 
+#libraryEntry-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    column-gap: .3rem;
+}
+
+#text-flexbox {
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+/* V I S U A L    N A V I G A T I O N*/
+
+#visualNav-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-content:space-evenly;
+    margin-top:.7rem;
+}
+
+.space {
+    font-size: 5rem;
+}
+
+/*links*/
+
+.main-link {
+    color: rgb(45, 45, 45);
+    font-family: 'Yuji Boku', serif;
+    font-size: 1rem;
+}
+
+.main-link:hover a {
+    color: rgb(108, 108, 108);
+    cursor: pointer;
+}
+
+a:link {
+    color: rgb(45, 45, 45);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:rgb(108, 108, 108);
+  }
+
+  a:visited {
+    color: rgb(45, 45, 45);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: rgb(45, 45, 45);
+    background-color: transparent;
+  }
