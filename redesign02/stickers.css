@@ -1,0 +1,163 @@
+html {
+    scrollbar-width: none;
+}
+
+/* P A G E*/
+
+body {
+    /*background-image: linear-gradient(#bac9da, #bad9da);*/
+    background-color: rgb(218, 218, 218);
+    margin: 0;
+    padding: 0;
+}
+
+#page-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+#colorBlock-flexbox {
+    background-color: rgb(21, 21, 21);
+    height: .5rem;
+}
+
+/* T I T L E*/
+
+#titleBar-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* C O N T E N T */
+
+#pageContent-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#pageContent-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    row-gap: 3rem;
+}
+
+.title-text {
+    margin-top: 1rem;
+    color:rgb(21, 21, 21);
+    font-family: 'Yuji Boku', serif;
+    text-align: center;
+    letter-spacing: .5rem;
+    font-size: 1.5rem;
+}
+
+.main-link {
+    color: rgb(45, 45, 45);
+    font-family: 'Yuji Boku', serif;
+    font-size: 1.2rem;
+}
+
+#home-link:hover a {
+    color:rgb(108, 108, 108);
+}
+
+.main-link:hover {
+    color: rgb(108, 108, 108);
+    cursor: pointer;
+}
+
+#mainLink-grid {
+    margin-top: 3rem;
+}
+
+#stickers-search-flexbox {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(240, 240, 240);
+    border-radius: 1rem;
+    padding: .5rem;
+    max-width: 15rem;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+#main-links {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(202, 202, 202);
+    border-radius: .5rem;
+    padding: .2rem;
+    margin-right: .3rem;
+}
+
+.search-icon {
+    padding: .1rem;
+    margin-left: .1rem;
+}
+
+/* S T I C K E R S     C O N T A I N E R */
+
+#mainContent-flexbox {
+    background-color: rgba(240, 240, 240, 0.768);
+    width: 50rem;
+    height: 25rem;
+    border-radius: 1rem;
+    overflow-wrap: normal;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+#mainContent-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto;
+    justify-items: center;
+}
+
+.stickerImage {
+    z-index: 1;
+    width: 9rem;
+    height: 9rem;
+    padding: .6rem;
+}
+
+.stickerImage:hover {
+    transition: .5s;
+    background-color: rgba(209, 209, 209, 0.755);
+    border-radius: 1rem;
+}
+
+/*links*/
+
+ a:link {
+    color: rgb(45, 45, 45);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(45, 45, 45);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(108, 108, 108);;
+    background-color: transparent;
+  }
+  
+  a:active {
+    color: rgb(45, 45, 45);
+    background-color: transparent;
+  }
+
+  #mobile-page-grid {
+    display: none;
+}
