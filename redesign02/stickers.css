@@ -75,6 +75,8 @@ body {
     margin-top: 3rem;
 }
 
+/* S E A R C H    B A R */
+
 #stickers-search-flexbox {
     display: flex;
     flex-direction: row;
@@ -160,4 +162,69 @@ body {
 
   #mobile-page-grid {
     display: none;
+}
+
+/* M E D I A   Q U E R I E S*/
+
+@media (max-width: 936px) {
+    #mainContent-flexbox {
+        width: 35rem;
+        height: 25rem;
+        border-radius: 1rem;
+        padding: 1.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .stickerImage {
+        width: 8rem;
+        height: 8rem;
+        padding: .5rem;
+    }
+
+    #mainContent-grid {
+        grid-template-columns: auto auto auto auto;
+    }
+
+}
+
+@media (max-width: 682px) {
+    #mainContent-flexbox {
+        width: 26rem;
+        height: 25rem;
+        padding: 1.5rem;
+        margin-bottom: 4rem;
+        padding-right: 2rem;
+    }
+
+    .stickerImage {
+        width: 8rem;
+        height: 8rem;
+        padding: .5rem;
+    }
+
+    #mainContent-grid {
+        grid-template-columns: auto auto auto;
+    }
+
+}
+
+@media (max-width: 540px) {
+    #mainContent-flexbox {
+        width: 23rem;
+        height: 25rem;
+        padding: 0;
+        margin-bottom: 4rem;
+    }
+
+    .stickerImage {
+        width: 8rem;
+        height: 8rem;
+        padding: 0;
+        padding-top: 1rem;
+    }
+
+    #mainContent-grid {
+        grid-template-columns: auto auto;
+    }
+
 }
