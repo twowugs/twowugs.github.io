@@ -257,7 +257,7 @@ h1 {
 
 /*img desc*/
 
-#imgDesc-flexbox {
+.imgDesc-flexbox {
     color: rgb(45, 45, 45);
     font-family: 'Yuji Boku', serif;
     font-size: 1.2rem;
@@ -277,7 +277,7 @@ h1 {
     .photo-grid {
         padding-top: 2rem;
         padding-bottom: 2rem;
-        display: grid;
+        padding-left: 1.5rem;
         grid-template-columns: auto auto ;
         grid-template-rows: auto;
         align-content: center;
@@ -294,16 +294,16 @@ h1 {
         margin-left: 1rem;
         margin-right: 1rem;
     }
+
+    #imgDesc-flexbox {
+        margin-right: 1rem;
+    }
+
 }
 @media (max-width: 727px) {
     .photo-grid {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        display: grid;
         grid-template-columns: auto auto ;
         grid-template-rows: auto;
-        align-content: center;
-        overflow: hidden;
         margin: 1rem;
         }
     .photo-grid > img {
@@ -319,14 +319,10 @@ h1 {
 }
 @media (max-width: 676px) {
     .photo-grid {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        display: grid;
         grid-template-columns: auto ;
         grid-template-rows: auto;
         place-items: center;
         align-content: center;
-        overflow: hidden;
         margin: 1rem;
         margin-left: 0rem;
         padding-left: 1rem;
@@ -362,12 +358,8 @@ h1 {
     .photo-grid {
         padding-top: 2rem;
         padding-bottom: 2rem;
-        display: grid;
         grid-template-columns: auto ;
         grid-template-rows: auto;
-        place-items: center;
-        align-content: center;
-        overflow: hidden;
         margin: 1rem;
         }
     .photo-grid > img {
@@ -376,38 +368,12 @@ h1 {
     
     }
 
-    #link-grid {
-        margin-left: .5rem;
-        margin-right: .5rem;
-        font-size: .9rem;
-        padding-top: 1rem;
-        position: relative;
-    }
-
-    #gallery-flexbox {
-        display: flex;
-        flex-direction: column;
-        align-items:center;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .photo-grid {
-        padding-top: 0;
-    }
 }
 
 
 @media (max-width: 341px) {
+
     .photo-grid {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        display: grid;
-        grid-template-columns: auto ;
-        grid-template-rows: auto;
-        place-items: center;
-        align-content: center;
-        overflow: hidden;
         margin: .5rem;
         }
     .photo-grid > img {
@@ -416,23 +382,12 @@ h1 {
     
     }
 
-    #link-grid {
-        margin-left: .5rem;
-        margin-right: .5rem;
+    .imgDesc-flexbox {
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .contentDesc-text {
         font-size: .9rem;
-        padding-top: 1rem;
-        position: relative;
-    }
-
-    #gallery-flexbox {
-        display: flex;
-        flex-direction: column;
-        align-items:center;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .photo-grid {
-        padding-top: 0;
     }
 }
