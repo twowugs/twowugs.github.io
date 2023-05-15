@@ -25,7 +25,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+    margin-bottom: 5rem;
 }
 
 #pageContent-grid {
@@ -43,6 +43,7 @@ body {
 
 .main-image  {
     max-width: 18rem;
+    height: auto;
 }
 
 #mainImage-flexbox {
@@ -236,6 +237,5 @@ body {
     color: rgb(45, 45, 45);
     font-family: 'Yuji Boku', serif;
     font-size: .9rem;
-    max-height: 16rem;
-    overflow-y: scroll;
+    overflow-y: visible;
   }
