@@ -89,6 +89,7 @@ body {
     font-size: 1rem;
     scrollbar-width: none;
     max-height: 20rem;
+    margin-bottom: 3rem;
 }
 
 #libraryEntry-grid {
@@ -110,6 +111,7 @@ body {
     flex-direction: column;
     align-content:space-evenly;
     margin-top:.7rem;
+    position: relative;
 }
 
 .space {
@@ -161,6 +163,22 @@ a:link {
 /*-------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------*/
 
+@media (max-width: 700px) {
+
+    #pageContent-grid {
+        column-gap: 2.5rem;
+    }
+
+    .main-link {
+        font-size: .9rem;
+    }
+
+    #contentDesc-flexbox {
+        font-size: .9rem;
+    }
+}
+
+
 @media (max-width: 500px) {
  
     body {
@@ -171,8 +189,12 @@ a:link {
         overflow-x: hidden;
     }
 
-    #pageContent-grid {
+    #pageContent-flexbox {
+        margin-right: 1rem;
+        margin-top: 1.5rem;
+    }
 
+    #pageContent-grid {
         grid-template-columns: auto;
         grid-template-rows: auto auto;
     }
@@ -188,30 +210,54 @@ a:link {
     #contentDesc-flexbox {
         font-size: .6rem;
         max-width: 10rem;
-    }
-    
-    #home-link {
-        font-size: .7rem;
+        margin-bottom: 2rem;
     }
 
-    #library-link {
-        font-size: .7rem;
+    #contentDesc-grid {
+        margin-bottom: .5rem;
+    }
+    
+    .main-link {
+        font-size: .6rem;
     }
 
     /* full text */
 
-    #pageContent-grid {
+   #pageContent-grid {
         column-gap: 0rem;
+    }
+    
+    #libraryEntry-flexbox {
+        max-height: fit-content;
+        height: fit-content;
+        align-items: flex-start;
+    }
+
+    #libraryEntry-grid {
+        height: fit-content;
     }
 
     #libraryEntry-text {
-        max-height: 15rem;
-        overflow-y: scroll;
+        max-height: fit-content;
+        overflow-y: visible;
         scrollbar-width: none;
     }
 
     #libraryEntry-text {
             font-size: .8rem;
+    }
+
+    #text-flexbox {
+        overflow-y: visible;
+        scrollbar-width: none;
+    }
+    
+    #visualNav-flexbox {
+        position: sticky;
+        top: 0;
+        overflow: visible;
+        padding-top: .5rem;
+
     }
 
     /*gap between arrows*/
