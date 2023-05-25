@@ -43,7 +43,8 @@ body {
 
 .main-image  {
     max-width: 18rem;
-    height: auto;
+    height: 30rem;
+    margin-top: 1rem;
 }
 
 #mainImage-flexbox {
@@ -160,7 +161,7 @@ body {
     margin-left: 2rem;
     margin-right: 2rem;
 }
-#mobile-pageContent-flexbox {
+#mobile-pageContent-flexbox { 
     display: flex;
     flex-direction: row;
     justify-content: center;
