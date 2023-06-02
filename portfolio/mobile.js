@@ -17,7 +17,7 @@
       x.style.display = "none";
     }
     
-  }
+  } 
   // 
   function toggleLinkDropdown() {
     var a = document.getElementById("aboutLinks-content");
