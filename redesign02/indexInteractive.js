@@ -61,6 +61,21 @@ function changePopupC01() {
       d.style.display = "none";
   } 
 
+  function changePopupC03() {
+    var a = document.getElementById("popupTextC04");
+        //we were by the water...
+      a.style.display = "block";
+      var c = document.getElementById("popupSetC04");
+        // . . . || null
+    c.style.display = "grid";
+      var b = document.getElementById("popupTextC03");
+        //i had a dream about you last night...
+      b.style.display = "none";
+      var c = document.getElementById("popupSetC03");
+        // . . . || null
+      c.style.display = "none";
+  } 
+
   // DENIALS -----------------------------------------------------------
 
   function changePopupD01X() {
@@ -118,6 +133,7 @@ function changePopupC01() {
         //hello?
       a.style.display = "none";
       var b = document.getElementById("popupTextD03");
+        //displays dialtone
         //~~~dialtone ~~~
       b.style.display = "block";
       var d = document.getElementById("popupSetC02");
@@ -128,6 +144,7 @@ function changePopupC01() {
             //hello?
           a.style.display = "none";
           var b = document.getElementById("popupTextD03");
+            //holds dialtone display 3s
             //~~~dialtone ~~~
           b.style.display = "block";
           var d = document.getElementById("popupSetC02");
@@ -135,6 +152,7 @@ function changePopupC01() {
           d.style.display = "none";
 
         setTimeout (function() {
+            //closes chat window
             var a = document.getElementById("popupText01");
                 //ring ring!
             a.style.display = "none";
@@ -146,10 +164,28 @@ function changePopupC01() {
             d.style.display = "none";
             var e = document.getElementById("popupWindow-grid");
             e.style.display = "none";
-    
-        },3000);
 
-      }, 3000);
+            setTimeout (function() {
+                var a = document.getElementById("popupText01");
+                    //ring ring!
+                a.style.display = "block";
+                var d = document.getElementById("popupSet01");
+                    //answer || ignore
+                d.style.display = "grid";
+                var d = document.getElementById("popupSetC02");
+                    //who's this? || hang up
+                d.style.display = "none";
+                var b = document.getElementById("popupTextD03");
+                //~~~dialtone ~~~
+              b.style.display = "none";
+                var e = document.getElementById("popupWindow-grid");
+                e.style.display = "grid";
+        
+            },3000);
+    
+        },4000);
+
+      }, 2000);
         
       return;
   } 

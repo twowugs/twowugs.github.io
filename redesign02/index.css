@@ -197,6 +197,12 @@ p {
     display: none;
 }
 
+#popupTextC04 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    display: none;
+}
+
 #popupTextD03 {
     grid-column-start: 2;
     grid-column-end: 2;
@@ -214,6 +220,10 @@ p {
 }
 
 #popupSetC03 {
+    display: none;
+}
+
+#popupSetC04 {
     display: none;
 }
 
