@@ -4,15 +4,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&family=Lateef&family=Sigmar&family=Yuji+Boku&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TELEPATHY</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="index.css">
-    <script src="adSpace.js"></script>
+    <script src="indexInteractive.js"></script>
 </head>
-<body onload="showAdSpace()">
+<body>
     <div id="page-grid">
         <div id="colorBlock-flexbox">
             <div id="colorBlock-grid"></div>
@@ -22,6 +25,9 @@
                 <div class="title-text">
                     telepathy
                 </div>
+            </div>
+            <div class="cuteText">
+                :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: ::
             </div>
         </div>
             <div id="pageContent-grid">
@@ -40,29 +46,56 @@
                         </div>
                     </div>
                 </div>
-                <div id="adSpace-grid">
-                    <!-- Advertisement No. 1-->
-                    <div id="adSpace01" class="adSpace" >
-                        <div class="adSpace-header">
-                            <div id="adSpace-exitButton01" class="adSpace-exitButton prevent-select" onclick="hideAdSpace01()">x</div>
+                <div id="interactiveSpace-flexbox">
+                    <div id="textPopupContainer-grid">
+                        <div id="popupWindow-grid" class="prevent-select">
+                            <div id="borderTop" class="accentBorder">
+                                &nbsp;&nbsp;:: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: ::
+                            </div>
+                            <div id="popItem01" class="popupLayer-grid">
+                                <div id="borderLeft"class="accentBorder">
+                                    :: :: :: :: :: :: ::
+                                </div>
+                                <!-- P O P U P   T E X T-->
+                                <div id="popupText01" class="popupText fade-in">
+                                    <p>* ring! ring! *</p>
+                                </div>
+                                <div id="popupTextC02" class="popupText">
+                                    <p>hello?</p>
+                                </div>
+                                <div id="popupTextD03" class="popupText">
+                                    <p>&#8767;&#8767;&#8767;&#8767;&#8767;</p>
+                                </div>
+                                <div id="borderRight" class="accentBorder">
+                                    :: :: :: :: :: :: ::
+                                </div>
+                            </div>
+                            <div id="borderBottom" class="accentBorder">
+                                &nbsp;&nbsp; :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: :: ::</div>
+                            </div>
+                    </div>
+                    <!-- P O P U P   B U T T O N-->
+                    <div id="popupButtons-grids">
+                        <div id="popupSet01" class="popupButtons-grid prevent-select">
+                            <div class="confirmButton-grid button-grid" onclick="changePopupC01()">
+                                <p>answer</p>
+                            </div>
+                            <div class="denyButton-grid button-grid" onclick="changePopupD01()">
+                                <p>ignore</p2>
+                            </div>
                         </div>
-                        <div class="adSpace-content">
-                            <img src="../portfolio/images/placeholder.png">
+                        <div id="popupSet02" class="popupButtons-grid prevent-select">
+                            <div class="confirmButton-grid button-grid" onclick="changePopupC02()">
+                                <p>who's this?</p>
+                            </div>
+                            <div class="denyButton-grid button-grid" onclick="changePopupD02()">
+                                <p>hang up</p2>
+                            </div>
                         </div>
                     </div>
-                    <!-- Advertisement No. 2-->
-                    <div id="adSpace02" class="adSpace" >
-                        <div class="adSpace-header">
-                            <div id="adSpace-exitButton02" class="adSpace-exitButton prevent-select" onclick="hideAdSpace02()">x</div>
-                        </div>
-                        <div class="adSpace-content">
-                            <img src="../portfolio/images/placeholder.png">
-                        </div>
-                    </div>
-
-                </div>
-            </div>   
-    </div>
+                    <img class="interactiveImage-large" src="../redesign02/images/copyrightInfringement/contactphone.gif">
+                </div>   
+            </div>
     <!-- M O B I L E !-->
     <div id="mobile-page-grid">
         <div id="colorBlock-flexbox">
