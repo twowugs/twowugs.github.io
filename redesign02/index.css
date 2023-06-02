@@ -191,6 +191,12 @@ p {
     display: none;
 }
 
+#popupTextC03 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    display: none;
+}
+
 #popupTextD03 {
     grid-column-start: 2;
     grid-column-end: 2;
@@ -199,7 +205,15 @@ p {
 
 /* P O P U P   B U T T O N S */
 
-#popupSet02 {
+#popupSet01alt {
+    display: none;
+}
+
+#popupSetC02 {
+    display: none;
+}
+
+#popupSetC03 {
     display: none;
 }
 
