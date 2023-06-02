@@ -21,33 +21,121 @@ body {
     flex-direction: row;
     justify-content: center;
 }
-#pageContent-flexbox {
+/*#pageContent-flexbox {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 3rem;
-}
+}*/
 
 #pageContent-grid {
     display: grid;
+    grid-template-columns: 30% 35% 35%;
+    grid-template-rows: auto;
+    margin-top: 3rem;
+}
+/*gallery grid*/
+#pageContent-grid2 {
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    grid-template-rows: auto;
+    margin-top: 3rem;
+}
+
+#middlePage-grid {
+    display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
+    justify-content: center;
 }
 
 
+/* A D V E R T I S E M E N T S --right-side ad space*/
+#adSpace-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 17.7rem 17.7rem;
+    justify-content: right;
+    margin-right: 1.5rem;
+}
+/*individual ad item*/
+.adSpace {
+    display: grid;
+    grid-template-columns: 13rem;
+    grid-template-rows: 1.7rem 13rem;
+    width: 13rem;
+    height: 14.7rem;
+    background-color: #d4cfc7;
+    border-color: #98aaaf;
+    border-style: solid;
+}
+
+#adSpace01 {
+    grid-row: 1;
+}
+
+#adSpace02 {
+    margin-top: 2rem;
+    grid-row: 2;
+}
+
+/*ad-space action bar*/
+.adSpace-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: #98aaaf;
+}
+/* red 'x' button, should close individual ads*/
+.adSpace-exitButton {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 5%;
+    background-color: #e37052;
+    margin: .25rem;
+    align-content: center;
+    text-align: center;
+    font-size: .9rem;
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.adSpace-exitButton:hover {
+    cursor: pointer;
+    background-color: #ca583c;
+}
+
+/*advertisement image- actual img varies per ad*/
+.adSpace-content > img {
+    width: 13rem;
+    height: 13rem;
+}
+
+.adSpace-content > img:hover {
+    cursor: pointer;
+}
+
+
+/*black bar at top of page*/
 #colorBlock-flexbox {
     background-color: rgb(21, 21, 21);
     height: .5rem;
 }
 
+
+/* pfp drawing*/
 .main-image  {
-    max-width: 18rem;
+    max-width: 21rem;
 }
 
+/* MAIN LINKS*/
 .main-link {
     color: rgb(45, 45, 45);
     font-family: 'Yuji Boku', serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 #home-link:hover a {
@@ -63,13 +151,15 @@ body {
     margin-top: 3rem;
 }
 
+
+/* MAIN page title text*/
 .title-text {
     margin-top: 1rem;
     color:rgb(21, 21, 21);
     font-family: 'Yuji Boku', serif;
     text-align: center;
     letter-spacing: .5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 /*links*/
@@ -99,6 +189,12 @@ body {
   #mobile-page-grid {
     display: none;
 }
+
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
 
 /*M O B I L E -------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------*/
