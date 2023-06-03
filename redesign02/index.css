@@ -99,7 +99,7 @@ body {
 
 #popupWindow-grid {
     display: grid;
-    grid-template-columns: 23rem ;
+    grid-template-columns: 19rem ;
     grid-template-rows: 1rem 6rem 1rem;
     width: 23rem;
     height: 8rem;
@@ -108,7 +108,7 @@ body {
 
 .popupLayer-grid {
     display: grid;
-    grid-template-columns: 1rem 21rem 1rem;
+    grid-template-columns: 1rem 18rem 1rem;
     grid-template-rows: 1rem auto 1rem;
     grid-row: 2;
 }
@@ -163,8 +163,8 @@ p {
     grid-template-columns: 9rem 9rem;
     grid-template-rows: 6rem;
     height: 6rem;
-    width: 20rem;
-    margin-left: 10rem;
+    width: 17rem;
+    margin-left: 7.5rem;
     font-family: 'Darumadrop One', cursive;
 }
 
