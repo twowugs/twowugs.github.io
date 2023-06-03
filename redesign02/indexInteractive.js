@@ -99,9 +99,9 @@ function changePopupC01() {
         var k = document.getElementById("popupSetC06");
         // . . . || null
         k.style.display = "none";
-        var c = document.getElementById("popupSetC07");
+        var m = document.getElementById("popupSetC07");
         // . . . || null
-        c.style.display = "grid";
+        m.style.display = "grid";
     },500);
     var a = document.getElementById("popupTextC06");
       //and you...
