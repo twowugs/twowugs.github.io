@@ -223,6 +223,12 @@ p {
     margin-top: .5rem;
 }
 
+#popupTextC08 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    display: none;
+}
+
 /*popup text deny option*/
 #popupTextD03 {
     grid-column-start: 2;
@@ -257,6 +263,10 @@ p {
 }
 
 #popupSetC07 {
+    display: none;
+}
+
+#popupSetC08 {
     display: none;
 }
 

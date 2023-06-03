@@ -117,6 +117,24 @@ function changePopupC01() {
     d.style.display = "none";
 } 
 
+function changePopupC06() {
+    var b = document.getElementById("popupTextC08");
+      //you're beautiful, you know...
+    b.style.display = "block";
+    var c = document.getElementById("popupSetC08");
+      // . . . || null
+    c.style.display = "grid";
+    var a = document.getElementById("popupTextC06");
+      //and you...
+    a.style.display = "none";
+    var a = document.getElementById("popupTextC07");
+      //you were glowing, too.
+    a.style.display = "none";
+    var c = document.getElementById("popupSetC07");
+      // . . . || null
+    c.style.display = "none";
+}
+
   // DENIALS -----------------------------------------------------------
 
   function changePopupD01X() {
