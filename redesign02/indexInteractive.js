@@ -95,7 +95,13 @@ function changePopupC01() {
     setTimeout (function() {
         var i = document.getElementById("popupTextC07");
         //you were glowing, too
-      i.style.display = "block";
+        i.style.display = "block";
+        var k = document.getElementById("popupSetC06");
+        // . . . || null
+        k.style.display = "none";
+        var c = document.getElementById("popupSetC07");
+        // . . . || null
+        c.style.display = "grid";
     },500);
     var a = document.getElementById("popupTextC06");
       //and you...
