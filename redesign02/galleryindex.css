@@ -1,0 +1,227 @@
+
+html {
+    scrollbar-width: none;
+}
+    
+body {
+    /*background-image: linear-gradient(#bac9da, #bad9da);*/
+    background-color: rgb(218, 218, 218);
+    margin: 0;
+    padding: 0;
+}
+
+#page-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+#titleBar-flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuteText {
+    font-size: 1rem;
+    margin-top: .5rem;
+    letter-spacing: .1rem;
+}
+
+.color-green {
+    color: #6ab16a;
+}
+
+.color-blue {
+    color:#4793a8
+}
+
+.color-orange {
+    color:#e37052;
+}
+
+.color-pink {
+    color: #c5608a;
+}
+
+/*#pageContent-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+}*/
+
+#pageContent-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    margin-top: 3rem;
+}
+
+#middlePage-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+/*black bar at top of page*/
+#colorBlock-flexbox {
+    background-color: rgb(21, 21, 21);
+    height: .5rem;
+}
+
+
+/* pfp drawing*/
+.main-image  {
+    max-width: 21rem;
+}
+
+/* MAIN LINKS*/
+.main-link {
+    color: rgb(45, 45, 45);
+    font-family: 'Yuji Boku', serif;
+    font-size: 1.5rem;
+}
+
+#home-link:hover a {
+    color:rgb(108, 108, 108);
+}
+
+.main-link:hover {
+    color: rgb(108, 108, 108);
+    cursor: pointer;
+}
+
+#mainLink-grid {
+    margin-top: 3rem;
+}
+
+
+/* MAIN page title text*/
+.title-text {
+    margin-top: 1rem;
+    color:rgb(21, 21, 21);
+    font-family: 'Yuji Boku', serif;
+    text-align: center;
+    letter-spacing: .5rem;
+    font-size: 2rem;
+}
+
+/*links*/
+
+ a:link {
+    color: rgb(45, 45, 45);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(45, 45, 45);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(108, 108, 108);;
+    background-color: transparent;
+  }
+  
+  a:active {
+    color: rgb(45, 45, 45);
+    background-color: transparent;
+  }
+
+  #mobile-page-grid {
+    display: none;
+}
+
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+
+/*M O B I L E -------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+
+#mobile-page-grid {
+    display: none;
+}
+
+@media (max-width: 500px) {
+ 
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: none;
+        transition: 1s;
+        overflow-x: hidden;
+    }
+
+    #page-grid {
+        display: none;
+    }
+
+    #mobile-page-grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        }   
+}
+
+
+
+#mobile-titleBar-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#mobile-pageContent-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#mobile-pageContent-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+.mobile-main-image  {
+    max-width: 10rem;
+    margin-left: -.7rem;
+}
+
+.mobile-main-link {
+    color: rgb(45, 45, 45);
+    font-family: 'Yuji Boku', serif;
+    font-size: .9rem;
+}
+
+#mobile-home-link:hover a {
+    color:rgb(108, 108, 108);
+}
+
+.mobile-main-link:hover {
+    color: rgb(108, 108, 108);
+    cursor: pointer;
+}
+
+#mobile-mainLink-grid {
+    margin-top: 3rem;
+}
+
+.mobile-title-text {
+    margin-top: 1rem;
+    color:rgb(21, 21, 21);
+    font-family: 'Yuji Boku', serif;
+    text-align: center;
+    letter-spacing: .5rem;
+    font-size: 1.3rem;
+}
