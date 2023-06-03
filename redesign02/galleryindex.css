@@ -152,6 +152,19 @@ body {
     display: none;
 }
 
+@media (max-width: 640px) {
+    .title-text {
+        letter-spacing: .3rem;
+        font-size: 1.7rem;
+    }
+    .main-link {
+        font-size: 1.2rem;
+    }
+    .main-image  {
+        max-width: 19rem;
+    }
+}
+
 @media (max-width: 500px) {
  
     body {
@@ -184,7 +197,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 #mobile-pageContent-grid {
@@ -201,7 +214,7 @@ body {
 .mobile-main-link {
     color: rgb(45, 45, 45);
     font-family: 'Yuji Boku', serif;
-    font-size: .9rem;
+    font-size: 1rem;
 }
 
 #mobile-home-link:hover a {
@@ -223,5 +236,5 @@ body {
     font-family: 'Yuji Boku', serif;
     text-align: center;
     letter-spacing: .5rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }

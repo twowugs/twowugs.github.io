@@ -29,7 +29,7 @@ body {
     font-family: 'Yuji Boku', serif;
     text-align: center;
     letter-spacing: .5rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 #pageContent-flexbox {
@@ -212,8 +212,8 @@ a:link {
     /* description box*/    
 
     #contentDesc-flexbox {
-        font-size: .6rem;
-        max-width: 10rem;
+        font-size: .9rem;
+        max-width: 16rem;
         margin-bottom: 2rem;
     }
 
@@ -222,7 +222,7 @@ a:link {
     }
     
     .main-link {
-        font-size: .6rem;
+        font-size: .9rem;
     }
 
     /* full text */
@@ -248,7 +248,7 @@ a:link {
     }
 
     #libraryEntry-text {
-            font-size: .8rem;
+            font-size: .9rem;
     }
 
     #text-flexbox {
