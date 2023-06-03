@@ -1,6 +1,6 @@
 
 //on load
-
+ 
 
 function resetPhone() {
     var a = document.getElementById("popupText01");
@@ -372,7 +372,7 @@ function changePopupC11() {
                 var a = document.getElementById("popupText01");
                     //ring ring!
                 a.style.display = "block";
-                var d = document.getElementById("popupSet01");
+                var d = document.getElementById("popupSet01alt");
                     //answer || ignore
                 d.style.display = "grid";
                 var d = document.getElementById("popupSetC02");
