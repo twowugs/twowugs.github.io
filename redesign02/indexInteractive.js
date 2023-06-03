@@ -171,7 +171,7 @@ function changePopupC08() {
 function changePopupC09() {
 
     var a = document.getElementById("popupTextC11");
-      //you dont have to say anything...
+      //you dont need to reply...
     a.style.display = "block";
     var c = document.getElementById("popupSetC11");
       // . . . || null
@@ -185,23 +185,99 @@ function changePopupC09() {
 
 }
 
+function changePopupC09() {
+    setTimeout (function() {
+        var i = document.getElementById("popupTextC12");
+        //i know you're listening
+        i.style.display = "block";
+        var k = document.getElementById("popupSetC11");
+        // . . . || null
+        k.style.display = "none";
+        var d = document.getElementById("popupSetC12");
+        // . . . || null
+        d.style.display = "grid";
+    },700);
+    var a = document.getElementById("popupTextC11");
+      //you dont need to reply...
+    a.style.display = "block";
+    var c = document.getElementById("popupSetC11");
+      // . . . || null
+    c.style.display = "grid";
+    var b = document.getElementById("popupTextC10");
+      //anyways...
+    b.style.display = "none";
+    var d = document.getElementById("popupSetC10");
+      // . . . || null
+    d.style.display = "none";
+}
+
 function changePopupC10() {
 
-    var b = document.getElementById("popupTextC12");
-      // just calling to say i love you
+    var a = document.getElementById("popupTextC11");
+      //you dont need to reply...
+    a.style.display = "none";
+    var a = document.getElementById("popupTextC12");
+      //i know you're listening
+    a.style.display = "none";
+    var c = document.getElementById("popupSetC11");
+      // . . . || null
+    c.style.display = "none";
+    var b = document.getElementById("popupTextC13");
+      //just calling to say i love you
     b.style.display = "block";
     var c = document.getElementById("popupSetC12");
       // . . . || null
+    c.style.display = "none";
+    var c = document.getElementById("popupSetC13");
+      // . . . || null
     c.style.display = "grid";
-    var a = document.getElementById("popupTextC11");
-    //you dont have to say anything...
-    
-  a.style.display = "none";
-  var c = document.getElementById("popupSetC11");
-    // . . . || null
-  c.style.display = "none";
 
 }
+
+function changePopupC11() {
+
+    setTimeout (function() {
+        var a = document.getElementById("popupTextD03");
+          //holds dialtone display 3s
+          //~~~dialtone ~~~
+        a.style.display = "block";
+        var b = document.getElementById("popupTextC14");
+          //so much...
+        b.style.display = "none";
+        var d = document.getElementById("popupSetC14");
+          // . . . || null
+        d.style.display = "none";
+
+        setTimeout (function() {
+            var a = document.getElementById("popupTextD03");
+              //holds dialtone display 3s
+              //~~~dialtone ~~~
+            a.style.display = "none";
+            var e = document.getElementById("popupWindow-grid");
+            e.style.display = "none";
+    
+        },3000);
+
+    },3000);
+
+    var a = document.getElementById("popupTextC13");
+      //just calling to say i love you
+    a.style.display = "none";
+    var c = document.getElementById("popupSetC13");
+      // . . . || null
+    c.style.display = "none";
+    var b = document.getElementById("popupTextC14");
+      //so much...
+    b.style.display = "block";
+    var d = document.getElementById("popupSetC14");
+      // . . . || null
+    d.style.display = "grid";
+
+}
+
+          
+
+
 
   // DENIALS -----------------------------------------------------------
 

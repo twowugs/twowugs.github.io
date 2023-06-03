@@ -219,7 +219,6 @@ p {
     grid-column-start: 2;
     grid-column-end: 2;
     display: none;
-    margin-right: 1rem;
     margin-top: .5rem;
 }
 
@@ -248,6 +247,26 @@ p {
 }
 
 #popupTextC12 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    display: none;
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+
+#popupTextC13 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    display: none;
+}
+
+#popupTextC14 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    display: none;
+}
+
+#popupTextC15 {
     grid-column-start: 2;
     grid-column-end: 2;
     display: none;
@@ -311,6 +330,18 @@ p {
 }
 
 #popupSetC12 {
+    display: none;
+}
+
+#popupSetC13 {
+    display: none;
+}
+
+#popupSetC14 {
+    display: none;
+}
+
+#popupSetC15 {
     display: none;
 }
 
