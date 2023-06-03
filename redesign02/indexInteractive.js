@@ -135,6 +135,74 @@ function changePopupC06() {
     c.style.display = "none";
 }
 
+function changePopupC07() {
+    var a = document.getElementById("popupTextC09");
+      // silence...
+    a.style.display = "block";
+    var c = document.getElementById("popupSetC09");
+      // . . . || null
+    c.style.display = "grid";
+    var b = document.getElementById("popupTextC08");
+      //you're beautiful, you know...
+    b.style.display = "none";
+    var c = document.getElementById("popupSetC08");
+      // . . . || null
+    c.style.display = "none";
+
+}
+
+function changePopupC08() {
+
+    var b = document.getElementById("popupTextC10");
+      //anyways...
+    b.style.display = "block";
+    var c = document.getElementById("popupSetC10");
+      // . . . || null
+    c.style.display = "grid";
+    var a = document.getElementById("popupTextC09");
+      // silence...
+    a.style.display = "none";
+    var c = document.getElementById("popupSetC09");
+      // . . . || null
+    c.style.display = "none";
+
+}
+
+function changePopupC09() {
+
+    var a = document.getElementById("popupTextC11");
+      //you dont have to say anything...
+    a.style.display = "block";
+    var c = document.getElementById("popupSetC11");
+      // . . . || null
+    c.style.display = "grid";
+    var b = document.getElementById("popupTextC10");
+      //anyways...
+    b.style.display = "none";
+    var c = document.getElementById("popupSetC10");
+      // . . . || null
+    c.style.display = "none";
+
+}
+
+function changePopupC10() {
+
+    var b = document.getElementById("popupTextC12");
+      // just calling to say i love you
+    b.style.display = "block";
+    var c = document.getElementById("popupSetC12");
+      // . . . || null
+    c.style.display = "grid";
+    var a = document.getElementById("popupTextC11");
+    //you dont have to say anything...
+    
+  a.style.display = "none";
+  var c = document.getElementById("popupSetC11");
+    // . . . || null
+  c.style.display = "none";
+
+}
+
   // DENIALS -----------------------------------------------------------
 
   function changePopupD01X() {

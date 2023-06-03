@@ -55,7 +55,7 @@ body {
 
 #pageContent-grid {
     display: grid;
-    grid-template-columns: 30% 35% 35%;
+    grid-template-columns: 20% 35% 35%;
     grid-template-rows: 40rem;
     margin-top: 3rem;
 }
@@ -229,6 +229,30 @@ p {
     display: none;
 }
 
+#popupTextC09 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    display: none;
+}
+
+#popupTextC10 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    display: none;
+}
+
+#popupTextC11 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    display: none;
+}
+
+#popupTextC12 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    display: none;
+}
+
 /*popup text deny option*/
 #popupTextD03 {
     grid-column-start: 2;
@@ -237,6 +261,10 @@ p {
 }
 
 /* P O P U P   B U T T O N S */
+
+.button-grid:hover {
+    cursor: pointer;
+}
 
 #popupSet01alt {
     display: none;
@@ -267,6 +295,22 @@ p {
 }
 
 #popupSetC08 {
+    display: none;
+}
+
+#popupSetC09 {
+    display: none;
+}
+
+#popupSetC10 {
+    display: none;
+}
+
+#popupSetC11 {
+    display: none;
+}
+
+#popupSetC12 {
     display: none;
 }
 
