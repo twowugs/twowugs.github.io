@@ -62,7 +62,7 @@ body {
 /*gallery grid*/
 #pageContent-grid2 {
     display: grid;
-    grid-template-columns: 35% 30% 35%;
+    grid-template-columns: 25% 45% 30%;
     grid-template-rows: auto;
     margin-top: 3rem;
 }
