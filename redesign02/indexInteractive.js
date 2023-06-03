@@ -220,7 +220,7 @@ function changePopupC09() {
         var d = document.getElementById("popupSetC12");
         // . . . || null
         d.style.display = "grid";
-    },700);
+    },600);
     var a = document.getElementById("popupTextC11");
       //you dont need to reply...
     a.style.display = "block";

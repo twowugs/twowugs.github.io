@@ -56,7 +56,7 @@ body {
 #pageContent-grid {
     display: grid;
     grid-template-columns: 20% 35% 35%;
-    grid-template-rows: 40rem;
+    grid-template-rows: 35rem;
     margin-top: 3rem;
 }
 /*gallery grid*/
@@ -84,7 +84,7 @@ body {
 }
 
 .interactiveImage-large {
-    width: 23rem;
+    width: 16rem;
     height: auto;
 }
 
