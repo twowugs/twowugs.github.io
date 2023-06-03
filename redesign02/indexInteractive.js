@@ -37,6 +37,9 @@ function changePopupC01() {
       var d = document.getElementById("popupSet01");
         //answer || ignore
       d.style.display = "none";
+      var d = document.getElementById("popupSet01alt");
+        //answer || ignore
+      d.style.display = "none";
       var b = document.getElementById("popupTextC02");
         //hello?
       b.style.display = "block";
@@ -45,6 +48,24 @@ function changePopupC01() {
       c.style.display = "grid";
 
   } 
+
+  function changePopupC01b() {
+    var a = document.getElementById("popupTextC02");
+        //hello?
+     a.style.display = "block";
+     var c = document.getElementById("popupText01");
+        //hello?
+     c.style.display = "none";
+     var b = document.getElementById("popupSet01alt");
+        //answer || ignore
+     b.style.display = "none";
+     var d = document.getElementById("popupSetC02alt");
+        //who's this? || null
+     d.style.display = "grid";
+     var e = document.getElementById("popupWindow-grid");
+     e.style.display = "grid";
+  } 
+
 
   function changePopupC02() {
     var a = document.getElementById("popupTextC03");
@@ -59,6 +80,9 @@ function changePopupC01() {
       var d = document.getElementById("popupSetC02");
         //who's this || hang up
       d.style.display = "none";
+      var e = document.getElementById("popupSetC02alt");
+        //who's this? || null
+     e.style.display = "none";
   } 
 
   function changePopupC03() {
