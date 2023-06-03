@@ -83,6 +83,10 @@ body {
 
 /* L I B R A R Y    E N T R Y*/
 
+#text-start {
+    height: 1rem;
+}
+
 #libraryEntry-flexbox {
     display: flex;
     flex-direction: row;
@@ -110,12 +114,12 @@ body {
     display: flex;
     flex-direction: column;
     align-content:space-evenly;
-    margin-top:.7rem;
+    margin-top:2rem;
     position: relative;
 }
 
 .space {
-    font-size: 5rem;
+    font-size: 4.5rem;
 }
 
 /*links*/
