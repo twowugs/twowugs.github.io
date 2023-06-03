@@ -76,6 +76,41 @@ function changePopupC01() {
       c.style.display = "none";
   } 
 
+  function changePopupC04() {
+      var b = document.getElementById("popupTextC05");
+        //the whole world was glowing
+      b.style.display = "block";
+      var c = document.getElementById("popupSetC05");
+        // . . . || null
+      c.style.display = "grid";
+      var a = document.getElementById("popupTextC04");
+        //we were by the water...
+      a.style.display = "none";
+      var c = document.getElementById("popupSetC04");
+        // . . . || null
+      c.style.display = "none";
+  } 
+
+  function changePopupC05() {
+    setTimeout (function() {
+        var i = document.getElementById("popupTextC07");
+        //you were glowing, too
+      i.style.display = "block";
+    },500);
+    var a = document.getElementById("popupTextC06");
+      //and you...
+    a.style.display = "block";
+    var c = document.getElementById("popupSetC06");
+      // . . . || null
+    c.style.display = "grid";
+    var b = document.getElementById("popupTextC05");
+      //the whole world was glowing
+    b.style.display = "none";
+    var d = document.getElementById("popupSetC05");
+      // . . . || null
+    d.style.display = "none";
+} 
+
   // DENIALS -----------------------------------------------------------
 
   function changePopupD01X() {

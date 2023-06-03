@@ -203,6 +203,27 @@ p {
     display: none;
 }
 
+#popupTextC05 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    display: none;
+}
+
+#popupTextC06 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    display: none;
+}
+
+#popupTextC07 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    display: none;
+    margin-right: 1rem;
+    margin-top: .5rem;
+}
+
+/*popup text deny option*/
 #popupTextD03 {
     grid-column-start: 2;
     grid-column-end: 2;
@@ -224,6 +245,14 @@ p {
 }
 
 #popupSetC04 {
+    display: none;
+}
+
+#popupSetC05 {
+    display: none;
+}
+
+#popupSetC06 {
     display: none;
 }
 
