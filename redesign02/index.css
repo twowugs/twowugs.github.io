@@ -513,6 +513,66 @@ p {
     user-select: none; /* Standard syntax */
   }
 
+
+/*T E L E P H O N E   S C A L I N G ---------------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+
+
+
+
+@media (max-width: 5000px) {
+    #pageContent-grid {
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+        margin-left: 25%;
+        margin-right: 30%;
+    }
+}
+
+@media (max-width: 2100px) {
+    #pageContent-grid {
+        display: grid;
+        grid-template-columns: 10% 45% 35%;
+        grid-template-rows: 35rem;
+        margin-top: 3rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1269px) {
+    #pageContent-grid {
+        display: grid;
+        grid-template-columns: 10% 45% 35%;
+        grid-template-rows: 35rem;
+        margin-top: 3rem;
+    }
+}
+
+
+@media (max-width: 1074px) {
+    #pageContent-grid {
+        display: grid;
+        grid-template-columns: 5% 45% 35%;
+        grid-template-rows: 35rem;
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 1005px) {
+    #pageContent-grid {
+        display: grid;
+        grid-template-columns: 1% 50% 30%;
+        grid-template-rows: 35rem;
+        margin-top: 3rem;
+    }
+}
+
+
+
 /*M O B I L E -------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------*/
@@ -529,7 +589,7 @@ p {
         padding: 0;
         background-image: none;
         transition: 1s;
-        overflow-x: none;
+        overflow-x: hidden;
     }
 
     #page-grid {
@@ -554,7 +614,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 #mobile-pageContent-grid {
@@ -571,7 +631,7 @@ p {
 .mobile-main-link {
     color: rgb(45, 45, 45);
     font-family: 'Yuji Boku', serif;
-    font-size: .9rem;
+    font-size: 1rem;
 }
 
 #mobile-home-link:hover a {
@@ -593,5 +653,5 @@ p {
     font-family: 'Yuji Boku', serif;
     text-align: center;
     letter-spacing: .5rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
