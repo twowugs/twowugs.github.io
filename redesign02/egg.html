@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>egg page!</title>
+    <link rel="stylesheet" href="egg.css">
+    <script src="egg.js"></script>
+</head>
+<body onload="showAdSpace()">
+    <div id="page-flexbox">
+        <div id="colorBlock-flexbox"></div>
+        <div id="innerPage-grid">
+            <div id="adSpace-grid">
+                <!-- Advertisement No. 1-->
+                <div id="adSpace01" class="adSpace" >
+                    <div class="adSpace-header">
+                        <div id="adSpace-exitButton01" class="adSpace-exitButton prevent-select" onclick="hideAdSpace01()">x</div>
+                    </div>
+                    <div class="adSpace-content">
+                        <a href="https://soundcloud.com/mistermarimba/tracks" target="_blank"><img class="adSpace-img" src="../redesign02/images/advertisements/ryan2.PNG"></a>
+                    </div>
+                </div>
+                <!-- Advertisement No. 2-->
+                <div id="adSpace02" class="adSpace" >
+                    <div class="adSpace-header">
+                        <div id="adSpace-exitButton02" class="adSpace-exitButton prevent-select" onclick="hideAdSpace02()">x</div>
+                    </div>
+                    <div class="adSpace-content">
+                        <a href=""><img class="adSpace-img" src="../portfolio/images/placeholder.png"></a>
+                    </div>
+                </div>
+            </div>
+            <div id="mainContent-grid">
+    
+            </div>
+        </div>
+    </div>
+</body>
+</html>

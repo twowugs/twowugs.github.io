@@ -1,0 +1,98 @@
+
+body {
+    background-color: #dadada;
+    margin: 0;
+    padding: 0;
+}
+
+/*black bar at top of page*/
+#colorBlock-flexbox {
+    background-color: rgb(21, 21, 21);
+    height: .5rem;
+}
+
+#page-flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+#innerPage-grid {
+    display: grid;
+    grid-template-columns: 17rem auto;
+    grid-template-rows: auto;
+}
+
+/* A D V E R T I S E M E N T S --right-side ad space*/
+#adSpace-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 17.7rem 17.7rem;
+    justify-content: right;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+}
+/*individual ad item*/
+.adSpace {
+    display: grid;
+    grid-template-columns: 13rem;
+    grid-template-rows: 1.7rem 13rem;
+    width: 13rem;
+    height: 14.7rem;
+    background-color: #d4cfc7;
+    border-color: #98aaaf;
+    border-style: solid;
+}
+
+#adSpace01 {
+    grid-row: 1;
+}
+
+#adSpace02 {
+    margin-top: 2rem;
+    grid-row: 2;
+}
+
+/*ad-space action bar*/
+.adSpace-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: #98aaaf;
+}
+/* red 'x' button, should close individual ads*/
+.adSpace-exitButton {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 5%;
+    background-color: #e37052;
+    margin: .25rem;
+    align-content: center;
+    text-align: center;
+    font-size: .9rem;
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.adSpace-exitButton:hover {
+    cursor: pointer;
+    background-color: #ca583c;
+}
+
+/*advertisement image- actual img varies per ad*/
+.adSpace-img {
+    width: 13rem;
+    height: 13rem;
+    opacity: 100%;
+}
+
+.adSpace-img:hover {
+    cursor: pointer;
+    opacity: 85%;
+}
+
+
+/* M A I N    C O N T E N T*/
+

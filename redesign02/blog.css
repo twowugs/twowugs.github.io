@@ -1,0 +1,154 @@
+html { 
+    scrollbar-width: none;
+}
+    
+body {
+    background-color: rgb(218, 218, 218);
+    margin: 0;
+    padding: 0;
+    /*background-image: linear-gradient(#bac9da, #bad9da);*/
+}
+
+/*black bar at top of page*/ 
+#colorBlock-flexbox {
+    background-color: rgb(21, 21, 21);
+    height: .5rem;
+    width: 100%;
+}
+
+#title-text {
+    font-family: 'Fira Code', monospace;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.large-text {
+    font-size: 3rem;
+}
+
+.small-text {
+    font-size: 1.1rem;
+}
+
+.vertical-runner {
+    display: block;
+    background-color: #212121;
+    width: .3rem;
+    height: 35rem;
+    align-self: center;
+    border-radius: .5rem;
+}
+
+#page-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pageContent-flexbox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+}
+
+#sidebar-flexbox {
+    display: flex;
+    flex-direction: row;
+    width: 16rem;
+    height: 30rem;
+    font-family: 'Fira Code', monospace;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+    overflow-y: scroll;
+}
+
+#content-flexbox {
+    display: flex;
+    flex-direction: row;
+    border:.3rem;
+    border-width: .3rem .4rem .3rem .5rem ;
+    border-radius: .5rem;
+    border-color: #212121;
+    border-style: solid;
+    width: 65rem;
+    height: 43rem;
+    margin-top: 5rem;
+    background-color: #dadada;
+}
+
+#posts-flexbox {
+    display: flex;
+    flex-direction: column;
+    height: 45rem;
+    width: 52rem;
+    margin-left: 3rem;
+}
+
+#top-grid {
+    display: grid;
+    grid-template-columns: 50% 45%;
+    grid-template-rows: 16rem;
+    margin-top: 5rem;
+}
+
+#large-box {
+    display: flex;
+    flex-direction: row;
+    border-color: #212121;
+    border-width: .3rem;
+    border-radius: .5rem;
+    border-style: solid;
+}
+
+#bottom-grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 14rem;
+    column-gap: 1rem;
+    margin-top: 3rem;
+}
+
+.content-box {
+    display: block;
+    border-color: #212121;
+    border-width: .3rem;
+    border-style: solid;
+    border-radius: .5rem;
+}
+
+#bottomBox01 {
+    background-image: url("../redesign02/images/minigraphic.png");
+    background-position: center;
+    background-size: 15rem;
+}
+
+#bottomBox02 {
+    background-image: url("../redesign02/images/minigraphic2.png");
+    background-position: center;
+    background-size: 15rem;
+}
+
+#bottomBox03 {
+    background-image: url("../redesign02/images/minigraphic03.png");
+    background-position: center;
+    background-size: 15rem;
+}
+
+#buttons-grid {
+    display: grid;
+    grid-template-columns: 7rem 7rem;
+    grid-template-rows: 4rem;
+    column-gap: 1rem;
+    align-self: flex-end;
+    margin-top: 1rem;
+}
+
+.button {
+    display: block;
+    border-width: .3rem;
+    border-color: #212121;
+    border-style: solid;
+    border-radius: .5rem;
+}

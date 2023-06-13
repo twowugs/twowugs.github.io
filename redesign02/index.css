@@ -436,7 +436,7 @@ p {
 }
 
 
-/*black bar at top of page*/
+/*black bar at top of page*/ 
 #colorBlock-flexbox {
     background-color: rgb(21, 21, 21);
     height: .5rem;
@@ -514,7 +514,7 @@ p {
   }
 
 
-/*T E L E P H O N E   S C A L I N G ---------------------------------------------*/
+/* mainpage- T E L E P H O N E   S C A L I N G ----------------------------------*/
 /*-------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------*/
@@ -590,6 +590,7 @@ p {
         background-image: none;
         transition: 1s;
         overflow-x: hidden;
+        /*background-color: #212121;*/
     }
 
     #page-grid {
@@ -601,7 +602,35 @@ p {
         grid-template-columns: auto;
         grid-template-rows: auto;
         }   
+
+    #mobile-pageContent-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
 }
+
+/*page grid becomes flexbox oops!*/
+@media (max-width: 400px) {
+    #mobile-pageContent-grid {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       /* grid-template-columns: auto auto;
+        grid-template-rows: auto; */
+        margin-right: 1rem;
+        margin-left: 0rem;
+        column-gap: 0rem;
+    }
+
+    .mobile-text {
+        font-size: rem;
+    }
+  
+}
+
 
 
 
@@ -609,23 +638,26 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: #dadada;
 }
 #mobile-pageContent-flexbox {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 2rem;
+    padding-top: 2rem;
+    background-color: #dadada;
 }
 
 #mobile-pageContent-grid {
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: auto;
+    grid-template-rows: 16rem;
 }
 
 .mobile-main-image  {
     max-width: 10rem;
     margin-left: -.7rem;
+    object-fit: cover;
 }
 
 .mobile-main-link {
@@ -654,4 +686,36 @@ p {
     text-align: center;
     letter-spacing: .5rem;
     font-size: 1.5rem;
+}
+
+/* M O B I L E    P H O N E * --------------------------------------------/
+/*-----------------------------------------------------------------------*/
+
+/* main container*/
+
+#mobilePhone-flexbox {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    background-color: #212121;
+}
+
+
+
+#mobilePhoneAlert-flexbox {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Darumadrop One', cursive;
+    color: #dadada;
+    font-size: .8rem;
+    margin-right: 10%;
+    align-self: flex-end;
+    height: rem;
+}
+
+.phone-img {
+    height: 1rem;
+    width: 1rem;
+    margin-right: .5rem;
 }
