@@ -24,10 +24,12 @@ body {
 
 .large-text {
     font-size: 3rem;
+    font-family: 'Fira Code', monospace;
 }
 
 .small-text {
     font-size: 1.1rem;
+    font-family: 'Fira Code', monospace;
 }
 
 .vertical-runner {
@@ -94,12 +96,25 @@ body {
 }
 
 #large-box {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 2rem 2rem auto;
     border-color: #212121;
     border-width: .3rem;
     border-radius: .5rem;
     border-style: solid;
+    /*background-color: #212121;*/
+}
+
+#large-box-runner {
+    display: grid;
+    width: auto;
+    height: 2rem;
+    background-color: #212121;
+}
+
+#large-box-headertext {
+    margin-left: .5rem;
 }
 
 #bottom-grid {
@@ -151,4 +166,8 @@ body {
     border-color: #212121;
     border-style: solid;
     border-radius: .5rem;
+}
+
+.button:hover {
+    border-width: .4rem .4rem .3rem .3rem ;
 }
