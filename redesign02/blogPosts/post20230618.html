@@ -22,12 +22,51 @@
     <div id="page-flexbox">
         <div id="pageContent-flexbox">
             <div id="content-flexbox">
-                <div id="content-runner"></div>
+                <div id="content-runner">
+                    <a href="../blog.html"><div id="exit-button">X</div></a>
+                </div>
                 <div id="content-grid">
-                    
+                    <div></div>
+                    <div id="sidebar-flexbox">
+                        <div id="dropdown-toggle" onclick="toggleDropdown()">
+                            <!--<span class="drop-text">toggle sidebar</span>-->
+                            <span id="drop-arrow">&#10148;</span>
+                            <span id="horizontal-drop-arrow">&#10148;</span>
+                        </div>
+                        <div id="menu">
+                            <div id="container01" class="sidebar-contentContainer">
+                                <div id="pfp">
+                                    <img class="center-image" src="../images/kitten.gif">
+                                </div>
+                                <div id="bio">
+                                    meow meow meow meow . . .
+                                </div>
+                            </div>
+                            <div id="container02" class="sidebar-contentContainer">
+                                <span class="container-text">
+                                    <span class="bold">20230618 17:09</span>
+                                    <br>
+                                    text description?
+                                </span>
+                            </div>
+                            <div id="container03" class="sidebar-contentContainer">
+                                <div id="first-x" class="x-href"></div>
+                                <div class="x-href"></div>
+                                <div class="x-href"></div>
+                                <div class="x-href"></div>
+                                <div id="last-x" class="x-href"></div>
+                            </div>
+                            <div id="container03-nav">
+                                <a href="#first-x" class="left-arrow arrow"><span >&#10148;</span></a>
+                                <a href="#last-x" class="arrow"><span >&#10148;</span></a>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="../blogpost.js"></script>
 </body>
 </html>
