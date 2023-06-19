@@ -83,6 +83,9 @@ body {
     grid-template-columns: auto 17rem;
     grid-template-rows: 6rem auto;
     font-family: 'Fira Code', monospace;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    margin-bottom: 1rem;
 }
 
 #post-title {
@@ -97,7 +100,8 @@ body {
     font-size: 1rem;
     grid-row: 2;
     margin-left: 2rem;
-    margin-right: 3rem;
+    margin-right: 2rem;
+    padding-right: 1rem;
     overflow-y: scroll;
 }
 
