@@ -194,6 +194,7 @@ body {
 #large-box-headertext {
     margin-left: .5rem;
     overflow-y: scroll;
+    scrollbar-width: thin;
     padding-right: 1rem;
     padding-left: 1rem;
     padding-bottom: .5rem;
@@ -201,6 +202,10 @@ body {
 
 .entry {
     padding: .2rem;
+}
+
+#entry01 {
+    margin-bottom: .4rem;
 }
 
 .entry:hover {
@@ -271,17 +276,21 @@ body {
 
 a:link {
     text-decoration: none;
+    color: #212121;
   }
   
   a:visited {
     text-decoration: none;
+    color: #212121;
   }
 
   a:hover {
     text-decoration: none;
+    color: #212121;
   }
   
   a:active {
     text-decoration: none;
+    color: #212121;
   }
 
