@@ -81,6 +81,36 @@ body {
 #content-grid {
     display: grid;
     grid-template-columns: auto 17rem;
+    grid-template-rows: 6rem auto;
+    font-family: 'Fira Code', monospace;
+}
+
+#post-title {
+    grid-row: 1;
+    grid-column: 1;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;    
+}
+
+#post-text {
+    font-size: 1rem;
+    grid-row: 2;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    overflow-y: scroll;
+}
+
+.blank-large {
+    display: block;
+    width: 100%;
+    height: 1rem;
+}
+
+.blank-small {
+    display: block;
+    width: 100%;
+    height: .5rem;
 }
 
 #sidebar-flexbox {
@@ -90,7 +120,8 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 17rem;
-    overflow: hidden;
+    grid-column: 2;
+    grid-row: 1 / span 2;
 }
 
 #dropdown-toggle {
@@ -98,6 +129,7 @@ body {
     flex-direction: row;
     width: 85%;
     height: 2rem;
+    min-height: 2rem;
     justify-content: flex-end;
     align-items: center;
     background-color: #212121;
@@ -155,6 +187,7 @@ body {
 .container-text {
     margin-left: .5rem;
     margin-top: .5rem;
+    margin-right: .2rem;
 }
 
 .bold {
@@ -203,6 +236,8 @@ body {
 #container02 {
     display: flex;
     flex-direction: row;
+    overflow-y: scroll;
+    height: 8rem;
 }
 
 /* THIRD dropdown block*/
