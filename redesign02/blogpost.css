@@ -211,6 +211,8 @@ body {
     flex-direction: row;
     overflow-x: scroll;
     align-items: center;
+    height: 5rem;
+    scrollbar-width:thin;
 }
 
 #container03-nav {
@@ -244,19 +246,28 @@ body {
 
 .x-href {
     display:grid;
-    width: 4rem;
-    height: 4rem;
-    min-width: 4rem;
-    min-height: 4rem;
+    width: 3rem;
+    height: 3rem;
+    min-width: 3rem;
+    min-height: 3rem;
     margin-left: .5rem;
     margin-right: .5rem;
-    border-radius: .5rem;
-    background-color: #212121;
+    border-radius: 1.1rem;
+    background-color: #cccccc;
 }
 
-#first-x {
-    background-color: #b94e33;
+.x-href:hover {
+    box-shadow: 0 0 .2rem .2rem #a7a7a7;
+    cursor: pointer;
+    transition: .1s;
 }
+.social {
+    width: 2.5rem;
+    height: 2.5rem;
+    align-self: center;
+    justify-self: center;
+}
+
 
 /* LINKS -----------------------------*/
 
@@ -265,6 +276,14 @@ a:link {
   }
   
   a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
     text-decoration: none;
   }
 

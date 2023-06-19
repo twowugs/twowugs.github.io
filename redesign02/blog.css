@@ -266,3 +266,22 @@ body {
 .button:hover {
     border-width: .4rem .4rem .3rem .3rem ;
 }
+
+/* LINKS -----------------------------*/
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
