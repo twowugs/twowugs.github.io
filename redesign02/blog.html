@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="setReact()">
     <div id="colorBlock-flexbox"></div>
     <div id="page-flexbox">
         <div id="pageContent-flexbox">
@@ -47,7 +47,12 @@
                                 a crumpled little five-dollar bill, and trades it for a fish sandwich.
                             </div>
                             <div id="large-box-bottom-runner">
-                                <div class="small-box-icon">&#9829</div>
+                                <div>
+                                    <div id="heart" class="small-box-icon" onclick="toggleHeartReact()">&#9829</div>
+                                </div>
+                                <div onclick="toggleHeartReact()">
+                                    <div id="heart-red" class="small-box-icon color-red">&#9829</div>
+                                </div>
                                 <a href="../redesign02/blogPosts/posttwo.html"><div class="large-box-icon">> read more</div></a>
                             </div>
                         </div>
@@ -71,13 +76,13 @@
                         <span >> 20230618 21:12 TWO</span>
                     </a>
                     <!--entry three -->
-                    <span class="entry">> 20230618 13:31 THREE</span>
+                    <span class="entry no-post-yet">> 20230618 13:31 THREE</span>
                     <!--entry four -->
                     <a class="entry" href="../redesign02/blogPosts/postfour.html">
                         <span >> 20230618 13:31 FOUR</span>
                     </a>
                     <!--entry five -->
-                    <span class="entry">> 20230618 13:31 FIVE</span>
+                    <span class="entry no-post-yet">> 20230618 13:31 FIVE</span>
                 </div>
             </div>
             <div id="buttons-grid">
@@ -86,5 +91,6 @@
             </div>
         </div>
     </div>
+    <script src="../redesign02/blogPosts/heartReact.js"></script>
 </body>
 </html>

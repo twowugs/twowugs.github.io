@@ -177,10 +177,18 @@ body {
     border-style: solid solid solid solid;
     border-color: #212121;
     font-size: 1.2rem;
+    display: inline-block;
+}
+
+.color-red {
+    color: #ec8166;
+}
+
+#heart-red {
+    display: none;
 }
 
 .small-box-icon:hover {
-    color: #ec8166;
     cursor: pointer;
 }
 
@@ -273,6 +281,10 @@ body {
 }
 
 /* LINKS -----------------------------*/
+
+.no-post-yet {
+    color: #c54424;
+}
 
 a {
     color: #212121;
