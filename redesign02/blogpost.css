@@ -92,7 +92,7 @@ body {
     grid-row: 1;
     grid-column: 1;
     font-size: 2rem;
-    margin-left: 2rem;
+    margin-left: 2rem; 
     margin-top: 1rem;    
 }
 
@@ -210,6 +210,9 @@ body {
     display: grid;
     grid-template-columns: 4.7rem auto;
     grid-template-rows: 4.7rem auto;
+    animation: fadeInAnimation ease .82s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 #pfp {
@@ -242,6 +245,9 @@ body {
     flex-direction: row;
     overflow-y: scroll;
     height: 8rem;
+    animation: fadeInAnimation ease .84s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 /* THIRD dropdown block*/
@@ -252,6 +258,9 @@ body {
     align-items: center;
     height: 5rem;
     scrollbar-width:thin;
+    animation: fadeInAnimation ease .86s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 #container03-nav {
@@ -266,6 +275,9 @@ body {
     margin-top: .5rem;
     font-size: 1.5rem;
     justify-content: space-between;
+    animation: fadeInAnimation ease .867s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .left-arrow {
@@ -306,6 +318,17 @@ body {
     align-self: center;
     justify-self: center;
 }
+
+/* fade-in animation */
+
+/*@keyframes fadeInAnimation {
+    0% {
+        opacity: .105;
+    }
+    100% {
+        opacity: 1;
+    }
+}*/
 
 
 /* LINKS -----------------------------*/
