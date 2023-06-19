@@ -274,6 +274,10 @@ body {
 
 /* LINKS -----------------------------*/
 
+a {
+    color: #212121;
+}
+
 a:link {
     text-decoration: none;
     color: #212121;
