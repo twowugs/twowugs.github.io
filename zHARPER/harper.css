@@ -1,0 +1,43 @@
+
+/* THIS IS A COMMENT */
+/* this is a CSS file.*/
+/* here's where you can affect font size, font color, instructions for you divs, etc..*/
+/* this will make sense in a bit */
+
+body {
+    /* this references the "body" portion of your html page */
+    background-color: rgb(147, 177, 184);
+}
+
+    /* a "#" refers to an "id" from your HTML page */
+#page-grid {
+    display: grid;
+    /* here i've set the "page-grid" div to display as a grid */
+    grid-template-columns: auto;
+    /* this gives you one column that auto-fits to the size of its contents */
+    grid-template-rows: 5rem auto;
+    /* a "rem" is equivalent to 16px */
+    /* this gives you one row 5rem long, and another that will fit to the size of its contents */
+}
+
+#header-flexbox {
+    display: flex;
+    /* a flexbox's content is less rigidly placed than a grid */
+    flex-direction: row;/* here i've set the "page-grid" div to display as a grid */
+    /* the elements in this flexbox will appear/fit horizontally */
+    width: 100%;
+    /* this will make the flexbox fill 100% of it's parent element's size */
+    height: 100%;
+    /* same deal */
+    justify-content: center;
+    /* this centers the contents of this box */
+    background-image: linear-gradient(#bad9da, #bac9da);
+    /* pretty colors */
+    border-radius: 1rem;
+    /* round little corners */
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    /* text color */
+}
