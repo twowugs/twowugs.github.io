@@ -10,6 +10,25 @@ body {
     padding: 0;
 }
 
+#bottom-runner {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: center;
+    width: 90%;
+    height: 6rem;
+    background-color: #212121;
+    margin-top: 4rem;
+    border-radius: .5rem;
+}
+
+#bottom-runner-text {
+    margin-top: 1rem;
+    font-family: 'Space Mono';
+    color: #dadada;
+    text-align: center;
+}
+
 #page-grid {
     display: grid;
     grid-template-columns: auto;
