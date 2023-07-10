@@ -6,6 +6,13 @@ body {
     padding: 0;
 }
 
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  -webkit-user-drag: none;
+}
+
 .title-text {
     font-size: 9rem;
     margin-top: 1rem;
@@ -82,22 +89,44 @@ body {
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
-    overflow-x: scroll;
+    overflow: hidden;
     scrollbar-width: thin;
+    background-image: url("../images/field.png");
+    background-size: cover;
 }
 
-#stats {
+#stats01 {
+  margin-top: 2rem;
+}
+
+.stats {
     display: flex;
     flex-direction: row;
     min-width: 6rem;
     width: 43%;
-    max-width: 70rem;
+    max-width: 30rem;
     min-height: 2rem;
-    height: 4rem;
-    justify-content: center;
+    height: 3rem;
+    justify-content: flex-end;
+    align-items: center;
     margin-left: 3%;
     margin-right: auto;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    font-family: 'Fira Code', monospace;
+}
+
+.statusbar-segment {
+  width: 5%;
+  height: 50%;
+  max-width: 1.5rem;
+  margin-right: 1%;
+  margin-left: 1%;
+  border-radius: .7rem;
+  background-color: #212121;
+}
+
+#segment01 {
+  margin-right: 8%;
 }
 
 #bottomRunner-grid {
