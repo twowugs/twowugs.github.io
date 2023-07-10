@@ -1,0 +1,189 @@
+body {
+    background-color: #dadada;
+    color: #212121;
+    font-family: 'Bigshot One', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.title-text {
+    font-size: 9rem;
+    margin-top: 1rem;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+.header-text {
+    font-size: 1.4rem;
+    font-family: 'Fira Code', monospace;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.oval-border {
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: .4rem;
+    border-color: #212121;
+}
+
+#page-flexbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: left;
+    max-width: 100rem;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content-grid {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    width: 92%;
+    height: auto;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.3rem;
+    grid-template-rows: auto;
+    column-gap: 1rem;
+}
+
+#innerContent-flexbox {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#oval-container01 {
+    display: flex;
+    flex-direction: row;
+    min-width: 8rem;
+    width: 100%;
+    max-width: 70rem;
+    min-height: 2rem;
+    height: 5rem;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+#oval-container02 {
+    display: flex;
+    flex-direction: row;
+    min-width: 8rem;
+    width: 80%;
+    min-height: 2rem;
+    height: 5rem;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+}
+
+#bottomRunner-grid {
+    display: grid;
+    grid-template-columns: 7rem 7rem 7rem;
+    grid-template-rows: 7rem;
+    justify-content: end;
+    width: 95%;
+    height: fit-content;
+    position: absolute;
+    bottom: 0;
+    padding-right: 1rem;
+    max-width: 94rem;
+    margin-right: 4%;
+    padding-bottom: 2rem;
+}
+
+.icon {
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: .5rem;
+    margin-right: 1.5rem;
+    position: absolute;
+}
+
+.mirror {
+     transform: scaleX(-1);
+}
+
+
+
+/* sheep hover */
+@-webkit-keyframes hvr-hang {
+    0% {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+    50% {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+    }
+    100% {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+  }
+  @keyframes hvr-hang {
+    0% {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+    50% {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+    }
+    100% {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+  }
+  @-webkit-keyframes hvr-hang-sink {
+    100% {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+  }
+  @keyframes hvr-hang-sink {
+    100% {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+  }
+  .hvr-hang {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-hang:hover, .hvr-hang:focus, .hvr-hang:active {
+    -webkit-animation-name: hvr-hang-sink, hvr-hang;
+    animation-name: hvr-hang-sink, hvr-hang;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+    cursor: pointer;
+  }
+
+@media (max-width: 1273px) {
+    .title-text {
+        font-size: 7rem;
+    }
+}
+
