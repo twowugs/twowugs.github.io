@@ -1,5 +1,5 @@
 body {
-    background-color: #dadada;
+    background-color: #547973;
     color: #212121;
     font-family: 'Bigshot One', cursive;
     margin: 0;
@@ -32,6 +32,14 @@ body {
     border-style: solid;
     border-width: .4rem;
     border-color: #212121;
+}
+
+.runner {
+  display: flex;
+  flex-direction: row;
+  background-color: #212121;
+  width: 100%;
+  height: 4rem;
 }
 
 #page-flexbox {
@@ -95,6 +103,7 @@ body {
     background-size: cover;
 }
 
+
 #stats01 {
   margin-top: 2rem;
 }
@@ -113,11 +122,12 @@ body {
     margin-right: auto;
     margin-top: 1rem;
     font-family: 'Fira Code', monospace;
+    background-color: #212121;
 }
 
 .statusbar-segment {
   width: 5%;
-  height: 50%;
+  height: 40%;
   max-width: 1.5rem;
   margin-right: 1%;
   margin-left: 1%;
@@ -127,6 +137,23 @@ body {
 
 #segment01 {
   margin-right: 8%;
+  border-color: #bd4d31;
+  background-color: #bd4d31;
+}
+
+#segment02 {
+  border-color: #cc693b;
+  background-color: #cc693b;
+}
+
+#segment03 {
+  border-color: #e08243;
+  background-color: #e08243;
+}
+
+#segment04 {
+  border-color: #dba136;
+  background-color: #dba136;
 }
 
 #bottomRunner-grid {
@@ -136,8 +163,6 @@ body {
     justify-content: end;
     width: 95%;
     height: fit-content;
-    position: absolute;
-    bottom: 0;
     padding-right: 1rem;
     max-width: 94rem;
     margin-right: 4%;

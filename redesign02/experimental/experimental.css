@@ -1,0 +1,200 @@
+html {
+  background-image: url("../portfolio/images/blue.jpg");
+  background-size: cover;
+  background-color: #dadada;
+  scrollbar-width: none;
+}
+
+  /* M A I N-- G R I D S and F L E X B O X E S*/
+
+#main-grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  width: auto;
+  margin-left: 25%;
+  margin-top: 4%;
+}
+
+#fullSoundpad-grid {
+  display: inline-grid;
+  grid-template-columns: auto auto ;
+  grid-template-rows: auto;
+  grid-column-gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+#soundPad-flexbox {
+  display: flex;
+  flex-direction: row;
+  size: auto;
+}
+
+#keyBoard-flexbox {
+  display: flex;
+  flex-direction: row;
+}
+
+#fullKeyboard-grid {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  column-gap: 1.5rem;
+}
+
+ /* S O U N D P A D S*/
+
+.grid-container {
+    display: inline-grid;
+    grid-row-gap: 0px;
+    grid-column-gap: 0px;
+    grid-template-columns: 5rem 5rem 5rem;
+    grid-template-rows: 5rem 5rem 5rem;
+    background-color:  #d7cfce67;
+    padding: 7px;
+    margin-top: 4%;
+    border-radius: 8px;
+    align-content: center;
+    column-gap: 3px;
+    row-gap: 3px; 
+    box-shadow: 2rem;
+    box-shadow: #292929a5;
+    border: .5px solid  rgba(179, 179, 179, 0.8);
+  }
+  
+  .grid-item {
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    border: .5px solid  rgba(122, 122, 122, 0.8);
+    border-radius: 8px;
+    padding: 5px;
+    
+  }
+
+  .padClicked { 
+    background-color:#a8b8bd86;
+  }
+  .grid-item:hover {
+    background-color:#cbcdd0ca;
+  }
+
+ #decorativeKnob-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  margin-top: 5rem;
+}
+
+.decorative-knob {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 20px;
+  margin-left: .7rem;
+}
+  
+ /* .onClick {
+    size: 200%;
+    background: green;
+  }
+  */
+
+
+
+#keyboard-grid {
+  display: inline-grid;
+    grid-row-gap: .5px;
+    grid-column-gap: .5rem;
+    grid-template-columns: 2rem 2rem 2rem 2rem 2rem 2rem 2rem 2rem;
+    grid-template-rows: 2rem auto ;
+    background-color:  #d7cfce67;
+    padding: 7px;
+    padding-top: .6rem;
+    margin-top: 2%;
+    border-radius: 8px;
+    padding-right: 1rem;
+    align-content: center;
+    column-gap: .3rem;
+    row-gap: .3rem; 
+    max-width: 20rem;
+    box-shadow: 2rem;
+    box-shadow: #292929a5;
+    border: .5px solid  rgba(179, 179, 179, 0.8);
+}
+
+.key {
+  height: 4rem;
+  width: 1.5rem;
+  border: .5px solid  rgba(122, 122, 122, 0.8);
+  border-radius: 1rem;
+  padding-left: .1rem;
+  padding: 5px;
+}
+
+.key:hover {
+  background-color:#cbcdd0ca;
+}
+
+.blackKey {
+  height: 1rem;
+  width: 1rem;
+  border: .5px solid  rgba(122, 122, 122, 0.8);
+  border-radius: 1rem;
+  padding: 5px;
+  background-color:#292929a5;
+}
+.blackKey:hover {
+  background-color:#292929ca;
+}
+
+.blank {
+  height: 1rem;
+  width: .1rem;
+}
+
+#octave-bar {
+  display: grid;
+  grid-template-columns: 1.5rem;
+  grid-template-rows: 1rem 1rem 1rem 1rem 1rem;
+  background-color:  #d7cfce67;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-content: center;
+  padding-left: .4rem;
+  row-gap: .3rem;
+  border-radius: .6rem;
+  padding-top: .3rem;
+  box-shadow: #292929a5;
+  border: .5px solid  rgba(179, 179, 179, 0.8);
+}
+
+.octave-fraction {
+  height: 1rem;
+  width: 1rem;
+  border: .5px solid  #78706b96;;
+  border-radius: .2rem;
+  background-color:  #e2d5cd8c;
+}
+
+.octave-fraction:hover {
+  background-color:  #b3a59d96;
+}
+
+.fraction01Clicked {
+  background-color:  #b3a59d96;
+}
+
+.fraction02Clicked {
+  background-color:  #b3a59d96;
+}
+
+.fraction03Clicked {
+  background-color:  #b3a59d96;
+}
+
+#increase-icon {
+  align-content: center;
+}
+
+.text-icon {
+  color: rgb(81, 81, 81);
+  cursor: default;
+}
