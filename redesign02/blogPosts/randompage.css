@@ -35,7 +35,7 @@ body {
 }
 
 .runner {
-  display: flex;
+  display: flex; 
   flex-direction: row;
   background-color: #212121;
   width: 100%;
@@ -125,6 +125,11 @@ body {
     background-color: #212121;
 }
 
+h2 {
+  color:#a8a391;
+  padding-right: 10%;
+}
+
 .statusbar-segment {
   width: 5%;
   height: 40%;
@@ -159,7 +164,7 @@ body {
 #bottomRunner-grid {
     display: grid;
     grid-template-columns: 7rem 7rem 7rem;
-    grid-template-rows: 7rem;
+    grid-template-rows: 2rem 7rem;
     justify-content: end;
     width: 95%;
     height: fit-content;
@@ -168,6 +173,21 @@ body {
     margin-right: 4%;
     padding-bottom: 2rem;
 }
+
+
+/* trying to make text appear above the creature on hover, failing */
+/*
+#hover-text01 {
+  color:#547973;
+  padding-bottom: 1rem;
+}
+*/
+
+/*
+ #block01:hover > #bottomRunner-grid #hover-text01{
+  color: #212121;
+}
+*/
 
 .icon {
     width: 6rem;
