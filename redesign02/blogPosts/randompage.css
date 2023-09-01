@@ -126,7 +126,7 @@ body {
 }
 
 h2 {
-  color:#a8a391;
+  color:#547973;
   padding-right: 10%;
 }
 
@@ -175,13 +175,15 @@ h2 {
 }
 
 
+
 /* trying to make text appear above the creature on hover, failing */
-/*
+
 #hover-text01 {
-  color:#547973;
+  color:#212121;
   padding-bottom: 1rem;
+  font-size: medium;
 }
-*/
+
 
 /*
  #block01:hover > #bottomRunner-grid #hover-text01{

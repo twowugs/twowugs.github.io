@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="randompage.css">
 </head>
 <body>
+    <div class="runner"></div>
     <div id="page-flexbox">
-        <div class="runner"></div>
         <div class="title-text">
             cozy housepage
         </div>
@@ -28,43 +28,44 @@
             </div>
         </div>
         <div id="stats01" class="stats oval-border">
-            <h2>bouba</h2>
+            <h2 id="bouba">bouba</h2>
             <div id="segment04" class="statusbar-segment oval-border"></div>
             <div id="segment03" class="statusbar-segment oval-border"></div>
             <div id="segment02" class="statusbar-segment oval-border"></div>
             <div id="segment01" class="statusbar-segment oval-border"></div>
         </div>
         <div id="stats02" class="stats oval-border">
-            <h2>hound</h2>
+            <h2 id="hound">hound</h2>
             <div id="segment04" class="statusbar-segment oval-border"></div>
             <div id="segment03" class="statusbar-segment oval-border"></div>
             <div id="segment02" class="statusbar-segment oval-border"></div>
             <div id="segment01" class="statusbar-segment oval-border"></div>
         </div>
         <div id="stats03" class="stats oval-border">
-            <h2>trout</h2>
+            <h2 id="trout">trout</h2>
             <div id="segment04" class="statusbar-segment oval-border"></div>
             <div id="segment03" class="statusbar-segment oval-border"></div>
             <div id="segment02" class="statusbar-segment oval-border"></div>
             <div id="segment01" class="statusbar-segment oval-border"></div>
         </div>
         <div id="bottomRunner-grid">
-            <!--
-            <h3 id="hover-text01">.. .z z Z</h3>
-            <h3 id="hover-text02">.. .z z Z</h3>
-            <h3 id="hover-text03">.. .z z Z</h3>
-            -->
+            <!--HOVER TEXT!? WILL IT WORK?-->
+            <span id="hover-text01">.. .z z Z</span>
+            <span id="hover-text02">.. .z z Z</span>
+            <span id="hover-text03">.. .z z Z</span>
+
             <div id="block01" class="block">
-              <img id="sheep01" class="icon hvr-hang" src="../images/icon.png">  
+              <img id="sheep01" class="icon hvr-hang" onpointerover="toggleSheep01()" src="../images/icon.png" >  
             </div>
             <div id="block02">
-              <img id="sheep02" class="icon hvr-hang" src="../images/icon.png">  
+              <img id="sheep02" class="icon hvr-hang" onpointerover="toggleSheep02()" src="../images/icon.png">  
             </div>
             <div id="block03">
-               <img id="sheep03" class="icon hvr-hang" src="../images/icon.png"> 
+               <img id="sheep03" class="icon hvr-hang" onpointerover="toggleSheep03()" src="../images/icon.png"> 
             </div>
         </div>
         
     </div> 
+    <script src="randompage.js"></script>
 </body>
 </html>
