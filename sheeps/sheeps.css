@@ -1,0 +1,311 @@
+body {
+    background-color: #8c9493;
+    color: #212121;
+    font-family: 'Bigshot One', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  -webkit-user-drag: none;
+}
+ 
+.title-text {
+    font-size: 9rem;
+    margin-top: 1rem;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+.header-text {
+    font-size: 1.4rem;
+    font-family: 'Fira Code', monospace;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.oval-border {
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: .4rem;
+    border-color: #212121;
+}
+
+.runner {
+  display: flex; 
+  flex-direction: row;
+  background-color: #212121;
+  width: 100%;
+  height: 4rem;
+}
+
+#page-flexbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: left;
+    max-width: 100rem;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content-grid {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    width: 92%;
+    height: auto;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.3rem;
+    grid-template-rows: auto;
+    column-gap: 1rem;
+}
+
+#innerContent-flexbox {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#oval-container01 {
+    display: flex;
+    flex-direction: row;
+    min-width: 8rem;
+    width: 100%;
+    max-width: 70rem;
+    min-height: 2rem;
+    height: 5rem;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+#oval-container02 {
+    display: flex;
+    flex-direction: row;
+    min-width: 8rem;
+    width: 80%;
+    min-height: 2rem;
+    height: 5rem;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    scrollbar-width: thin;
+    background-image: url("images/field.png");
+    background-size: cover;
+}
+
+
+#stats01 {
+  margin-top: 2rem;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    min-width: 6rem;
+    width: 35%;
+    max-width: 30rem;
+    min-height: 2rem;
+    height: 3rem;
+    justify-content: flex-start;
+    margin-left: 3%;
+    margin-right: auto;
+    margin-top: 1rem;
+    font-family: 'Fira Code', monospace;
+    background-color: #212121;
+}
+
+#stats01 {
+  display: flex;
+  flex-direction: column;
+  height: 12rem;
+}
+
+.light-blue-text {
+  color: #b3bbba;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.right-align {
+  align-self: flex-end;
+  margin-bottom: .5rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+
+.right-align:hover {
+  color:#cca99f;
+  cursor: pointer;
+}
+
+h2 {
+  color:#b3bbba;
+  padding-right: 5%;
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+  overflow-wrap: normal;
+  font-weight: 200;
+  font-size: 1.1rem;
+}
+
+.statusbar-segment {
+  width: 5%;
+  height: 40%;
+  max-width: 1.5rem;
+  margin-right: 1%;
+  margin-left: 1%;
+  border-radius: .7rem;
+  background-color: #212121;
+}
+
+/*
+#segment01 {
+  margin-right: 8%;
+  border-color: #bd4d31;
+  background-color: #bd4d31;
+}
+
+#segment02 {
+  border-color: #cc693b;
+  background-color: #cc693b;
+}
+
+#segment03 {
+  border-color: #e08243;
+  background-color: #e08243;
+}
+
+#segment04 {
+  border-color: #dba136;
+  background-color: #dba136;
+}
+*/
+
+#bottomRunner-grid {
+    display: grid;
+    grid-template-columns: 7rem 7rem 7rem;
+    grid-template-rows: 2rem 7rem;
+    justify-content: end;
+    width: 95%;
+    height: fit-content;
+    padding-right: 1rem;
+    max-width: 94rem;
+    margin-right: 4%;
+    padding-bottom: 2rem;
+}
+
+
+
+/* trying to make text appear above the creature on hover, failing */
+
+#hover-text01 {
+  color:#212121;
+  padding-bottom: 1rem;
+  font-size: medium;
+}
+
+
+/*
+ #block01:hover > #bottomRunner-grid #hover-text01{
+  color: #212121;
+}
+*/
+
+.icon {
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: .5rem;
+    margin-right: 1.5rem;
+    position: absolute;
+}
+
+.mirror {
+     transform: scaleX(-1);
+}
+
+
+
+/* sheep hover */
+@-webkit-keyframes hvr-hang {
+    0% {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+    50% {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+    }
+    100% {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+  }
+  @keyframes hvr-hang {
+    0% {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+    50% {
+      -webkit-transform: translateY(2px);
+      transform: translateY(2px);
+    }
+    100% {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+  }
+  @-webkit-keyframes hvr-hang-sink {
+    100% {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+  }
+  @keyframes hvr-hang-sink {
+    100% {
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+  }
+  .hvr-hang {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-hang:hover, .hvr-hang:focus, .hvr-hang:active {
+    -webkit-animation-name: hvr-hang-sink, hvr-hang;
+    animation-name: hvr-hang-sink, hvr-hang;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+    cursor: pointer;
+  }
+
+@media (max-width: 1273px) {
+    .title-text {
+        font-size: 7rem;
+    }
+}
+

@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#8c9493;
+}
+
+/*.blur {
+    display: block;
+    opacity: 80%;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px 10px #555;
+}
+*/
+
+/* ---- GRADIENT ORB ---- */
+/* ------ CONTAINER -----*/
+
+#gradient-circle-container {
+    display: grid;
+    grid-template-columns: 5rem;
+    grid-template-rows: 5rem;
+    height: 5rem;
+    width: 5rem;
+    padding: 5rem;
+    align-items: center;
+    justify-items: center;
+}
+
+/* orb, colored layers */
+#orb01 {
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2.5rem;
+    box-shadow: 0 0 5px 10px #b67069;
+    background-color: #b67069;
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 1;
+}
+
+#orb02 {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2.5rem;
+    box-shadow: 0 0 5px 10px #9cb0d8;
+    background-color: #9cb0d8;
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 2;
+}
+
+#orb03 {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 10px #9abdca;
+    background-color: #9abdca;
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 3;
+}
+/*
+#orb04 {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 10px #aac0be;
+    background-color: #aac0be;
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 3;
+}
+*/
+
+
