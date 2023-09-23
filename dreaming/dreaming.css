@@ -1,0 +1,58 @@
+body{
+    background-color: #212121;
+}
+
+#page-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 40rem;
+}
+
+#chat-flexbox {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    min-width: 13rem;
+    min-height: 15rem;
+    height: fit-content;
+    margin: 3rem;
+    background-color: #383f3f;
+    padding: 4rem 2rem 2rem 3rem;
+    /*box-shadow: #47574f 0rem 0rem .2rem .4rem;*/
+    border-radius: 2rem;
+    justify-content: flex-end;
+    
+}
+
+#chatMessage-block {
+    display: inline-block;
+    width: 80%;
+    max-width: 23rem;
+    min-height: 30%;
+    border-radius: 3rem;
+    height: fit-content;
+    margin-bottom: 1rem;
+}
+
+.chat-text {
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #212121;
+    padding: .5rem 2rem .5rem 1rem;
+}
+
+.green {
+    background-color: #6eb392;
+    align-self: flex-end;
+    text-align: end;
+    margin-left: 10%;
+}
+
+.white {
+    background-color: #9dc499;
+    align-self: flex-start;
+    text-align: start;
+    max-width: fit-content;
+}

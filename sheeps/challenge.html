@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caprasimo&family=Fira+Code:wght@500&family=Flow+Circular&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap" rel="stylesheet">     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>softest</title>
     <link rel="stylesheet" href="challenge.css">
 </head>
-<body>
-   <!-- <div class="blur">
-        <img src="images/softer-optimized.png">
+<body onload="drawCurve()">
+    <div id="runner"></div>
+    <div id="page-flexbox">
+        <canvas id="canvas0"></canvas>
+        <div class="speech">
+            <span class="pad-edges">i can feel the stars on my back</span>
+        </div>
+        <div id="gradient-circle-container">
+            <span id="orb01"></span>
+            <span id="orb02"></span>
+            <span id="orb03"></span>
+            <!--<img class="sheep-god" src="images/icon.png">-->
+            <!-- here's where i svg a sheep and put it in the middle of the orb!-->
+        </div>
+        <canvas id="canvas"></canvas>
     </div>
--->
-    <div id="gradient-circle-container">
-        <span id="orb01"></span>
-        <span id="orb02"></span>
-        <span id="orb03"></span>
-        <!-- here's where i svg a sheep and put it in the middle of the orb!-->
-    </div>
+    <script src="breath2.js"></script>
 </body>
 </html>
+

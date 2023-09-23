@@ -1,27 +1,40 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:#8c9493;
+    background-color:#9daaaa;
 }
 
-/*.blur {
+#runner {
     display: block;
-    opacity: 80%;
-    border-radius: 1rem;
-    box-shadow: 0 0 5px 10px #555;
+    width: 100%;
+    height: 1rem;
+    background-color: #b67069;
 }
-*/
+
+#page-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+#canvas {
+    display: block;
+    height: 200px;
+    width: 500px;
+    z-index: 0;
+}
 
 /* ---- GRADIENT ORB ---- */
 /* ------ CONTAINER -----*/
 
 #gradient-circle-container {
     display: grid;
-    grid-template-columns: 5rem;
-    grid-template-rows: 5rem;
-    height: 5rem;
-    width: 5rem;
-    padding: 5rem;
+    grid-template-columns: 7rem;
+    grid-template-rows: 7rem;
+    height: 7rem;
+    width: 7rem;
+    padding: 2rem;
     align-items: center;
     justify-items: center;
 }
@@ -29,9 +42,9 @@ body {
 /* orb, colored layers */
 #orb01 {
     display: block;
-    width: 5rem;
-    height: 5rem;
-    border-radius: 2.5rem;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 3.5rem;
     box-shadow: 0 0 5px 10px #b67069;
     background-color: #b67069;
     grid-row: 1;
@@ -41,8 +54,8 @@ body {
 
 #orb02 {
     display: block;
-    width: 4rem;
-    height: 4rem;
+    width: 5.2rem;
+    height: 5.2rem;
     border-radius: 2.5rem;
     box-shadow: 0 0 5px 10px #9cb0d8;
     background-color: #9cb0d8;
@@ -53,8 +66,8 @@ body {
 
 #orb03 {
     display: block;
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 2rem;
     box-shadow: 0 0 5px 10px #9abdca;
     background-color: #9abdca;
@@ -62,6 +75,32 @@ body {
     grid-column: 1;
     z-index: 3;
 }
+
+.sheep-god {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 4;
+    padding-bottom: .5rem;
+    opacity: 92%;
+}
+
+.speech {
+    font:bolder;
+    font-family: 'Fira Code', monospace;
+    color: #c7dfdf;
+    box-shadow: 0 0 5px 10px #a77975c0;
+    background-color: #a77975c0;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+}
+
+.pad-edges {
+    padding: .5rem;
+}
+
 /*
 #orb04 {
     display: block;

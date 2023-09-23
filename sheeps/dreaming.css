@@ -1,0 +1,47 @@
+#gradient-circle-container {
+    display: grid;
+    grid-template-columns: 7rem;
+    grid-template-rows: 7rem;
+    height: 9rem;
+    width: 9rem;
+    padding: 2rem;
+    align-items: center;
+    justify-items: center;
+}
+
+/* orb, colored layers */
+#orb01 {
+    display: block;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 4rem;
+    box-shadow: 0 0 5px 10px #b67069;
+    background-color: #b67069;
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 1;
+}
+
+#orb02 {
+    display: block;
+    width: 5.2rem;
+    height: 5.2rem;
+    border-radius: 2.5rem;
+    box-shadow: 0 0 5px 15px #9cb0d8;
+    background-color: #9cb0d8;
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 2;
+}
+
+#orb03 {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 10px #9abdca;
+    background-color: #9abdca;
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 3;
+}
