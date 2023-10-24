@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 95.01 125.94">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-3 {
+        font-family: UtroligtDEMO-Regular, 'Utroligt DEMO';
+        font-size: 14.48px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #4a557e;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-8 {
+        fill: none;
+        stroke: #4a557e;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        font-family: BrushScriptMT, 'Brush Script MT';
+        font-size: 20.52px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_9" data-name="Layer 9">
+    <g>
+      <rect class="cls-8" x=".5" y=".5" width="94.01" height="124.94"/>
+      <path class="cls-8" d="M94.51,118.77s-32.19,.78-32.36-1.18c-.17-1.96,4.34-3.33,4.34-3.33l5.5-1.76,.33-13.51c.51-10.22,.22-17.07-.06-20.97-.09-1.27-.2-2.52-.84-3.91-2.25-4.91-7.07-6.19-11.61-7.05-9.34-1.76-6.51-17.63-6.51-17.63h41.2V118.77Z"/>
+      <polyline class="cls-8" points="84.09 49.02 83.96 35.89 75.98 35.89 75.98 38.83"/>
+      <rect class="cls-8" x="65.56" y="46.63" width="2.35" height="2.55"/>
+      <rect class="cls-8" x="92.16" y="46.9" width="2.35" height="2.55"/>
+      <line class="cls-8" x1="94.51" y1="51.6" x2="55.8" y2="51.6"/>
+      <text class="cls-3" transform="translate(9.43 41.69) rotate(-8.73) scale(1.16 1)"><tspan x="0" y="0">Dip </tspan><tspan class="cls-2" x="18.81" y="0">y</tspan><tspan class="cls-1" x="24.91" y="0">our</tspan><tspan class="cls-7" x="0" y="17.38">T</tspan><tspan class="cls-5" x="5.63" y="17.38">O</tspan><tspan class="cls-6" x="12.93" y="17.38">E</tspan><tspan x="17.35" y="17.38">s</tspan></text>
+      <text class="cls-4" transform="translate(12.67 78.32) scale(1.16 1)"><tspan x="0" y="0">in the </tspan><tspan x="8.12" y="14.93">sink</tspan></text>
+    </g>
+  </g>
+</svg>

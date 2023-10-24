@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d9d6c9;
+}
+
+#splash {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+    height: 50rem;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 4rem;
+}
+
+#horizontal-graphic-flexbox {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+.cls-1 {
+    fill: #4a557e;
+  }
+
+#graphic-cat {
+    height: 8rem;
+    align-self: flex-end;
+    margin-bottom: 1rem;
+}
+
+#graphic-ily {
+    height: 12rem;
+    align-self: flex-end;
+    margin: 0 10rem 5rem 0;
+}
+
+#graphic-lightbeam {
+    width: 60rem;
+}

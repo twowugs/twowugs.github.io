@@ -1,0 +1,131 @@
+
+body {
+    /*background-color: #475580;*/
+    background-color: #d9d6c9;
+    color: #475580;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#page-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+#emailwindow-grid {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    min-width: 20rem;
+    border:#475580;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#emailwindow-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border:#475580;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    padding: .5rem;
+}
+
+#emailwindow-inbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#left-box {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border:#475580;
+    border-width: 0 2px 0 0;
+    border-style: solid;
+    max-width: fit-content;
+}
+
+.emailclick {
+    display: block;
+    flex-direction: column;
+    border:#475580;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    padding: .5rem;
+}
+
+.last {
+    border:#475580;
+    border-width: 0 0 0 0;
+    border-style: solid;
+}
+
+#right-box {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 1rem;
+    margin: .5rem;
+    border:#475580;
+    border-width: 2px;
+    border-style: solid;
+    overflow-y: scroll;
+}
+
+/* list menu */
+ul {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+
+#dropdown {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+#currentpage-menu {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+/* text settings */
+
+p {
+    padding: .5rem .5rem .5rem .5rem;
+}
+
+/*links*/
+a:link {
+    color: #475580;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
+
+#homelink a:link {
+    color: #bd5333;
+}
+
+#homelink a:hover {
+    color: #bd5333;
+}
+
+#dropdown a:hover {
+    color: #bd5333;
+}

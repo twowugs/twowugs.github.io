@@ -1,0 +1,324 @@
+body {
+    /*background-color: #475580;*/
+    background-color: #d9d6c9;
+    color: #475580;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+#page-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* i removed this div */
+/*
+#header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    max-width: fit-content;
+    column-gap: 1rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+*/
+
+/* two columns for uhhhhhhhh whatever*/
+#fuckme {
+    display: grid;
+    grid-template-columns: 1.3fr 3fr;
+    grid-template-rows: auto;
+    max-width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    column-gap: 3rem;
+    margin-top: 3rem;
+}
+
+#left-box {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.adbox {
+    /*background-color: #475580;*/
+    border: #475580;
+    border-style: solid;
+    border-width: 2px;
+    /*color: #d9d6c9;*/
+    color: #475580;
+    border-radius: 1rem;
+}
+
+#adbox-top {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 7% auto;
+}
+
+#adbox-bottom {
+    display: grid;
+}
+
+#right-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#topbox {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    /*background-color: #475580;*/
+    border: #475580;
+    border-style: solid;
+    border-width: 2px;
+    /*color: #d9d6c9;*/
+    color: #475580;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+#doublebox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#tinybox-left {
+    display: block;
+    width: 40%;
+    height: 8rem;
+    /*background-color: #475580;*/
+    border: #475580;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 1rem;
+    /*tbh i have no idea how tthis got here but im gonna leave it just in case*/
+   /* display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
+    column-gap: 1rem;
+    */
+}
+
+#tinybox-right {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 55%;
+    height: 8rem;
+    /*background-color: #475580;*/
+    border: #475580;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+iframe {
+    opacity: .6;
+    padding: 0;
+    width: 30rem;
+}
+
+#video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 12rem;
+    background-color: #475580;
+    color: #d9d6c9;
+    border-radius: 1rem;
+    opacity: .8;
+}
+
+#video:hover {
+    opacity: .9;
+}
+
+#video:hover > #play {
+    opacity: .9;
+}
+
+#play {
+    background-color:#d9d6c9;
+    color: #475580;
+    opacity: .8;
+    padding: .7rem;
+    border-radius: 2rem;
+}
+
+#play:hover {
+    cursor: pointer;
+    border: #adadab;
+    border-width: 2px;
+    border-style: solid;
+}
+
+/* list menu */
+ul {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+
+#dropdown {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+#currentpage-menu {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+/* text settings */
+
+p {
+    padding: .5rem .5rem .5rem .5rem;
+}
+
+/*links*/
+a:link {
+    color: #475580;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #475580;
+}
+a:active {
+    color: #2d5a80;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+    color: #2d5a80;
+}
+
+#homelink a:link {
+    color: #bd5333;
+}
+
+#homelink a:visited {
+    color: #bd5333;
+}
+
+#homelink a:active {
+    color: #bd5333;
+    text-decoration: underline;
+}
+
+#dropdown a:hover {
+    color: #bd5333;
+}
+
+.mainlink a:link {
+    color: #4a557e;
+    text-decoration: none;
+}
+
+.mainlink a:hover {
+    color: #bd5333;
+}
+
+.mainlink a:active {
+    text-decoration: underline;
+    color: #bd5333;
+}
+
+.mainlink a:visited {
+    color: #bd5333;
+}
+
+.currentlink a:link {
+    color: #4a557e;
+    text-decoration: none;
+}
+
+.currentlink a:hover {
+    color: #bd5333;
+    text-decoration: none;
+}
+
+.currentlink a:visited {
+    color: #4a557e;
+    text-decoration: none;
+}
+
+.currentlink a:active {
+    color: #bd5333;
+    text-decoration: underline;
+}
+
+.bluelink a:link {
+    color: #475580;
+    text-decoration: none;
+}
+
+.bluelink a:visited {
+    color: #475580;
+    text-decoration: none;
+}
+
+.bluelink a:hover {
+    color:#bd5333;
+}
+
+.bluelink a:active {
+    color:#bd5333;
+    text-decoration: underline;
+}
+
+
+
+
+#splash {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+    height: 50rem;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 4rem;
+}
+
+#horizontal-graphic-flexbox {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+.cls-1 {
+    fill: #4a557e;
+  }
+
+#graphic-cat {
+    height: 8rem;
+    align-self: flex-end;
+    margin-bottom: 1rem;
+}
+
+#graphic-ily {
+    height: 12rem;
+    align-self: flex-end;
+    margin: 0 10rem 5rem 0;
+}
+
+#graphic-lightbeam {
+    width: 60rem;
+}

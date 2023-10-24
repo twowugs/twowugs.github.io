@@ -1,0 +1,108 @@
+body {
+    /*background-color: #475580;*/
+    background-color: #d9d6c9;
+    color: #475580;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+#page-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+/* list menu */
+ul {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+
+#dropdown {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+#currentpage-menu {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+/* end of list menu */
+
+
+
+/* links */
+
+a:link {
+    color: #475580;
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #bd5333;
+    text-decoration: none;
+}
+
+a:active {
+    color: #bd5333;
+    text-decoration: underline;
+}
+
+.orangelink a:link {
+    color: #bd5333;
+    text-decoration: none;
+}
+
+.orangelink a:visited {
+    color: #bd5333;
+    text-decoration: none;
+}
+
+.orangelink a:hover {
+    color: #bd5333;
+    text-decoration: underline;
+}
+
+.orangelink a:active {
+    color: #bd5333;
+    text-decoration: underline;
+}
+
+.bluelink a:link {
+    color: #475580;
+    text-decoration: none;
+}
+
+.bluelink a:visited {
+    color: #475580;
+    text-decoration: none;
+}
+
+.bluelink a:hover {
+    color:#bd5333;
+    text-decoration: underline;
+}
+
+.bluelink a:active {
+    color:#bd5333;
+    text-decoration: underline;
+}
+
+/* matrix */
+
+canvas {
+    display: block;
+    color: #475580;
+}
