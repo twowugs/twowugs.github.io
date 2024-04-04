@@ -13,7 +13,7 @@ body {
 }
 
 #page-flex {
-    background: url(visuals/smokebreak00.png);
+    background: url(visuals/drive-thru-empty.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -53,10 +53,6 @@ p {
     background-color: #060607;
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
-}
-
-.game-text:hover {
-    cursor: pointer;
 }
 
 .small {
@@ -135,3 +131,4 @@ a:visited {
 
 /* M E D I A    Q U E R I E S */
 /*----------------------------------------------------*/
+
