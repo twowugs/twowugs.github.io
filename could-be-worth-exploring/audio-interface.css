@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #060607;
+    /*background-image: url(visuals/thunder-road.gif);*/
+    /*background: url(visuals/cherries.gif);*/
+    background-size: 40rem;
+    text-align: right;
+}
+
+#page-flex {
+    background: url(visuals/beach.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 95vw;
+    height: 93vh;
+    margin-top: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#temporary-forward-button {
+    display: block;
+    position: fixed;
+    top: 10rem;
+    right: 5rem;
+    font-size: 4rem;
+}
+
+span {
+    visibility: visible;
+    display: inline;
+}
+
+p {
+    color: #dadada;
+    padding: 0 10px 0 0;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p > desc {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+}
+
+.container:hover > .game-text {
+    display: block;
+}
+
+/* text that displays when a gadget is hovered over */
+.game-text {
+    display: none;
+    color: #dadada;
+    background-color: #060607;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+/*interactive item on left side of page*/
+.gadget-img {
+    max-width: 20rem;
+    max-height: auto;
+    padding: 1rem;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+/* FRIENDLY REMINDER THIS DOESN'T ACTUALLY WORK AND 
+THE iPOD NEEDS TO BE SET AS THE BACKGROUND OF A DIV 
+WITH THIS LAYED OVER IT??? OH WAIT UHHH actually it has to be behind
+I'M GOING TO JUST DIE I THINK...*/
+/* SONG OPTIONS:*/
+/* minecraft disc-- that scary one*/
+#audio-interface {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #060607;
+    width: 17rem;
+    height: 12.5rem;
+    left: calc(2vw + 3rem);
+    bottom: calc(5vh + 20rem);
+    overflow-y: scroll;
+    z-index: 1;
+}
+
+/* corresponding HTML page-- lines 20-25 */
+/*
+#navigation-header {
+    border-width: 0 2px 2px 2px;
+    border-style: solid;
+    border-color: #919191;
+    border-radius: 5px;
+    padding: .5rem;
+    max-width: 100%;
+    margin-bottom: .5rem;
+}
+
+#navigation-header > p {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+}
+*/
+
+.audio-option {
+    display: grid;
+    position: relative;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 1;
+    /* this moves around... help!*/
+    margin-left: 1rem;
+    margin-top: 8px;
+    border-color:#772e2e;
+    border-style: dotted;
+    border-width: 0 0 2px 0;
+}
+
+.audio-properties:hover > p {
+    color: #aa0505;
+    cursor: pointer;
+    transition: .1s;
+    margin-left: 0;
+}
+
+.audio-properties {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    transition: .1s;
+    row-gap: .8rem;
+    padding: .6rem;
+}
+
+.audio-properties > p {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.album-art {
+    display: block;
+    max-width: 3rem;
+}
+/* i coded this months ago. don't ask what this does. i don't know*/
+.window {
+    right: 0;
+    margin-left: auto;
+    position: absolute;
+}
+
+a:link {
+    color: #dadada;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #dadada;
+    text-decoration: none;
+}
+
+a:active {
+    color: #aa0505;
+    text-decoration: underline;
+}
+a:visited {
+    text-decoration: none;
+}
+
+

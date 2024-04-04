@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #060607;
+    /*background-image: url(visuals/thunder-road.gif);*/
+    /*background: url(visuals/cherries.gif);*/
+    background-size: 40rem;
+    text-align: right;
+}
+
+#page-flex {
+    background: url(visuals/beach.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 95vw;
+    height: 93vh;
+    margin-top: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+p {
+    color: #dadada;
+    padding: 0 10px 0 0;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+}
+
+.container:hover > .game-text {
+    display: block;
+}
+
+.game-text {
+    display: none;
+    color: #dadada;
+    background-color: #060607;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+#alarm-clock {
+    width: 18rem;
+}
+
+.gadget-img {
+    max-width: 20rem;
+    max-height: auto;
+    padding: 1rem;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.window {
+    right: 0;
+    margin-left: auto;
+    position: absolute;
+}
+
+a:link {
+    color: #dadada;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #dadada;
+    text-decoration: none;
+}
+
+a:active {
+    color: #aa0505;
+    text-decoration: underline;
+}
+a:visited {
+    text-decoration: none;
+}
+
+
