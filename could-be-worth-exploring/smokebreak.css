@@ -63,6 +63,12 @@ p {
     margin-left: 10rem;
 }
 
+.plain {
+    position: absolute;
+    display: block;
+    background-color: none;
+}
+
 /* add this class to items 
 that should be automatically visible on page-load*/
 .visible {
@@ -90,27 +96,27 @@ to the right of the page*/
     position: absolute;
 }
 
-/*THIS IS FOR HTML PAGE: 14-08-00*/
-/*window shuts*/
-#window-container {
-    display: flex;
-    flex-direction: row;
-    mix-blend-mode: soft-light;
-    align-self: center;
+.large-text {
+    font-size: 1.3rem;
+    margin-right: 40vw;
 }
 
-.windowpane {
-    mix-blend-mode: soft-light;
-    height: 100vh;
-    width: 45vw;
+.larger-text {
+    position: absolute;
+    font-size: 3rem;
+    top: 20vh;
+    left: 65vw;
 }
 
-#left-window {
-    margin-right: 2rem;
+.music-note {
+    position: absolute;
+    font-size: 3rem;
+    top: 29vh;
+    left: 72vw;
 }
 
-#right-window {
-    margin-left: 2rem;
+.adjust {
+    margin-right: 20vw;
 }
 
 /* L I N K S */
