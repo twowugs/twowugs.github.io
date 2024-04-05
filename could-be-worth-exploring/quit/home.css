@@ -88,6 +88,8 @@ to the right of the page*/
     max-width: 20rem;
     max-height: auto;
     padding: 1rem;
+    transition: .2s;
+    margin-left: 0;
 }
 
 .window {
@@ -141,3 +143,37 @@ a:visited {
 
 /* M E D I A    Q U E R I E S */
 /*----------------------------------------------------*/
+
+/* this currently only affects 
+the dimensions of the landline phone img */
+/* re-assess these parameters if new images are added*/
+@media (max-width: 1300px) {
+    .gadget-img {
+        /*max-width: 15rem;*/
+        transition: .2s;
+        transform: scale(.8);
+        padding: 0;
+        margin-left: -1rem;
+        margin-bottom: -1rem;
+    }
+  }
+
+@media (max-width: 900px) {
+    .gadget-img {
+        /*max-width: 13rem;*/
+        transition: .2s;
+        transform: scale(.7);
+        margin-left: -2rem;
+        margin-bottom: -1.5rem;
+    }
+}
+
+@media (max-width: 620px) {
+    .gadget-img {
+        /*max-width: 12rem;*/
+        transition: .2s;
+        transform: scale(.6);
+        margin-left: -3rem;
+        margin-bottom:-2.5rem;
+    }
+}
