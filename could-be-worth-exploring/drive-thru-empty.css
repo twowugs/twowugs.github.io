@@ -86,27 +86,29 @@ to the right of the page*/
     position: absolute;
 }
 
-/*THIS IS FOR HTML PAGE: 14-08-00*/
-/*window shuts*/
-#window-container {
-    display: flex;
-    flex-direction: row;
-    mix-blend-mode: soft-light;
-    align-self: center;
+.large-text {
+    font-size: 1.3rem;
+    margin-right: 35vw;
+    margin-bottom: 1rem;
 }
 
-.windowpane {
-    mix-blend-mode: soft-light;
-    height: 100vh;
-    width: 45vw;
+.larger-text {
+    position: absolute;
+    font-size: 3rem;
+    top: 20vh;
+    left: 65vw;
 }
 
-#left-window {
-    margin-right: 2rem;
+.bottom-text {
+    margin-bottom: 7rem;
+    margin-right: 22vw;
 }
 
-#right-window {
-    margin-left: 2rem;
+/* for page: prawn-n-yawn-00.html*/
+/* i messed up the bottom margins so here's my fix*/
+/* oh well*/
+.bullshit-text-adjust {
+    margin-bottom: 10rem;
 }
 
 /* L I N K S */
