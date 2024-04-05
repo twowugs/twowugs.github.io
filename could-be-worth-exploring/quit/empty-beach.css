@@ -1,3 +1,7 @@
+:root {
+    --playlist-item-display-size: 22vw;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -9,10 +13,11 @@ body {
 }
 
 #page-flex {
-    background: url(visuals/beach.jpg);
+    background: url(../visuals/empty-beach.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    background-color: #060607;
     width: 95vw;
     height: 93vh;
     margin-top: 1vw;
@@ -35,6 +40,7 @@ p {
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-start;
+    margin-left: auto;
 }
 
 .container:hover > .game-text {
@@ -49,6 +55,20 @@ p {
     font-size: medium;
 }
 
+.game-text:hover {
+    cursor: pointer;
+}
+
+.small {
+    margin-left: 10rem;
+}
+
+.plain {
+    position: absolute;
+    display: block;
+    background-color: none;
+}
+
 /* add this class to items 
 that should be automatically visible on page-load*/
 .visible {
@@ -56,16 +76,18 @@ that should be automatically visible on page-load*/
     margin-bottom: 10rem;
 }
 
-#alarm-clock {
-    width: 18rem;
+/* add this class to items that should be pushed
+to the right of the page*/
+.shift {
+    margin-right: 0;
+    margin-left: auto;
+    max-width: 50rem;
 }
 
 .gadget-img {
     max-width: 20rem;
     max-height: auto;
     padding: 1rem;
-    margin-left: 0;
-    margin-right: auto;
 }
 
 .window {
@@ -74,6 +96,30 @@ that should be automatically visible on page-load*/
     position: absolute;
 }
 
+.large-text {
+    font-size: 1.3rem;
+    margin-right: 40vw;
+}
+
+.larger-text {
+    position: absolute;
+    font-size: 3rem;
+    top: 20vh;
+    left: 65vw;
+}
+
+.music-note {
+    position: absolute;
+    font-size: 3rem;
+    top: 29vh;
+    left: 72vw;
+}
+
+.adjust {
+    margin-right: 20vw;
+}
+
+/* L I N K S */
 a:link {
     color: #dadada;
     text-decoration: none;
@@ -93,3 +139,5 @@ a:visited {
 }
 
 
+/* M E D I A    Q U E R I E S */
+/*----------------------------------------------------*/
