@@ -72,8 +72,8 @@ function getIndex() {
                 music.currentTime = 0;
                 /* reset audio scrubber*/
                 music = new Audio(audioFiles[activeSong]);
-                /* select from the audioFiles array, the song
-                that matches its index on the playlist*/
+            /* select from the audioFiles array, the song
+            that matches its index on the playlist*/
                 music.play();
                 isPaused = 0;
                 /* play that song :) */
