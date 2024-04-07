@@ -11,3 +11,13 @@
 <i>Please?&nbsp;</i>
 
 <!----------------------------------------------------->
+
+<i>It's Maggie-- manager at the Prawn n' Yawn.</i>
+
+
+<i>In regards to your behavior at work today,</i>
+<br>
+<i>I'm sorry to say you are no-longer employed by this company.</i>
+
+
+<i>Please return your keys as soon as possible.</i>
