@@ -119,6 +119,35 @@ to the right of the page*/
     margin-right: 20vw;
 }
 
+/* H O V E R   T E X T*/
+/*----------------------------------------------------*/
+.quit {
+    display: flex;
+    flex-direction: row;
+    text-justify: center;
+    align-items: center;
+}
+#quit-text {
+    display: none;
+    padding: 0 1rem 0 1rem;
+}
+
+.quit:hover > #quit-text{
+    display: block;
+    font-size: medium;
+}
+
+#dont-quit-text {
+    display: none;
+    padding: 0 1rem 0 1rem;
+}
+
+.quit:hover > #dont-quit-text {
+    display: block;
+    font-size: medium;
+}
+
+
 /* L I N K S */
 a:link {
     color: #dadada;

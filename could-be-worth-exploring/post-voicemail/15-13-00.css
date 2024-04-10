@@ -199,3 +199,28 @@ the dimensions of the landline phone img*/
         margin-bottom:-2.5rem;
     }
 }
+
+/* watch television*/
+@media (max-width: 1200px) {
+    #page-flex {
+        background: url(../visuals/channels/do-you-believe.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-color: #060607;
+    }
+  }
+
+@media (max-width: 480px) {
+    #page-flex {
+        background: url(../visuals/channels/i-wish-i-didnt.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-color: #060607;
+    }
+}
