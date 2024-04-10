@@ -134,3 +134,36 @@ a:active {
 a:visited {
     text-decoration: none;
 }
+
+
+/* RESPONSIVE CRAB*/
+
+#crab-flex {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#crab-img {
+    width: 20rem;
+    margin-right: calc(4vw + 1rem);
+    margin-bottom: calc(3vh + 1rem);
+    display: block;
+}
+
+@media (max-width: 1200px) {
+    #crab-img {
+        margin-right: 0;
+        transition: 2s;
+        transform:translateX(-30rem) ;
+    }
+}
+
+@media (max-width: 480px) {
+    #crab-img {
+        display: none;
+    }
+}
+
+

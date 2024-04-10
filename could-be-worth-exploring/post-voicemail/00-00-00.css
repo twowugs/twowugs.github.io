@@ -83,6 +83,7 @@ that we want visible on load*/
     position: absolute;
 }
 
+/*LINKS*/
 a:link {
     color: #dadada;
     text-decoration: none;
@@ -101,4 +102,50 @@ a:visited {
     text-decoration: none;
 }
 
+/* little romeo*/
+#romeo {
+    display: none;
+}
+
+#romeo-sleepy {
+    display: none;
+}
+
+.first-stage-text {
+    display:inline-block;
+}
+
+.next-stage-text {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    #romeo {
+        position: absolute;
+        display: block;
+        height: 10rem;
+        right: 0;
+        margin: 0 5rem 2rem 0;
+    }
+    .first-stage-text {
+        display: none;
+    }
+    .next-stage-text {
+        display: inline-block;
+    }
+  }
+
+@media (max-width: 480px) {
+    #romeo {
+        display: none;
+    }
+
+    #romeo-sleepy {
+        position: absolute;
+        display: block;
+        height: 10rem;
+        right: 0;
+        margin: 0 5rem 2rem 0;
+    }
+}
 

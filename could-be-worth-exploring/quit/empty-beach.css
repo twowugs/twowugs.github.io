@@ -141,3 +141,29 @@ a:visited {
 
 /* M E D I A    Q U E R I E S */
 /*----------------------------------------------------*/
+#gull {
+    display: none;
+}
+
+#gull > img {
+    height: 15rem;
+    margin-left: 1rem;
+}
+
+@media (max-width: 1200px) {
+    #gull {
+        display: block;
+        position: absolute;
+        top: calc(3vh + 1rem);
+    }
+  }
+
+@media (max-width: 480px) {
+    #gull {
+        transform: translateX(90%);
+        transition: 2s;
+    }
+    .game-text {
+        display: none;
+    }
+}
