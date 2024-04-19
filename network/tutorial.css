@@ -66,6 +66,10 @@ p {
     border-width: 1px 0 0 0;
 }
 
+#page-end {
+    margin: 0 0 3rem 0;
+}
+
 /* L I N K S */
 
 a:link {
