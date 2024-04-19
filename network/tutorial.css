@@ -19,16 +19,6 @@ body {
     flex-direction: column;
 }
 
-#example-qr > img {
-    max-width: 25rem;
-    padding: 1rem;
-}
-
-#example-flex {
-    display: flex;
-    flex-direction: column;
-}
-
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
@@ -36,6 +26,20 @@ h1 {
     font-size: 4rem;
     letter-spacing: 1rem;
 }
+
+/* example QR code dropdown */
+
+#example-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+#example-qr > img {
+    max-width: 25rem;
+    padding: 1rem;
+}
+
+
 
 #example-flex > p {
     font-family: 'Courier New', Courier, monospace;
@@ -71,6 +75,7 @@ p {
 }
 
 /* L I N K S */
+/*-------------------------------------*/
 
 a:link {
     text-decoration: none;
