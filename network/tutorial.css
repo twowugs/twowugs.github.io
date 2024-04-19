@@ -42,3 +42,19 @@ p {
     border-color: #dadada;
     border-width: 1px 0 0 0;
 }
+
+/* M E D I A   Q U E R I E S */
+/*-------------------------------------*/
+
+@media (max-width: 500px) {
+
+    #page-flex {
+        max-width: 20rem;
+    }
+
+    h1 {
+        max-width: 70vw;
+        font-size: 3rem;
+        letter-spacing: .5rem;
+    }
+}
