@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tutorial</title>
     <link rel="stylesheet" href="tutorial.css">
+    <script src="tutorial.js"></script>
 </head>
-<body>
+<body onload="setHidden()">
     <div id="page-flex">
         <h1>
             TUTORIAL.
@@ -35,6 +36,19 @@
                 Keep an eye out for QR codes.
                 <br>
             </p>
+            <div id="example-flex" class="add-topborder" onclick="revealCode()">
+                <a href="#page-end">
+                    <p href="#example-qr">
+                        <br>
+                        <b>CLICK <u>HERE</u> FOR EXAMPLE QR CODE</b>
+                    </p>                    
+                </a>
+                <div id="example-qr">
+                    <img src="visuals/PLACEHOLDER00.png">
+                </div>
+                <div id="page-end"></div>
+            </div>
+
         </div>
 
     </div>

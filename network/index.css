@@ -18,6 +18,11 @@ h1 {
     letter-spacing: 1rem;
 }
 
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #dadada;
+}
+
 #scan-me {
     width: 20rem;
     height: auto;

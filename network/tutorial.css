@@ -19,12 +19,35 @@ body {
     flex-direction: column;
 }
 
+#example-qr > img {
+    max-width: 25rem;
+    padding: 1rem;
+}
+
+#example-flex {
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     color: #dadada;
     font-size: 4rem;
     letter-spacing: 1rem;
+}
+
+#example-flex > p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #dadada;
+}
+
+#example-flex:hover {
+    cursor: pointer;
+}
+
+#example-qr {
+    display: none;
 }
 
 p {
@@ -43,6 +66,31 @@ p {
     border-width: 1px 0 0 0;
 }
 
+/* L I N K S */
+
+a:link {
+    text-decoration: none;
+    color: #dadada;
+    text-decoration-color: red;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: #dadada;
+}
+
+a:active {
+    text-decoration: none;
+    text-decoration-color: red;
+    color: #dadada;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #dadada;
+    text-decoration-color: red;
+}
+
 /* M E D I A   Q U E R I E S */
 /*-------------------------------------*/
 
@@ -50,6 +98,11 @@ p {
 
     #page-flex {
         max-width: 20rem;
+    }
+
+    #example-qr > img {
+        max-width: 20rem;
+        padding: 1rem;
     }
 
     h1 {
