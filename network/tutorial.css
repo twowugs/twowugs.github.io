@@ -8,12 +8,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 60vw;
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #instructions-textbox {
     display: flex;
     flex-direction: column;
-    max-width: 30rem;
 }
 
 h1 {
@@ -32,4 +35,10 @@ p {
 .clear-spacing {
     margin: 0;
     padding: 0;
+}
+
+.add-topborder {
+    border-style: solid;
+    border-color: #dadada;
+    border-width: 1px 0 0 0;
 }
