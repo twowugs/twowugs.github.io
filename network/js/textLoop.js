@@ -1,5 +1,6 @@
 
-// GOD FUCK THIS WAS A BITCH TO SET UP
+// it's a text loop. it loops the text.
+// oh, yeem?
 
 var loopElements = document.getElementsByClassName("loop-these");
 // collect up the lines of text we want displayed

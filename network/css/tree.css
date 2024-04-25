@@ -1,8 +1,12 @@
+:root {
+    --main-font-color: #dadada;
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: #000000;
-    background-image: url(../visuals/treehole02.png);
+    background-image: url(../visuals/treehole01.JPG);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -30,6 +34,16 @@ body {
     /*mix-blend-mode: multiply;*/
 }
 
+/* O R B S !!!*/
+/*------------------------------------------*/
+.orb {
+    width: 20vw;
+    height: auto;
+    mix-blend-mode: multiply;
+    position: absolute;
+    transition: left 1s, top 1s; /* Smooth transition for left and top properties */
+}
+
 /* T E X T */
 /*------------------------------------------*/
 h1 {
@@ -50,7 +64,7 @@ h3 {
     color: #dadada;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 0;
+    padding: 5px 0 8px 0;
     margin: 0;
     font-weight: 600;
 }
@@ -87,7 +101,7 @@ p {
     font-family: "Jersey 10 Charted", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #dadada;
+    color: var(--main-font-color);
     mix-blend-mode: hard-light;
 }
 
@@ -96,7 +110,7 @@ p {
     font-weight: 400;
     font-style: normal;
     font-size: 3rem;
-    color: #dadada;
+    color: var(--main-font-color);
 }
 
 .handwriting-font {
@@ -104,7 +118,21 @@ p {
     font-weight: 400;
     font-style: normal;
     /*mix-blend-mode: hard-light;*/
-    color: #dadada;
+    color: var(--main-font-color);
+}
+
+.romanesco-font {
+    font-family: "Romanesco", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--main-font-color);
+}
+
+.yellowtail-font {
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--main-font-color);
   }
 
 /* T U T O R I A L   T E X T */
@@ -117,6 +145,8 @@ p {
     mix-blend-mode: normal;
     max-width: 90vw;
     margin-left: 1rem;
+    background-color: #000000;
+    padding: 8px;
 }
 
 /* href here? */
