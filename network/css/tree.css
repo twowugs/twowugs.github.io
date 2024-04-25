@@ -44,6 +44,21 @@ body {
     transition: left 1s, top 1s; /* Smooth transition for left and top properties */
 }
 
+/* T U T O R I A L   T E X T */
+/*------------------------------------------*/
+#instructions-textbox {
+    display: flex;
+    flex-direction: column;
+    display: none;
+    mix-blend-mode: normal;
+    max-width: 90vw;
+    max-height: 50vh;
+    overflow-y: scroll;
+    margin-left: 1rem;
+    background-color: #000000;
+    padding: 8px;
+}
+
 /* T E X T */
 /*------------------------------------------*/
 h1 {
@@ -56,6 +71,7 @@ h2 {
 /* tree thoughts text */
     font-size: 3rem;
     margin-left: 10vw;
+    mix-blend-mode: plus-lighter;
 }
 
 h3 {
@@ -73,6 +89,12 @@ p {
     font-family: 'Courier New', Courier, monospace;
     /*color: #474747;*/
     color: #dadada;
+}
+
+.add-topborder {
+    border-style: solid;
+    border-color: #dadada;
+    border-width: 1px 0 0 0;
 }
 
 .clear-spacing {
@@ -134,20 +156,6 @@ p {
     font-style: normal;
     color: var(--main-font-color);
   }
-
-/* T U T O R I A L   T E X T */
-/*------------------------------------------*/
-
-#instructions-textbox {
-    display: flex;
-    flex-direction: column;
-    display: none;
-    mix-blend-mode: normal;
-    max-width: 90vw;
-    margin-left: 1rem;
-    background-color: #000000;
-    padding: 8px;
-}
 
 /* href here? */
 /* currently inactive */
