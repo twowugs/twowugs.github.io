@@ -1,0 +1,169 @@
+:root {
+    --main-font-color: #dadada;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#page-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    cursor: default;
+    object-fit: cover;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#more-info {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    /*background-color: #dadada;*/
+    width: 100vw;
+    padding: 1rem 0 1rem 0;
+    /*mix-blend-mode: multiply;*/
+    z-index: 1;
+}
+
+/* T U T O R I A L   T E X T */
+/*------------------------------------------*/
+#instructions-textbox {
+    display: flex;
+    flex-direction: column;
+    display: none;
+    mix-blend-mode: normal;
+    max-width: 90vw;
+    max-height: 50vh;
+    overflow-y: scroll;
+    margin-left: 1rem;
+    background-color: #000000;
+    padding: 8px;
+}
+
+/* T E X T */
+/*------------------------------------------*/
+h1 {
+/* tree title text */
+    margin-left: 10vw;
+    font-size: 4rem;
+}
+
+h2 {
+/* thoughts text */
+    font-size: 3rem;
+    margin-left: 10vw;
+    mix-blend-mode: plus-lighter;
+}
+
+h3 {
+/* header for "ABOUT" bar */
+    /*color: #474747;*/
+    color: #dadada;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px 0 8px 0;
+    margin: 0;
+    font-weight: 600;
+}
+
+h3:hover {
+    cursor: pointer;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    /*color: #474747;*/
+    color: #dadada;
+}
+
+.add-topborder {
+    border-style: solid;
+    border-color: #dadada;
+    border-width: 1px 0 0 0;
+}
+
+.clear-spacing {
+    /* removes default p tag spacing */
+    margin: 0;
+    padding: 0;
+}
+
+/* A N I M A T I O N */
+/*------------------------------------------*/
+.loop-these {
+    display: none;
+    /*background-color: #dadada;*/
+    max-width: fit-content;
+    /* this sets the default display to hidden */
+}
+.visible {
+    display: block;
+    /* we toggle this class in the js to transition 
+    through each phrase */
+}
+
+/* F O N T S */
+/*------------------------------------------*/
+.jersey-font-headings {
+    font-family: "Jersey 10 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--main-font-color);
+    mix-blend-mode: hard-light;
+}
+
+.jacuard-font {
+    font-family: "Jacquard 12 Charted", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: var(--main-font-color);
+}
+
+.handwriting-font {
+    font-family: "Reenie Beanie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    /*mix-blend-mode: hard-light;*/
+    color: var(--main-font-color);
+}
+
+.romanesco-font {
+    font-family: "Romanesco", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--main-font-color);
+}
+
+.yellowtail-font {
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--main-font-color);
+  }
+
+/* href here? */
+/* currently inactive */
+#page-end {
+    margin: 0 0 3rem 0;
+}

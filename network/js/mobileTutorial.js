@@ -1,16 +1,16 @@
 
 function setHidden() {
-    var y = document.getElementById("instructions-textbox");
-    y.style.display = "none";
+    var x = document.getElementById("instructions-textbox");
+    x.style.display = "none";
 }
 
 function tellMeAboutIt() {
-    var y = document.getElementById("instructions-textbox");
-    if (y.style.display === "none") {
-      y.style.display = "block";
+    var x = document.getElementById("instructions-textbox");
+    if (x.style.display === "none") {
+      x.style.display = "block";
       var element = document.getElementById("instructions-textbox");
       element.classList.add("visible");
     } else {
-      y.style.display = "none";
+      x.style.display = "none";
     }
   }
