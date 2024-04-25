@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000000;
-    background-image: url(../visuals/treehole01.JPG);
+    background-image: url(../visuals/sm-treehole01.JPG);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -21,6 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
+    cursor: default;
 }
 
 #more-info {
@@ -83,6 +84,10 @@ h3 {
     padding: 5px 0 8px 0;
     margin: 0;
     font-weight: 600;
+}
+
+h3:hover {
+    cursor: pointer;
 }
 
 p {
