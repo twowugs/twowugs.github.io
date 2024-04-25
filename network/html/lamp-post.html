@@ -1,17 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Damion&family=Jacquard+12+Charted&family=Jersey+10+Charted&family=Ma+Shan+Zheng&family=Mr+Dafoe&family=Playball&family=Reenie+Beanie&family=Romanesco&family=Smooch&family=Yellowtail&display=swap" rel="stylesheet">
+    <!-- END OF FONTS -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>a look inside</title>
-    <link rel="stylesheet" href="../index.css">
+    <title>look inside</title>
+    <link rel="stylesheet" href="../css/lamp-post.css">
+    <script src="../js/textLoopXL.js"></script> 
+    <!--looping text (XL- longer frame hold)-->
+    <script src="../js/mobileTutorial.js"></script>
+    <!--"more about this project"-->
 </head>
-<body>
+<body onload="loopText(); setHidden(); orbFest()">
     <div id="page-flex">
-        <h1>lamp page.</h1>
-        <p>
-            placeholder content.
-        </p>
+        <div id="main-content">
+                <h2 class="jersey-font-headings loop-these">
+                    you should know--
+                </h2>
+                <h2 class="jersey-font-headings loop-these">
+                    all the <u>light</u> you need is within you
+                </h2>
+                <h2 class="jersey-font-headings loop-these">
+                    and--
+                </h2> 
+                <h2 class="jersey-font-headings loop-these">
+                    all the <u>love</u> you need is within you
+                </h2> 
+        </div>
+        <div id="more-info">
+            <h3 onclick="tellMeAboutIt()">
+                MORE ABOUT THIS PROJECT
+            </h3>
+            <div id="instructions-textbox">
+                <p class="clear-spacing">
+                    <br>
+                    Go outside.
+                </p>
+                <p>
+                    Most everyday structures have their own secret
+                    internal lives. These lives have long gone 
+                    unnoticed.
+                    <br>
+                    <br>
+                    If we look carefully-- if we
+                    allow ourselves to be open to understanding--
+                    we will find that the lives of these everyday objects
+                    are surprisingly complex.
+                </p>
+                <p>
+                    <br>
+                    Step away from your computer. Take a walk.
+                    <br>
+                    <br>
+                    Keep an eye out for QR codes.
+                    <br>
+                </p>
+                <p class="add-topborder">
+                    <br>
+                    No corresponding QR codes in 
+                    your city?
+                    <br>
+                    <br>
+                    CLICK <u>HERE</u> TO PARTICIPATE IN THIS PROJECT
+                    <br>
+                    <br>
+                </p>
+            </div>
+        </div>
     </div>
 </body>
 </html>

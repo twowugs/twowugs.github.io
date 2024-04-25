@@ -4,9 +4,6 @@ function setHidden() {
     y.style.display = "none";
 }
 
-var y = document.getElementById("instructions-textbox");
-y.style.display = "none";
-
 function tellMeAboutIt() {
     var y = document.getElementById("instructions-textbox");
     if (y.style.display === "none") {
