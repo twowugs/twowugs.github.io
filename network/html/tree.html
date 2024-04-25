@@ -1,17 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Jersey+10+Charted&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Jersey+10+Charted&family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <!-- END OF FONTS -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>a look inside</title>
-    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../css/tree.css">
+    <script src="../js/textLoop.js"></script> 
+    <script src="../js/mobileTutorial.js"></script> 
 </head>
-<body>
+<body onload="loopText(); setHidden()">
     <div id="page-flex">
-        <h1>tree page.</h1>
-        <p>
-            placeholder content.
-        </p>
+        <div id="main-content">
+                <h2 class="jersey-font-headings loop-these">
+                    time is different here
+                </h2>
+                <h2 class="jersey-font-headings loop-these">
+                    i can feel everything.
+                </h2>
+        </div>
+        <div id="more-info" onclick="tellMeAboutIt()">
+            <h3>
+                MORE ABOUT THIS PROJECT
+            </h3>
+            <div id="instructions-textbox">
+                <p class="clear-spacing">
+                    <br>
+                    Go outside.
+                </p>
+                <p>
+                    Most everyday structures have their own secret
+                    internal lives. These lives have long gone 
+                    unnoticed.
+                    <br>
+                    <br>
+                    If we look carefully-- if we
+                    allow ourselves to be open to understanding--
+                    we will find that the lives of these everyday objects
+                    are surprisingly complex.
+                </p>
+                <p class="add-topborder">
+                    <br>
+                    Step away from your computer. Take a walk.
+                    <br>
+                    <br>
+                    Keep an eye out for QR codes.
+                    <br>
+                </p>
+            </div>
+        </div>
     </div>
 </body>
 </html>

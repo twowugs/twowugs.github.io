@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    background-image: url(../visuals/treehole02.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#page-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+#more-info {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    /*background-color: #dadada;*/
+    width: 100vw;
+    padding: 1rem 0 1rem 0;
+    /*mix-blend-mode: multiply;*/
+}
+
+/* T E X T */
+/*------------------------------------------*/
+h1 {
+/* tree title text */
+    margin-left: 10vw;
+    font-size: 4rem;
+}
+
+h2 {
+/* tree thoughts text */
+    font-size: 3rem;
+    margin-left: 10vw;
+}
+
+h3 {
+/* header for "ABOUT" bar */
+    /*color: #474747;*/
+    color: #dadada;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    /*color: #474747;*/
+    color: #dadada;
+}
+
+.clear-spacing {
+    /* removes default p tag spacing */
+    margin: 0;
+    padding: 0;
+}
+
+/* A N I M A T I O N */
+/*------------------------------------------*/
+.loop-these {
+    display: none;
+    /*background-color: #dadada;*/
+    max-width: fit-content;
+    /* this sets the default display to hidden */
+}
+.visible {
+    display: block;
+    /* we toggle this class in the js to transition 
+    through each phrase */
+}
+
+/* F O N T S */
+/*------------------------------------------*/
+.jersey-font-headings {
+    font-family: "Jersey 10 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #dadada;
+    mix-blend-mode: hard-light;
+}
+
+.jacuard-font {
+    font-family: "Jacquard 12 Charted", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: #dadada;
+}
+
+.handwriting-font {
+    font-family: "Reenie Beanie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    /*mix-blend-mode: hard-light;*/
+    color: #dadada;
+  }
+
+/* T U T O R I A L   T E X T */
+/*------------------------------------------*/
+
+#instructions-textbox {
+    display: flex;
+    flex-direction: column;
+    display: none;
+    mix-blend-mode: normal;
+    max-width: 90vw;
+    margin-left: 1rem;
+}
+
+/* href here? */
+/* currently inactive */
+#page-end {
+    margin: 0 0 3rem 0;
+}
