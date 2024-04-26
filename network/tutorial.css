@@ -36,7 +36,7 @@ h1 {
 
 #example-qr > img {
     max-width: 25rem;
-    padding: 1rem;
+    padding: 1rem 0 0 0;
 }
 
 
@@ -71,17 +71,12 @@ p {
 }
 
 #page-end {
-    margin: 0 0 3rem 0;
+    margin: 0 0 0 0;
 }
 
 /* L I N K S */
 /*-------------------------------------*/
 
-a:link {
-    text-decoration: none;
-    color: #dadada;
-    text-decoration-color: red;
-}
 a:hover {
     text-decoration: underline;
     text-decoration-color: red;
@@ -92,12 +87,6 @@ a:active {
     text-decoration: none;
     text-decoration-color: red;
     color: #dadada;
-}
-
-a:visited {
-    text-decoration: none;
-    color: #dadada;
-    text-decoration-color: red;
 }
 
 /* M E D I A   Q U E R I E S */
