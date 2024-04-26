@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000000;
+    background-image: url(../visuals/in-the-bin.gif);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -14,23 +15,6 @@ body {
 #page-flex {
     display: flex;
     flex-direction: column;
-}
-
-#main-content {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-    cursor: default;
-    object-fit: cover;
-}
-
-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 #more-info {
