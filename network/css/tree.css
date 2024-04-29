@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000000;
-    background-image: url(../visuals/sm-treehole01.JPG);
+    background-image: url(../visuals/chloroplasts.gif);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -15,6 +15,7 @@ body {
 #page-flex {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 #main-content {
@@ -71,7 +72,7 @@ h1 {
 h2 {
 /* tree thoughts text */
     font-size: 3rem;
-    margin-left: 10vw;
+    /*margin-left: 10vw;*/
     mix-blend-mode: plus-lighter;
 }
 
