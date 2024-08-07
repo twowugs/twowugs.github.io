@@ -1,0 +1,7 @@
+#page-flex {
+    background: url(visuals/shack-zoom01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}

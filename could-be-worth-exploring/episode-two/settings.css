@@ -1,0 +1,227 @@
+:root {
+    --playlist-item-display-size: 22vw;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #060607;
+    /*background-image: url(visuals/thunder-road.gif);*/
+    /*background: url(visuals/cherries.gif);*/
+    background-size: 40rem;
+    text-align: right;
+}
+
+#page-flex {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #060607;
+    width: 95vw;
+    height: 93vh;
+    margin-top: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+p {
+    color: #dadada;
+    padding: 0 10px 0 0;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-left: auto;
+}
+
+/* oops. idk why text alignment doesn't work*/
+/* this is for Helen's dialogue in the diner*/
+.container-oops {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-left: 0;
+}
+
+.container:hover > .game-text {
+    display: block;
+}
+
+.game-text {
+    display: none;
+    color: #dadada;
+    background-color: #060607;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+.game-text:hover {
+    cursor: pointer;
+}
+
+.small {
+    margin-left: 10rem;
+}
+
+.plain {
+    position: absolute;
+    display: block;
+    background-color: none;
+}
+
+/* add this class to items 
+that should be automatically visible on page-load*/
+.visible {
+    display: block;
+    margin-bottom: 10rem;
+}
+
+/* add this class to items that should be pushed
+to the right of the page*/
+.shift {
+    margin-right: 0;
+    margin-left: auto;
+    max-width: 50rem;
+}
+
+.gadget-img {
+    max-width: 20rem;
+    max-height: auto;
+    padding: 1rem;
+    transition: .2s;
+    margin-left: 0;
+}
+
+.window {
+    right: 0;
+    margin-left: auto;
+    position: absolute;
+}
+
+.large-text {
+    font-size: 1.3rem;
+    margin-right: 35vw;
+}
+
+.larger-text {
+    position: absolute;
+    font-size: 3rem;
+    top: 20vh;
+    left: 65vw;
+}
+
+.music-note {
+    position: absolute;
+    font-size: 3rem;
+    top: 29vh;
+    left: 72vw;
+}
+
+.adjust {
+    margin-right: 20vw;
+}
+
+/* makes text visible on load without setting
+margin-bottom to 10rem. clears bottom margin for visible text*/
+/* this class should be applied to gadget-image text
+that we want visible on load*/
+.visible-margin-adjust {
+    display: block;
+    margin: 0;
+}
+
+.lines-kit {
+    color: #c5b974;
+}
+
+.lines-your-mom {
+    color: #dfa9d8;
+}
+
+.lines-your-boss {
+    color: #dfab42;
+}
+
+.lines-waitress {
+    color: #7f8db3;
+    margin-left: 10vw;
+    padding: 4px;
+}
+
+.lines-kevinetc {
+    color: #BCEAE4;
+    margin-left: 10vw;
+    padding: 4px;
+}
+
+.lines-helen {
+    margin-left: 10vw;
+    margin-bottom: 15rem;
+    padding: 4px;
+}
+
+/* L I N K S */
+a:link {
+    color: #dadada;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #dadada;
+    text-decoration: none;
+}
+
+a:active {
+    color: #aa0505;
+    text-decoration: underline;
+}
+a:visited {
+    text-decoration: none;
+}
+
+
+/* M E D I A    Q U E R I E S */
+/*----------------------------------------------------*/
+
+/* this currently only affects 
+the dimensions of the landline phone img*/
+/* re-assess these parameters if new images are added*/
+@media (max-width: 1300px) {
+    .gadget-img {
+        /*max-width: 15rem;*/
+        transition: .2s;
+        transform: scale(.8);
+        padding: 0;
+        margin-left: -1rem;
+        margin-bottom: -1rem;
+    }
+  }
+
+@media (max-width: 900px) {
+    .gadget-img {
+        /*max-width: 13rem;*/
+        transition: .2s;
+        transform: scale(.7);
+        margin-left: -2rem;
+        margin-bottom: -1.5rem;
+    }
+}
+
+@media (max-width: 620px) {
+    .gadget-img {
+        /*max-width: 12rem;*/
+        transition: .2s;
+        transform: scale(.6);
+        margin-left: -3rem;
+        margin-bottom:-2.5rem;
+    }
+}
