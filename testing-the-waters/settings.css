@@ -45,11 +45,13 @@ p {
     display: grid;
     grid-template-rows: auto fit-content;
     grid-template-columns: auto auto;
+    align-content: center;
 }
 
 .dialog-box > img {
     max-width: 4rem;
     padding: 2px 1rem 0 0;
+    align-self: end;
 }
 
 /*ACTION SELECT OPTIONS*/
@@ -85,6 +87,41 @@ p {
     background-color: #060607;
 }
 
+/*just dropping this here cus im lazy*/
+/*iguana thought bubble settings*/
+/* convert iguana(Romeo) color to white */
+.color-invert {
+    filter: invert(1);
+    width: 10vw;
+    height: auto;
+    padding: .5rem .5rem 0 .5rem;
+}
+
+/* apply to iguana thought box. affects background transparency*/
+.mask {
+    mix-blend-mode: multiply;
+}
+
+#romeo-img {
+    position: absolute;
+    top: 40vh;
+    right: 30vw;
+    font-size: 3rem;
+}
+
+#romeo-img img {
+    /*keep romeo from getting too smalllll*/
+    min-height: 4rem;
+    min-width:6rem;
+}
+
+.game-text {
+    color: #dadada;
+    background-color: #060607;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
 #note1 {
     top: 20vh;
     left: 65vw;
@@ -109,10 +146,14 @@ p {
     margin: auto;
 }
 
+/* add this class to items 
+that should be automatically visible on page-load*/
 .set-visible {
     display: block;
 }
 
+/* add this class to items that should be pushed
+to the left of the page*/
 .set-left {
     margin-left: 0;
 }
@@ -132,6 +173,11 @@ p {
     flex-direction: column-reverse;
     align-items: flex-start;
     margin-left: 0;
+}
+
+.icon {
+    position: relative;
+    bottom: 3px;
 }
 
 /* LINK SETTINGS */
