@@ -1,0 +1,159 @@
+/* S E T T I N G S */
+/*----------------------*/
+
+/* TEXT SETTINGS */
+/*----------------------*/
+p {
+    /*clock font*/
+    color: #dadada;
+    padding: 0 10px 0 0;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*TEXT WITHIN MAIN TEXTBOX*/
+/*narration txt font*/
+.txt-nar {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    /*font-size indicates font size at its largest 
+    (when screen is > 1800px)*/
+    font-size: 2rem;
+    color: #dadada;
+    text-align: left;
+    text-decoration: none;
+    background-color: #060607;
+    padding: 6px 2px 3px 5px;
+    border-color: #dadada;
+    border-width: 2px;
+    border-style: solid;
+  }
+
+.narration-box {
+    margin-left: 20%;
+    margin-bottom: 45vh;
+    max-width: 50vw;
+    opacity: .9;
+}
+
+.tooltip-box {
+    display: none;
+}
+
+.dialog-box {
+    display: grid;
+    grid-template-rows: auto fit-content;
+    grid-template-columns: auto auto;
+}
+
+.dialog-box > img {
+    max-width: 4rem;
+    padding: 2px 1rem 0 0;
+}
+
+/*ACTION SELECT OPTIONS*/
+/*action select*/
+.action-select:hover {
+    /*color: #8d0908;*/
+    color: #aa0505;
+    cursor: pointer;
+}
+
+  /*prevent default link display settings for action-selection*/
+  .txt-nar a:link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .txt-nar a:visited {
+    color: inherit;
+  }
+
+/*music notes*/
+.music-note {
+    position: absolute;
+    font-size: 3rem;
+    background-color: #060607;
+    color: #dadada;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+    background-color: #060607;
+}
+
+#note1 {
+    top: 20vh;
+    left: 65vw;
+}
+
+#note2 {
+    top: 29vh;
+    left: 72vw;
+}
+
+@media (max-width: 1800px) {
+    .dialog-box > img {
+    max-width: 3rem;
+    margin-right: 1rem;
+    padding: .3rem 0 0 0;
+    }
+}
+
+
+.container:hover > .tooltip-box {
+    display: block;
+    margin: auto;
+}
+
+.set-visible {
+    display: block;
+}
+
+.set-left {
+    margin-left: 0;
+}
+
+/* IMAGE SETTINGS */
+/*----------------------*/
+.gadget-img {
+    max-width: 20rem;
+    max-height: auto;
+    padding: 1rem;
+    transition: .2s;
+    margin-left: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-left: 0;
+}
+
+/* LINK SETTINGS */
+/*----------------------*/
+a:link {
+    text-decoration: none;
+}
+
+@media (max-width: 1800px) {
+    .txt-nar {
+        /*smallest font size.*/
+        font-size: 1.5rem;
+    }
+}
+
+/* GOOGLE MATERIAL SYMBOLS */
+/*-------------------------*/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
