@@ -10,6 +10,7 @@
     --yourmom-color: #dfa9d8;
     --coworker-color: #ababd8;
     --waitress-color: #7f8db3;
+    --kevinetc-color: #df7c42;
 }
 
 /* TEXT SETTINGS */
@@ -285,6 +286,10 @@ to the left of the page*/
 
 .lines-waitress {
     border-color: var(--waitress-color);
+}
+/*ch2*/
+.lines-kevinetc {
+    border-color: var(--kevinetc-color);
 }
 
 /* LINK SETTINGS */
