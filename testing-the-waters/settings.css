@@ -225,6 +225,21 @@ to the left of the page*/
     align-self: end;
 }
 
+.notif-alert {
+    /*wip, we're gonna use this to indicate a task has been added to
+    our character's tasklist*/
+    position: relative;
+    max-width: 2rem;
+    align-self: flex-end;
+    right: -1rem;
+    bottom: -.7rem;
+    /*
+    background-color: #dadada7c;
+    padding: .2px;
+    border-radius: 1rem;
+    */
+}
+
 .container {
     display: flex;
     flex-direction: column-reverse;
