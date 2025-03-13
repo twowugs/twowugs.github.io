@@ -1,6 +1,16 @@
 /* S E T T I N G S */
 /*----------------------*/
 
+:root {
+    /*ch1 character colors*/
+    --helen-color: #aa0505;
+    --bosslady-color: #d1be51;
+    /*--bosslady-color: #dfab42;*/
+    --kit-color: #c5b974;
+    --yourmom-color: #dfa9d8;
+    --coworker-color: #ababd8;
+}
+
 /* TEXT SETTINGS */
 /*----------------------*/
 p {
@@ -152,6 +162,11 @@ that should be automatically visible on page-load*/
     display: block;
 }
 
+.visible {
+    display: block;
+    margin: auto;
+}
+
 /* add this class to items that should be pushed
 to the left of the page*/
 .set-left {
@@ -178,6 +193,27 @@ to the left of the page*/
 .icon {
     position: relative;
     bottom: 3px;
+}
+
+/* CHARACTER COLORS CLASSING*/
+.lines-helen {
+    border-color: var(--helen-color);
+}
+
+.lines-kit {
+    border-color: var(--kit-color);
+}
+
+.lines-your-mom {
+    border-color: var(--yourmom-color);
+}
+
+.lines-your-boss {
+    border-color: var(--bosslady-color);
+}
+
+.lines-coworker {
+    border-color: var(--coworker-color);
 }
 
 /* LINK SETTINGS */
