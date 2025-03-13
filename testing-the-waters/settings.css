@@ -9,6 +9,7 @@
     --kit-color: #c5b974;
     --yourmom-color: #dfa9d8;
     --coworker-color: #ababd8;
+    --waitress-color: #7f8db3;
 }
 
 /* TEXT SETTINGS */
@@ -19,6 +20,17 @@ p {
     padding: 0 10px 0 0;
     font-size: small;
     font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #dadada;
+    font-weight: 500;
+    background-color: #060607;
+    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40vh;
 }
 
 /*TEXT WITHIN MAIN TEXTBOX*/
@@ -156,6 +168,8 @@ p {
     left: 72vw;
 }
 
+
+
 @media (max-width: 1800px) {
     .dialog-box > img {
     max-width: 3rem;
@@ -248,8 +262,17 @@ to the left of the page*/
 }
 
 /* CHARACTER COLORS CLASSING*/
+/*characters listed in order of appearance*/
 .lines-helen {
     border-color: var(--helen-color);
+}
+
+.lines-coworker {
+    border-color: var(--coworker-color);
+}
+
+.lines-your-boss {
+    border-color: var(--bosslady-color);
 }
 
 .lines-kit {
@@ -260,12 +283,8 @@ to the left of the page*/
     border-color: var(--yourmom-color);
 }
 
-.lines-your-boss {
-    border-color: var(--bosslady-color);
-}
-
-.lines-coworker {
-    border-color: var(--coworker-color);
+.lines-waitress {
+    border-color: var(--waitress-color);
 }
 
 /* LINK SETTINGS */
