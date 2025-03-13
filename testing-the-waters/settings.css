@@ -11,6 +11,9 @@
     --coworker-color: #ababd8;
     --waitress-color: #7f8db3;
     --kevinetc-color: #df7c42;
+
+    /*other-font-colors*/
+    --notesapp-color: #b5bb23;
 }
 
 /* TEXT SETTINGS */
@@ -51,6 +54,8 @@ h2 {
     border-color: #dadada;
     border-width: 2px;
     border-style: solid;
+    z-index: 2;
+    /*trying to layer this under the notif icon hover, ugh*/
   }
 
 .narration-box {
@@ -159,6 +164,7 @@ h2 {
     font-size: medium;
 }
 
+/*music notes montage graphic*/
 #note1 {
     top: 20vh;
     left: 65vw;
@@ -168,8 +174,6 @@ h2 {
     top: 29vh;
     left: 72vw;
 }
-
-
 
 @media (max-width: 1800px) {
     .dialog-box > img {
@@ -253,6 +257,154 @@ to the left of the page*/
     padding: .2px;
     border-radius: 1rem;
     */
+}
+
+#notifIcon-grid {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 1;
+    position: relative;
+    right: 0;
+    align-self: flex-end;
+    z-index: 3;
+}
+
+#notifIcon-grid:hover {
+    cursor: default;
+}
+
+.information {
+    position: absolute;
+    bottom: 1rem;
+    left: -2rem;
+    background-color: #060607;
+    padding: 2px;
+    cursor: default;
+    display: none;
+    opacity: 0;
+    transition: .3s;
+}
+
+@media (min-width: 530px) {
+    .information {
+        left: 0;
+        /*allow for cute little awkward 
+        margin space once we have room to do so*/
+    }
+}
+
+#notifIcon-grid:hover .information{
+    display: block;
+    opacity: 1;
+}
+
+#runner-flex {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/*tasklist icon*/
+#tasklist-flex {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-right: 3rem;
+    bottom: 5px;
+}
+
+#tasklist-flex:hover {
+    cursor: pointer;
+}
+
+#tasklist-flex:active{
+    transform: scale(.97);
+}
+
+#hOff-notif {
+   opacity: 1;
+   z-index: 1;
+   transition: .1s;
+   grid-row: 1/1;
+   grid-column: 1/1;
+}
+
+#hOff-notif:hover {
+    opacity: 0;
+}
+
+.notif-alert-alt {
+    max-width: 2rem;
+    position: relative;
+    right: -1rem;
+    bottom: 0;
+    align-self: flex-end;
+    bottom: -.7rem;
+    grid-row: 1/1;
+    grid-column: 1/1;
+}
+
+#tasklist-flex:hover #hOff-notif {
+    opacity: 0;
+}
+
+.tasklist {
+    position: absolute;
+    max-width: 2rem;
+}
+
+.tasklist-notif-alert {
+    max-width: 1.6rem;
+    position: absolute;
+    right: -1rem;
+    top: -.4rem;
+}
+
+/*TASKLIST THE BAND THE ALBUM*/
+#tasklist-container {
+    display: none;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3rem);
+    position: absolute;
+    min-width: 10rem;
+    min-height: 3rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dadada;
+    right: calc(2.5vw + 3.5rem);
+    bottom: calc(5vh + 1rem);
+    background-color: #060607;
+    border-radius: .8rem;
+}
+
+#tasklist-container p {
+    margin: .5rem 0 1rem 1rem;
+}
+
+#tasklist-container p:hover {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#tasklist-container p:nth-child(n+1) {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    color: #dadada;
+    display: inline-block;
+}
+
+.note {
+    padding: 0 10px 0 0;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    /*color: #05aa20;*/
+    color: var(--notesapp-color);
+}
+
+.new-note {
+    width: 12px;
+    padding: 0;
+    margin: 0;
 }
 
 .container {

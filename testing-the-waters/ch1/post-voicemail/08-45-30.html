@@ -18,12 +18,29 @@
         <a href="09-15-00.html">
             <div class="container">
                 <img id="alarm-clock" class="gadget-img" src="../../visuals/beige-clock01.png"> 
-                <div class="txt-nar tooltip-box">
+                <div class="txt-nar tooltip-box visible">
                     Can I even make it to Monk's on time?
                 </div>
             </div>
         </a>
     </div>
-    <p>08:45:30</p>
+    <div id="runner-flex">
+        <p>    
+            08:45:30
+        </p>
+        <div id="tasklist-container">
+            <p><span class="note"><b>NOTES</b></span></p>
+            <p>
+                <span class="note">meet kit for breakfast (09:30)</span>
+            </p>
+        </div>
+        <div onclick="toggleTasklist()" id="tasklist-flex">
+            <img class="tasklist" src="../../visuals/tasklist00.png">  
+            <img id="hOff-notif" class="tasklist-notif-alert" src="../../visuals/notif.png">
+            <img class="tasklist-notif-alert" src="../../visuals/notif00.png">
+        </div>
+    </div>
+    <script src="../../tasklist.js"></script>
+    <!--dont forget to CHANGE the TIME-->
 </body>
 </html>
