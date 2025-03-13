@@ -51,6 +51,20 @@ p {
     display: none;
 }
 
+/*voicemail text align*/
+.message-box {
+    display: grid;
+    grid-template-rows: auto fit-content;
+    grid-template-columns: auto auto;
+    align-content: center;
+    text-align: right;
+}
+
+.container:hover .message-box {
+    display: grid;
+}
+
+
 .dialog-box {
     display: grid;
     grid-template-rows: auto fit-content;
@@ -173,9 +187,15 @@ to the left of the page*/
     margin-left: 0;
 }
 
+.text-left {
+    text-align: left;
+}
+
 /* IMAGE SETTINGS */
 /*----------------------*/
 .gadget-img {
+    width: 12rem;
+    /*width at smallest*/
     max-width: 20rem;
     max-height: auto;
     padding: 1rem;
@@ -183,16 +203,33 @@ to the left of the page*/
     margin-left: 0;
 }
 
+@media (min-width: 500px) {
+    .gadget-img {
+        width: 17rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .gadget-img {
+        width: 20rem;
+    }
+}
+
+/*currently only affects person icon in dialogue boxes*/
+.icon {
+    position: relative;
+    /*sizing*/
+    bottom: 3px;
+    max-width: 4rem;
+    padding: 2px 1rem 0 0;
+    align-self: end;
+}
+
 .container {
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-start;
     margin-left: 0;
-}
-
-.icon {
-    position: relative;
-    bottom: 3px;
 }
 
 /* CHARACTER COLORS CLASSING*/
