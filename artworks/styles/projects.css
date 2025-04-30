@@ -1,0 +1,208 @@
+/*overriding defualts here*/
+/*you may ask, "isn't that the purpose of the
+settings page in the first place?" yes but i got lazy and 
+now i'm going to pay for it.*/
+#nav-menu {
+    text-transform: uppercase;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    justify-content: center;
+}
+
+h2 {
+    /*counter homepage defaults*/
+    margin-top: 0rem;
+    position: relative;
+    font-size: 2rem;
+    color: var(--blue);
+}
+
+a {
+    color: var(--blue);
+}
+/* END OVERRIDE --*/
+
+/*contains all projectblocks*/
+#projects-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: var(--pad);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10rem;
+}
+
+/*initial view of project box*/
+.projectblock {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin: 2px 0 2px 0;
+    transition: .1s;
+}
+
+.preview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 2rem;
+}
+
+.preview:hover {
+    cursor: pointer;
+}
+
+.projectblock:hover {
+    transform: scale(1.04);
+    transition: .2s;
+}
+
+.project-desc {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    padding: 0 5px 0 1rem;
+    width:inherit;
+}
+
+.icon-link{
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    padding: 0;
+    /*pushing this block to the edge. it works at least.*/
+    margin: 0;
+    align-self: flex-end;
+    justify-content: flex-end;
+    visibility: visible;
+}
+
+.icon-link img {
+    height: 3rem;
+    width: 3rem;
+    padding: 1rem;
+    margin: 0 0 4rem 0;
+    display: none;
+}
+
+/*project block expansion pack*/
+.expanded-block {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+.features-feature {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    width: 80%;
+}
+
+.features-feature .zoom-favicon {
+    width: 28px;
+    height: auto;
+}
+
+.features-feature img {
+    margin-left: 1rem;
+}
+
+.documentation-images {
+    align-self: center;
+    margin-bottom: 2rem;
+}
+
+.documentation-images img {
+    max-height: 30rem;
+    width: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+/*project-specific settings*/
+#card-display-flex {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    overflow-x: scroll;
+    scrollbar-width: 8px;
+}
+
+#card-display-flex img {
+    padding: 0 1rem 1rem 0;
+}
+
+/*project tag colors*/
+.red {
+    background-color: var(--tag-red);
+}
+.yellow {
+    background-color: var(--tag-yellow);
+}
+.green {
+    background-color: var(--tag-green);
+}
+.teal {
+    background-color: var(--tag-teal);
+}
+.blue {
+    background-color: var(--tag-blue);
+}
+.purple {
+    background-color: var(--tag-purple);
+}
+
+/*TEXT SETTINGS*/
+/*---------------------------------------------------------*/
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: var(--white);
+    padding: 1px;
+    background-color: #292929;
+    position: absolute;
+    margin-bottom: 0;
+    margin-right: 0;
+    align-self: flex-end;
+    text-align: right;
+    visibility: visible;
+}
+h3 {
+    color: black;
+    font-family: 'ticketing';
+    font-size: 2rem;
+    padding: 0;
+    margin: 5px 5px 5px 0;
+}
+
+p {
+    margin-top: 0rem;
+    /*idk, something's broken.*/
+    /*you know how it is with custom fonts.*/
+}
+
+.expanded-block a {
+    font-weight: 600;
+}
+
+.expanded-desc {
+    margin-bottom: 4rem;
+}
+
+/*MEDIA QUERIES*/
+
+/*HMMM WHAT IF IT'S ALWAYS JUST A SINGLE COLUMN...*/
+@media (min-width:1200px) {
+#projects-grid {
+    /*grid-template-columns: 1fr 1fr;*/
+    max-width: 1600px;
+    }
+}

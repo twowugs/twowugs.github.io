@@ -1,0 +1,141 @@
+#nav-menu {
+    text-transform: uppercase;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    justify-content: center;
+}
+
+h2 {
+    /*counter homepage defaults*/
+    margin-top: 0rem;
+    position: relative;
+    font-size: 2rem;
+    color: var(--blue);
+}
+
+h2 a {
+    color: var(--blue);
+}
+
+#new-flex {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 90vw;
+    justify-content: center;
+    color: var(--orange);
+}
+
+#search-box {
+    display: grid;
+    grid-template-columns: 2fr 5fr 1fr;
+    grid-template-rows: auto;
+    min-height: 2rem;
+    height: fit-content;
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+#log-flex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 70%;
+}
+
+.log-entry-grid {
+    display: grid;
+    grid-template-columns: 14rem 4fr;
+}
+
+.add-full-border {
+    border-style: solid;
+    border-color: var(--orange);
+    border-width: 1px 1px 1px 1px;
+}
+
+.add-vertical-border {
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: var(--orange);
+}
+
+.add-horiz-border {
+    border-width: 0 0 .5px 0;
+    border-style: solid;
+    border-color: var(--orange);
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.entry-title {
+    margin: 4px 2rem 4px 1rem;
+    padding: 12px 2rem 12px 2rem;
+}
+
+.entry-preview {
+    align-self: center;
+    padding: 8px;
+}
+
+/* T E X T */
+/*------------------------------------------*/
+.alkalami-regular {
+    font-family: "Alkalami", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.container > span {
+    align-self: first baseline;
+    margin: 5px 0 6px 1rem;
+    margin-left: 1rem;
+    margin-bottom: 6px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.desc-text {
+    margin-left: 2rem;
+    color: var(--orange);
+}
+
+video {
+    max-height: 10rem;
+    border-radius: 7px;
+}
+
+/* L I N K S */
+/*------------------------------------------*/
+#new-flex a {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#new-flex a:link, #new-flex a:active, #new-flex a:visited {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+#new-flex a:hover {
+    color: var(--orange);
+}
+
+.hide-element {
+    display: none;
+    visibility: collapse;
+}

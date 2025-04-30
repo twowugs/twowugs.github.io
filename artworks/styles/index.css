@@ -1,0 +1,26 @@
+#page-flex {
+    flex-direction: column-reverse;
+}
+
+#nav-menu {
+    flex-direction: column;
+}
+
+#bio-text {
+    margin-top: 4rem;
+}
+
+@media (min-width:850px) {
+    #page-flex {
+        flex-direction: column;
+    }
+
+    #nav-menu {
+        margin-top: 0rem;
+        flex-direction: row;
+    }
+
+    #bio-text {
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,55 @@
+#nav-menu {
+    text-transform: uppercase;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    justify-content: center;
+}
+
+h2 {
+    /*counter homepage defaults*/
+    margin-top: 0rem;
+    position: relative;
+    font-size: 2rem;
+    color: var(--blue);
+}
+
+#bio-grid {
+    display: grid;
+    grid-template-rows: auto auto;
+    column-gap:var(--pad);
+}
+
+#pfp img {
+    width: 15rem;
+    border-color: var(--blue);
+    border-width: 4px;
+    border-style: solid;
+}
+
+#bio-text {
+    max-width: 34rem;
+}
+
+/*TEXT SETTINGS*/
+/*---------------------------------------------------------*/
+
+#bio-text {
+    color: var(--orange);
+}
+
+a {
+    color: var(--blue);
+}
+
+/*MEDIA QUERIES*/
+/*---------------------------------------------------------*/
+@media (min-width:850px) {
+    #bio-grid {
+        grid-template-columns: auto auto;
+    }
+    #bio-text {
+        margin-bottom: 5rem;
+    }
+}

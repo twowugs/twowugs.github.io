@@ -1,0 +1,201 @@
+:root {
+    /*colors*/
+    --white: #f9fcff;
+    --white: #d9d6c9;
+    --blue: #4a557e;
+    --orange: #bd5333;
+    --tag-red: #ca2c31;
+    --tag-yellow: #ef982b;
+    --tag-green: #9aa247;
+    --tag-teal:#5e9c90;
+    --tag-blue: #4a557e;
+    --tag-purple: #9981ac;
+    /*font sizing*/
+    --main-title: 3rem;
+    --title: 2rem;
+    --desc: 20px;
+    /*elements*/
+    --pad: 2rem;
+}
+
+
+.colors {
+    position: fixed;
+    top: 0;
+    right: 0;
+    max-width: 15rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+}
+
+#page-flex {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+#nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    position: relative;
+}
+
+.menu-item img {
+    max-width: 200px;
+}
+
+/*NAVBAR FOR SUBPAGES*/
+/*---------------------------------------------------------*/
+#navbar {
+    display: flex;
+    flex-direction: row;
+    font-family: 'ticketing';
+    font-size: 2rem;
+}
+ul {
+    list-style-type: none;
+    display: inline-flex;
+    width: fit-content;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 1rem 0;
+}
+
+li {
+    padding: 0 1rem 0 1rem;
+}
+
+/*TEXT SETTINGS*/
+/*---------------------------------------------------------*/
+#page-title {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: var(--main-title);
+    width: fit-content;
+}
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'ticketing';
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'ticketing';
+    font-size: var(--title);
+    position: absolute;
+    margin-top: 5rem;
+}
+
+p {
+    font-size: var(--desc);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.i {
+    font-style: italic;
+}
+
+/*fonts*/
+@font-face {
+    font-family: 'ticketing';
+    src: url(../fonts/Ticketing.otf) format('opentype'),
+         url(../fonts/Ticketing.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*LINKS*/
+/*---------------------------------------------------------*/
+h1 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.current {
+    color: red;
+}
+
+/* M E D I A   Q U E R I E S */
+/*---------------------------------------------------------*/
+@media (min-width:480px) {
+    :root {
+        --main-title: 3.5rem;
+        --title: 2.5rem;
+    }
+
+    #nav-menu {
+        margin-top: 2rem;
+    }
+
+    .menu-item img {
+        max-width: 250px;
+    }
+
+    h2 {
+        margin-top: 7rem;
+    }
+}
+
+@media (min-width:600px) {
+    :root {
+        --main-title: 4rem;
+        --title: 3rem;
+    }
+
+    .menu-item img {
+        max-width: 250px;
+    }
+}
+
+@media (min-width:850px) {
+    :root {
+        --main-title: 5rem;
+        --title: 4rem;
+    }
+
+    #page-flex {
+        flex-direction: column;
+    }
+
+    #nav-menu {
+        margin-top: 0rem;
+        flex-direction: row;
+    }
+
+    h2 {
+        position: relative;
+        margin-top: 4rem;
+    }
+}
+
+@media (min-width:1000px) {
+    .menu-item img {
+        max-width: 300px;
+    }
+}
+
+@media (min-width:1279px) {
+    .menu-item img {
+        max-width: 400px;
+    }
+}
