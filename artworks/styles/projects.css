@@ -251,6 +251,74 @@ p {
     margin-bottom: 4rem;
 }
 
+/*STICKER IMG SETTINGS*/
+.sticker-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sticker-container img {
+    width: 100%;
+    max-width: 20rem;
+}
+
+/*PHOTO CONTAINER SETTINGS*/
+.photos-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.photos-container img {
+    width: 100%;
+    height: auto;
+}
+
+/*ALBUM COVER CONTAINER SETTINGS*/
+.covers-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8px;
+    row-gap: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.covers-container img {
+    width: 100%;
+    max-width: 30rem;
+}
+
+/*WEBPAGE IMG CONTAINER SETTINGS*/
+.website-images-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    row-gap: 8px;
+    justify-items: center;
+}
+
+.website-images-container img {
+    max-width: 90%;
+}
+
+/*CARD IMAGES CONTAINER*/
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 8px;
+    row-gap: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards-container img {
+    width: 100%;
+    max-width: 22rem;
+}
+
 /*MEDIA QUERIES*/
 
 /*HMMM WHAT IF IT'S ALWAYS JUST A SINGLE COLUMN...*/
