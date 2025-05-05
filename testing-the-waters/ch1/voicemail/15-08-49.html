@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!-- google material symbols -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=location_on" />
+        <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello?</title>
+    <link rel="stylesheet" href="../../index.css">
+    <link rel="stylesheet" href="../../settings.css">
+</head>
+<body>
+    <div id="page-flex" style="background-image: url(../../visuals/home00.png);">
+        <a href="15-09-00.html">
+            <div class="container"> 
+                <img class="gadget-img" src="../../visuals/landline01.png">
+                <div class="txt-nar message-box lines-kit">
+                    <span>
+                        <i>&nbsp;Meet me at Monk's tomorrow at 09:30.</i>
+                        <br>
+                        <i>Please?&nbsp;</i>
+                    </span>
+                </div>
+                <div id="notifIcon-grid">
+                    <p class="information">notesApp (+1)</p>
+                    <img id="hOff-notif" class="notif-alert" src="../../visuals/notif.png">
+                    <img class="notif-alert-alt" src="../../visuals/notif00.png">
+                </div>
+                
+                <!--wip, we will add a tasklist for our character and
+                this icon will indicate that an element has been added to our tasklist-->
+            </div>
+        </a>
+        
+    </div>
+    <div id="runner-flex">
+        <p>    
+            15:08:49
+        </p>
+        <div id="tasklist-container">
+            <p><span class="note"><b>NOTES</b></span></p>
+            <p><img class="new-note" src="../../visuals/new-note.png">
+                <span class="note">meet kit for breakfast (09:30)</span>
+            </p>
+        </div>
+        <div onclick="toggleTasklist()" id="tasklist-flex">
+            <img class="tasklist" src="../../visuals/tasklist00.png">  
+            <img id="hOff-notif" class="tasklist-notif-alert" src="../../visuals/notif.png">
+            <img class="tasklist-notif-alert" src="../../visuals/notif00.png">
+        </div>
+    </div>
+    <!--dont forget to change the time!!-->
+    <script src="../../tasklist.js"></script>
+</body>
+</html>

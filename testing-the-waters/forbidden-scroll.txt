@@ -1,0 +1,296 @@
+
+you're back in town to help close your parents' estate.
+--------------------------------------------
+
+insert: wander around town before meeting Kit
+--------------------------------------------
+    
+
+        KIT
+What do you want, then?
+
+        HELEN
+I don't know. Just, something else.
+
+        WAITRESS
+Everything going ok? Anything else I can get for you guys?
+
+        KIT
+No thanks. Thanks--
+
+        HELEN
+Actually, do you know if there's any way I could rent one of those boats off the pier for a couple hours?
+
+(shot cut to pier thru window)
+(back, etc)
+
+--------------------------------------------
+--SCENE!--
+--------------------------------------------
+
+@ boat rentals place, acquiring a boat!
+
+(the service window is wide open. a lamp CLICKS on.
+this is what's called "farm-to-table television". with perfect framing,
+we are looking straight-on at a poster: some half-assed vector graphic
+of a blond-headed guy who bears a striking resemblance to Kevin Costner's character in Waterworld...)
+
+[fumbling into view, and falling in line with the poster 
+of his cartoon counterpart: (woah! it's a-)]
+
+        GUY WHO LOOKS LIKE KEVIN COSTNER FOR WHATEVER REASON
+    (cradling a heaping pile of fresh-caught fish)
+    (while speaking, a deposit of particularly slimy fish 
+    steadily builds at his feet.)
+What can I do youz for?
+
+        HELEN
+Waitress over at Monk's says you've got boats.
+
+        GUY WHO LOOKS LIKE KEVIN COSTNER ETC
+    (overly enthusiastic for whatever reason)
+I've got boats. And what my boats've got is something special.
+[---------
+    (very tender, suddenly)
+These bad boys--
+[ cut below omg! lol!! ]
+[The way single women feel about dogs, that's how I feel about my boats...]
+    (begins to tear up) (idk lol)
+    (break-)
+Anyways, yeah. Boats. 
+--------]
+Rentals start at sixty bucks 'n hour!
+
+        HELEN
+No chance you do like, reduced pricing for [the unemployed]?
+
+        KIT
+    (glare of death and disappointment @ helen)
+
+        GUY WHO LOOKS LIKE KEVIN ETC
+    (inspired by the sight of slimy floor fish and cosmic indifference,
+    he surrenders the remaining arm fish to the floor)
+I'll see what I can do.
+(Kevin etc. slaps his slimy hands around on his pants and heads out 
+toward the shipyard)
+
+* ^ here's where u can choose a path!! ^ *
+> u can ask for reduced pricing or! you can say something nice for once, maybe..
+    i) if u ask for reduced pricing, he will give u his most worst boat.
+        sowwie!!
+        a) u get stuck on island and have to swim back
+    ii) if u say something nice maybe he will just be nice to you..
+        what a concept!
+
+--
+(don't forget to make it clear that Kit is just here, reluctantly, watching things play out.)
+
+Kevin etc, comes back with keys to one of the boats, and hands them over to Helen.
+
+--
+
+[bro i went to the scene about the island but i didn't
+actually because i couldn't find it. maybe this fucking lazy 
+idiot narrator was too fucking lazy to write it?]
+
+--
+
+[bro, i think i found the island scene]
+
+At the dock, Helen and Kit load and board the boat in silence. 
+They set sail.
+It is silent for a long while. It is silent until Kit finds the right words.
+
+Licks of deep blue lap at the sides of the rickety boat.
+
+        KIT
+Unemployed, huh?
+
+        HELEN
+(Helen has yet to find the right words.)
+
+A lone crest of land rolls into view. Charred support beams hold eachother close. They are stronger together. 
+
+        HELEN
+    (a late reply, lost in thought)
+That's new.
+
+        KIT
+What?
+
+        HELEN
+The unemployment. 
+
+        KIT
+Right.
+For a second there, I thought you were pretending to forget what you'd done.
+
+        HELEN
+    (a shift in energy)
+I didn't--
+
+        KIT
+Didn't what?
+Dissappear?
+Commit arson?
+
+        HELEN
+No--
+
+        KIT
+I don't want to hear it. 
+I don't even know why I stepped foot onto this boat in the first place.
+
+        HELEN
+Kit!
+
+---------------------------------------------
+@burnt-fort island
+
+[Maybe there is no right thing to say. Maybe it's best this boat ride proceeds in silence.]
+Finally, the boat scuffs against the sand.
+Helen and Kit step out of the boat.
+---------------------------------------------
+[insert scannable image of the fort ruins here. hovering over various elements will activate tooltips.]
+    Tooltip'd items--
+   -Empty lighter. The print reads, "Shrimp City Beach".
+   -Support beams. Every great empire ends in great defeat. 
+   -Boat. Sea yourself out.
+
+--
+text options:
+> say you killed the dog.
+
+(or click on the boat to leave. do not indicate this to the user.)
+--------------------------------------------
+
+Helen stations herself in the sand, her back to the ruins. Much time elapses.
+
+        HELEN
+For what it's worth, this isn't how I meant for things to go.
+
+        KIT
+I know why you're back.
+
+        HELEN
+Yeah?
+
+        KIT
+Yeah. I heard about your father-- we all did.
+
+        HELEN
+Oh.
+I guess it's true what they say...
+
+        KIT
+Hm?
+
+        HELEN
+... about []?
+    
+        KIT
+Do they say that?
+
+        HELEN
+Who knows.. ---
+
+        KIT
+You know, I would've thought you'd be more sympathetic about my mother's death, considering your current circumstances.
+
+        HELEN
+And yet --
+
+        KIT
+Some things just never change, huh?
+
+        HELEN
+Well, I do have a prestigious new piece of paper on my wall now.
+
+        KIT
+You've never taken life seriously. I'm starting to think you never will.
+
+        HELEN
+You're kidding--
+
+        KIT
+Helen. Look at me. Look around you.
+
+        HELEN
+Look at what, Kit? Another fucking-god-damn lifeless corpse?
+
+        KIT
+Sure, yeah.
+
+        HELEN
+Yeah? And then what?
+
+        KIT
+Grow the fuck up? I don't know--
+--------------------------------------------
+--------------------------------------------
+
+@ boat rentals place, after trip to island
+
+        [SIGNAGE]
+    (sign is flipped to "closed"/ piece of reciept paper taped 
+    to window that reads:
+    "will return (original text marked out) sometime tomorrow")
+
+        KIT
+Now what?
+
+        HELEN
+Dunno. (tosses keys up into the air and catches them in her palm) 
+Guess I could give 'em to some kid. Let him take that bad boy for a spin.
+    (shot cut to boat bobbing beside the dock)(writing on side of boat 
+    says "bad boy" or equivalent)
+
+        KIT
+    (puts his hand over Helen's palm, their hands together 
+     now clasping the keys)
+Hen?
+
+        HELEN
+
+..
+
+        KIT
+
+
+(sound of the ocean picks up -audio-here.mp3-)
+(shot cut to ocean again but the boat is just alllmost out of view 
+on the left of our screen)
+(add depth to this scene by building irl a lil 3d stack of papers(or 
+perhaps a more structurally-sound building material..) 
+spaced and backlit so we can have lighting and vibes yeahhh and depth but
+i said that already)
+
+
+
+--------------------------------------------
+ PLOTto > if you don't admit to killing the dog.
+
+        KIT
+    What was that about?
+
+ >you write in your notebook: "checkov's gun collection"
+
+        KIT
+    Fuck it, man. Are you walking home or what?
+ 
+ >you, helen. are at a loss for words. perhaps the most lost you've ever been.
+ >Kit leaves without you.
+--------------------------------------------
+
+ NOW WHAT? ? ?
+
+>your parents have a nasty little cat that licks u cus u taste like fish
+
+>hm? maybe u dont actually get fired immediately.
+
+--------------------------------------------
+        
+
+
+
+        

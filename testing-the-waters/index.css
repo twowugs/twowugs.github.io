@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #060607;
+    background-size: 40rem;
+    text-align: right;
+}
+
+#page-flex {
+    background: url(visuals/cherries.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 95vw;
+    height: 93vh;
+    margin-top: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+p {
+    color: #dadada;
+    padding: 0 10px 0 0;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* for mobile/ low bandwidth devices*/
+@media (min-width: 400px) {
+    #page-flex {
+        background: url(visuals/porthole.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        width: 95vw;
+        height: 93vh;
+        margin-top: 1vw;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+}
+
+@media (min-width: 800px) {
+    #page-flex {
+        background: url(visuals/cherries.gif);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        width: 95vw;
+        height: 93vh;
+        margin-top: 1vw;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+}
+
