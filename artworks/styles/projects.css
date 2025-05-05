@@ -172,28 +172,32 @@ a {
 
 
 /* NAV ARROW*/
-#to-top a {
-    color: var(--black);
-}
-
-.nav-arrow {
+#to-top {
+    position: fixed;
     display: flex;
-    width: 4rem;
-    height: 4rem;
-    background-color: var(--tag-red);
+    flex-direction: row;
     justify-content: center;
     align-content: center;
     transition: .1s;
-    position: fixed;
+    color: var(--black);
     right: var(--pad);
     bottom: var(--pad);
     z-index: 1;
+    align-items: center;
+}
+
+.nav-arrow {
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--tag-red);
+    justify-self: center;
 }
 
 .nav-arrow > img {
     max-height: 90%;
     align-self: center;
     justify-self: center;
+    margin-left: 3px;
 }
 
 .nav-arrow > img:hover {
