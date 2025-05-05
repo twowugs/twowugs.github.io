@@ -376,7 +376,7 @@ function changePopupC11() {
           b.style.display = "block";
           var d = document.getElementById("popupSetC02");
             //who's this? || hang up
-          d.style.display = "none";
+          d.style.display = "none"; 
 
         setTimeout (function() {
             //closes chat window
