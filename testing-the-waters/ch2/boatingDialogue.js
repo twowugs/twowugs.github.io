@@ -49,3 +49,16 @@ document.addEventListener('DOMContentLoaded', () => {
       });
   });
   
+//BACKGROUND SWAP
+const pageBackground = document.getElementById('page-flex');
+pageBackground.style.backgroundImage = 'url("../../visuals/yachting.gif")';
+
+setTimeout(() => {
+  pageBackground.style.backgroundImage = 'url("../../visuals/yachting-still.png")';
+    // enable page to be a clickable link after background swap
+    pageBackground.style.cursor = 'pointer'; 
+    //allow next chapter on click after timeout
+    pageBackground.addEventListener('click', () => {
+      window.location.href = '../tbc.html'; 
+    });
+  }, 19000); //in milliseconds
