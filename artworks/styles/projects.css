@@ -33,6 +33,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10rem;
+    justify-content: center;
 }
 
 /*initial view of project box*/
@@ -42,6 +43,8 @@ a {
     border-style: solid;
     margin: 2px 0 2px 0;
     transition: .1s;
+    width: 80vw;
+    background-color: var(--white);
 }
 
 .preview {
@@ -96,6 +99,12 @@ a {
     display: flex;
     flex-direction: column;
     padding: 1rem 1rem 2rem 1rem;
+    max-width: 80vw;
+}
+
+.expanded-block img {
+    max-width: 78vw;
+    height: auto;
 }
 
 .features-feature {
@@ -160,6 +169,25 @@ a {
     background-color: var(--tag-purple);
 }
 
+.red-block {
+    border-color: var(--tag-red);
+}
+.yellow-block {
+    border-color: var(--tag-yellow);
+}
+.green-block {
+    border-color: var(--tag-green);
+}
+.teal-block {
+    border-color: var(--tag-teal);
+}
+.blue-block {
+    border-color: var(--tag-blue);
+}
+.purple-block {
+    border-color: var(--tag-purple);
+}
+
 /*TEXT SETTINGS*/
 /*---------------------------------------------------------*/
 h4 {
@@ -203,6 +231,16 @@ p {
 @media (min-width:1200px) {
 #projects-grid {
     /*grid-template-columns: 1fr 1fr;*/
-    max-width: 1600px;
+    max-width: 1350;
     }
+.expanded-block img {
+    max-width: 78vw;
 }
+}
+
+@media (min-width:1400px) {
+    #projects-grid {
+        /*grid-template-columns: 1fr 1fr;*/
+        max-width: 1600px;
+        }
+    }
