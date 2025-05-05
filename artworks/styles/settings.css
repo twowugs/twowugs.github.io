@@ -55,9 +55,19 @@ body {
     position: relative;
 }
 
+/*
 .menu-item img {
     max-width: 200px;
+    mix-blend-mode: darken;
 }
+
+#projects {
+    background-image: url('../visuals/apple.png');
+    background-size: 200px;
+
+}
+
+*/
 
 /*NAVBAR FOR SUBPAGES*/
 /*---------------------------------------------------------*/
