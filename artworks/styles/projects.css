@@ -63,6 +63,7 @@ a {
 .projectblock:hover {
     transform: scale(1.04);
     transition: .2s;
+    z-index: 1;
 }
 
 .project-desc {
@@ -169,23 +170,44 @@ a {
     background-color: var(--tag-purple);
 }
 
-.red-block {
-    border-color: var(--tag-red);
+
+/* NAV ARROW*/
+#to-top a {
+    color: var(--black);
 }
-.yellow-block {
-    border-color: var(--tag-yellow);
+
+.nav-arrow {
+    display: flex;
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--tag-red);
+    justify-content: center;
+    align-content: center;
+    transition: .1s;
+    position: fixed;
+    right: var(--pad);
+    bottom: var(--pad);
+    z-index: 1;
 }
-.green-block {
-    border-color: var(--tag-green);
+
+.nav-arrow > img {
+    max-height: 90%;
+    align-self: center;
+    justify-self: center;
 }
-.teal-block {
-    border-color: var(--tag-teal);
+
+.nav-arrow > img:hover {
+    transition: .1s;
+    transform: scale(.92);
 }
-.blue-block {
-    border-color: var(--tag-blue);
+
+.nav-arrow:hover {
+    cursor: pointer;
 }
-.purple-block {
-    border-color: var(--tag-purple);
+
+.nav-arrow:active {
+    transition: .1s;
+    transform: scale(.92);
 }
 
 /*TEXT SETTINGS*/
