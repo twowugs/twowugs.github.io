@@ -19,6 +19,9 @@ h2 {
     display: grid;
     grid-template-rows: auto auto;
     column-gap:var(--pad);
+    max-width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #pfp img {
@@ -36,7 +39,7 @@ h2 {
 /*---------------------------------------------------------*/
 
 #bio-text {
-    color: var(--orange);
+    color: var(--black);
 }
 
 a {

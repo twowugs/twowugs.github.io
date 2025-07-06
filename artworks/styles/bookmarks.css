@@ -1,0 +1,64 @@
+.tagnav {
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    align-items: end;
+    z-index: 5;
+}
+
+.tagnav-bookmarks {
+    /* category navigation-- the cutest way :3c */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1;
+    gap: 0; /* gapless, babeyyyy */
+
+    /*bookmark menu positioning*/
+    float: right;
+    width: fit-content;
+    position:sticky;
+    /*(for positioning, see: settings.css */
+  }
+
+  .spacer {
+    width: 100vw;
+    height: var(--pad);
+    background-color: #292929;
+  }
+
+  .bookmark {
+    /* shape each bookmark */
+    width: calc(var(--tag)*2.4);
+    height: calc(var(--tag)*2.4);
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 100%,
+      50% 100%,
+      0 100%
+    );
+    transition: clip-path 0.5s ease-in-out;
+    cursor: pointer;
+  }
+
+  /* dye each bookmark :3c */
+  .bookmark1 { background: #292929; }
+  .bookmark2 { background: #ca2c31; }
+  .bookmark3 { background: #9aa247; }
+  .bookmark4 { background: #4a557e; }
+  .bookmark5 { background: #ef982b; }
+  .bookmark6 { background: #9981ac; }
+
+  .bookmark:hover,
+  .bookmark.active {
+    /* shift to bookmark point shape on hover/click */
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 100%,
+      50% 70%,
+      0 100%
+    );
+  }
+  
+  

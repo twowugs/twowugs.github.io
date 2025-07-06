@@ -1,5 +1,6 @@
 :root {
     /*colors*/
+    --black: #292929;
     --white: #f9fcff;
     --white: #d9d6c9;
     --blue: #4a557e;
@@ -16,6 +17,7 @@
     --desc: 20px;
     /*elements*/
     --pad: 2rem;
+    --tag: 1.3rem;
 }
 
 
@@ -25,6 +27,16 @@
     right: 0;
     max-width: 15rem;
 }
+
+/*
+.tagnav {
+    /*bookmark menu positioning
+    float: right;
+    width: fit-content;
+    position:relative;
+    margin-bottom: var(--pad);
+}
+*/
 
 body {
     margin: 0;
@@ -100,11 +112,15 @@ li {
     margin-top: 0;
     font-size: var(--main-title);
     width: fit-content;
+    z-index: 10;
+    margin-top: calc(var(--tag)*3);
+    /*adjust height to not overlap with bookmark nav*/
 }
 h1 {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-family: 'ticketing';
+    padding-top: var(--pad);
 }
 
 h2 {
@@ -147,6 +163,11 @@ h1 a {
 
 /* M E D I A   Q U E R I E S */
 /*---------------------------------------------------------*/
+@media (min-width:200px) {
+    .menu-item img {
+        max-width: 220px;
+    }
+}
 @media (min-width:480px) {
     :root {
         --main-title: 3.5rem;
@@ -181,6 +202,8 @@ h1 a {
     :root {
         --main-title: 5rem;
         --title: 4rem;
+        --tag:1.66rem;
+        /*bookmark height&width*/
     }
 
     #page-flex {
@@ -201,6 +224,10 @@ h1 a {
 @media (min-width:1000px) {
     .menu-item img {
         max-width: 300px;
+    }
+    :root {
+        --tag:2rem;
+        /*bookmark height&width*/
     }
 }
 

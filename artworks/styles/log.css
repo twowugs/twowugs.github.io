@@ -139,3 +139,34 @@ video {
     display: none;
     visibility: collapse;
 }
+
+/* M E D I A   Q U E R I E S */
+/*------------------------------------------*/
+@media (min-width:100px) {
+    .log-entry-grid {
+        display: grid;
+        grid-template-columns:  auto;
+        grid-template-rows: 2.5rem auto;
+        overflow-y: scroll;
+    }
+    .entry-title {
+        border-width: 0 0 .5px 0;
+        border-style:dashed;
+        border-color: var(--tag-purple);
+        padding: 0;
+    }
+}
+
+@media (min-width:780px) {
+    .log-entry-grid {
+        display: grid;
+        grid-template-columns: 14rem 4fr;
+        grid-template-rows: auto;
+    }
+    .entry-title {
+        border-width: 0 1px 0 0;
+        border-style: solid;
+        border-color: var(--orange);
+        padding: 1rem;
+    }
+}
