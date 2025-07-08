@@ -1,3 +1,7 @@
+body {
+  scroll-behavior: smooth;
+}
+
 .tagnav {
     display: flex;
     flex-direction: column;

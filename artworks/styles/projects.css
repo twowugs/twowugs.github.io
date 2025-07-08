@@ -1,3 +1,6 @@
+:root {
+    scroll-behavior: smooth;
+}
 /*overriding defualts here*/
 /*you may ask, "isn't that the purpose of the
 settings page in the first place?" yes but i got lazy and 
