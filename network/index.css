@@ -24,7 +24,7 @@ p {
 }
 
 #scan-me {
-    width: 20rem;
+    max-width: 28rem;
     height: auto;
     margin: 1rem;
 }
@@ -32,7 +32,8 @@ p {
 /* pdf downloads */
 /*------------------------------------------*/
 #more-info {
-    position: fixed;
+    /*position: fixed;*/
+    position: relative;
     bottom: 1rem; 
     display: flex;
     flex-direction: column;
@@ -54,7 +55,7 @@ p {
     }
 
     #scan-me {
-        max-width: 20rem;
+        max-width: 25rem;
         padding: 1rem;
     }
 
@@ -82,5 +83,12 @@ p {
         max-width: 70vw;
         font-size: 3rem;
         letter-spacing: .5rem;
+    }
+}
+
+@media (max-width: 380px) {
+    #scan-me {
+        max-width: 15rem;
+        padding: 1rem;
     }
 }
