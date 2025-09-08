@@ -10,6 +10,9 @@ body {
     align-items: center;
     /*added some space above this contentbox*/
     margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2rem 0 2rem;
 }
 
 #main-flex {
@@ -36,6 +39,12 @@ p {
     height: auto;
     margin: 1rem;
 }
+
+#header-img {
+    max-width: 90vw;
+    min-width: 240px;
+}
+
 /* P A R T I C I P A T E   I N   T H I S   P R O J E C T*/
 /* pdf downloads */
 /*------------------------------------------*/
@@ -60,6 +69,7 @@ p {
         margin-left: auto;
         margin-right: auto;
         align-content: center;
+        max-width: 80vw;
     }
 
     #scan-me {
@@ -72,12 +82,16 @@ p {
         font-size: 3.2rem;
         letter-spacing: .5rem;
     }
+
+    p {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 500px) {
 
     #page-flex {
-        max-width: 20rem;
+        max-width: 70vw;
         margin-left: auto;
         margin-right: auto;
     }
