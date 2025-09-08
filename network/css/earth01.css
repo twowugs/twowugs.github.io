@@ -2,11 +2,17 @@
     --main-font-color: #dadada;
 }
 
+#page-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 body {
     margin: 0;
     padding: 0;
-    background-color: #545E56;
-    /*background-image: url(../visuals/NOTHING);*/
+    background-color: #000000;
+    background-image: url(../visuals/fishtank00.gif);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -15,103 +21,20 @@ body {
 #page-flex {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-#main-content {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-    cursor: default;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-#more-info {
-    position: fixed;
-    bottom: 0;
-    display: flex;
-    flex-direction: column;
-    /*background-color: #dadada;*/
-    width: 100vw;
-    padding: 1rem 0 1rem 0;
-    /*mix-blend-mode: multiply;*/
-}
-
-/* T U T O R I A L   T E X T */
-/*------------------------------------------*/
-#instructions-textbox {
-    display: flex;
-    flex-direction: column;
-    display: none;
-    mix-blend-mode: normal;
-    max-width: 90vw;
-    max-height: 50vh;
-    overflow-y: scroll;
-    margin-left: 1rem;
-    background-color: #000000;
-    padding: 8px;
 }
 
 /* T E X T */
 /*------------------------------------------*/
-h1 {
-/* tree title text */
-    margin-left: 10vw;
-    font-size: 4rem;
-}
-
-h2 {
-/* tree thoughts text */
-    font-size: 3rem;
-    /*margin-left: 10vw;*/
-    mix-blend-mode: plus-lighter;
-}
-
-h3 {
-/* header for "ABOUT" bar */
-    /*color: #474747;*/
-    color: #dadada;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding: 5px 0 8px 0;
-    margin: 0;
-    font-weight: 600;
-}
-
-h3:hover {
-    cursor: pointer;
-}
-
-p {
+p,a {
+    font-size: 24px;
+    text-shadow: #000000 1px 3px 2px;
     font-family: 'Courier New', Courier, monospace;
     /*color: #474747;*/
     color: #dadada;
 }
 
-.add-topborder {
-    border-style: solid;
-    border-color: #dadada;
-    border-width: 1px 0 0 0;
-}
-
-.clear-spacing {
-    /* removes default p tag spacing */
-    margin: 0;
-    padding: 0;
-}
-
-/* A N I M A T I O N */
-/*------------------------------------------*/
-.loop-these {
-    display: none;
-    /*background-color: #dadada;*/
-    max-width: fit-content;
-    /* this sets the default display to hidden */
-}
-.visible {
-    display: block;
-    /* we toggle this class in the js to transition 
-    through each phrase */
+a {
+    font-weight: 800;
 }
 
 /* F O N T S */
@@ -153,9 +76,3 @@ p {
     font-style: normal;
     color: var(--main-font-color);
   }
-
-/* href here? */
-/* currently inactive */
-#page-end {
-    margin: 0 0 3rem 0;
-}
