@@ -19,12 +19,34 @@ body {
     max-width: 65rem;
 }
 
+#main-text {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    color: #dadada;
-    font-size: 4rem;
-    letter-spacing: 1rem;
+    font-weight: 600;
+    color: #fff7f7;
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-align: right;
+    padding: 4px;
+    margin-right: 10vw;
+    background-color: #f59555;
+    width: max-content;
+    border-radius: 2px;
+    float: right;
+    border-width: 2px;
+    border-color:darkblue;
+    border-style: solid;
+}
+
+h1 > span {
+    letter-spacing: normal;
+    float:inline-end;
+    font-size: 24px;
 }
 
 p {
