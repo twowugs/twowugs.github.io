@@ -6,7 +6,7 @@ const iconStatus = document.getElementById('success-icon');
 iconStatus.classList.add('hidden');
 iconStatus.classList.remove('visible');
 
-//DISCLAIMER I MADE THE ROOBOTS DO THIS AND I'LL EDIT IT LATER
+//HERE'S THE MAGIC PART
 //read the file then generate wordbank array
 document.getElementById('inputfile').addEventListener('change', function () {
     const fr = new FileReader();
