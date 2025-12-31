@@ -1,0 +1,54 @@
+/*PAGE SETTINGS----------------------------------*/
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: papayawhip;
+    color: rgb(100, 66, 41);
+}
+/*fonts*/
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+h2 , h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#success-icon {
+    color: seagreen;
+    transition: 1s;
+}
+
+.hidden {
+    display: none;
+    transition: 1s;
+}
+
+.visible {
+    transition: 1s;
+    animation: fadeIn .6s cubic-bezier(.51,.17,.66,.79) forwards; /* The animation name, duration, and end behavior */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* Start from opacity 0 */
+  }
+  100% {
+    opacity: 1; /* End at opacity 1 */
+  }
+}
+
+#startup-flex {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    padding: 8px;
+    border: 3px;
+    border-color: brown;
+    border-style: solid;
+}
+

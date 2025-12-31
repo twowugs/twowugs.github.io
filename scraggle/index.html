@@ -4,27 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--google material symbols-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=done_all" />
+    <!--my css-->
+    <link rel="stylesheet" href="setup.css">
 </head>
 <body>
-   <html>
-<head>
-	<title>Read Text File</title>
-</head>
-<body>
-    <button id="generateBtn">
-        word bank
-    </button>
-    <input type="text" id="searchBox" placeholder="Search...">
-    <button id="searchBtn">Search</button>
-    <ul id="results"></ul>
-    <div id="wordbank">
-        <input type="file" name="inputfile" id="inputfile">
-        <br>
-        <pre id="output"></pre>
-    </div>
-    <script src="playscript.js"></script>
+    <h1>SCRAGGLE</h1>
+    <div id="startup-flex">
+        <h2>download the wordlist 'dict.csv' file before playing</h1>
+        <a href="dict.csv"><button>dict.csv [download button]</button></a>
+       <html>
 
-</body>
+    <!--
+        <button id="generateBtn">
+            word bank
+        </button>-->
+    <!--
+        <input type="text" id="searchBox" placeholder="Search...">
+        <button id="searchBtn">Search</button>
+        <ul id="results"></ul>
+    -->
+        
+        <div id="wordbank">
+            <h3 for="inputfile">click 'Browse..' to select and upload <i>dict.csv</i> file</h2>
+            <input type="file" name="inputfile" id="inputfile">
+            <!--insert when file upload is complete-->
+            <br>
+            <pre id="output"></pre>
+            <span id="success-icon" >
+                <span class="material-symbols-outlined">
+                    done_all 
+                </span>
+                <span>upload successful. <b>[BEGIN GAMEPLAY]</b></span>
+                </span>
+        
+        </div>
+    </div>
+    
+    <script src="playscript.js"></script>
 </html>
 </body>
 </html>
