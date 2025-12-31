@@ -24,7 +24,6 @@ document.getElementById('inputfile').addEventListener('change', function () {
     fr.readAsText(this.files[0]);
 });
 
-
 /*
 // Generate wordBank when button is pressed
 document.getElementById('generateBtn').addEventListener('click', function () {
