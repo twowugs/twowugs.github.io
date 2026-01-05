@@ -58,13 +58,15 @@ h2 , h3 {
   /*note to self-- set a tile size in :root*/
   grid-template-columns: repeat(15, 3rem);
   grid-template-rows: repeat(15, 3rem);
-  gap: 1rem;
-  justify-content: center; /* center the grid horizontally */
+  gap: .5rem; /*spacing between grid squares*/
+  justify-content: center; /*center grid horizontally*/
   margin-top: 2rem;
+  /*temp code to adjust positioning*/
   position: absolute;
 }
+/*this is tile code even tho i still have it named 'gamespace'*/
 .gamespace {
-  width: 3rem;
+  width: 3rem; /*establish width and height of tiles, change this in root*/
   height: 3rem;
   border: 4px;
   border-radius: 1rem;
@@ -75,15 +77,16 @@ h2 , h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+  /*letters display font size*/
+  font-size: 30px;
   font-weight: bold;
   cursor: grab;
   user-select: none;
   background-color: #e56830;
-  color: antiquewhite;
+  color: #ffefd5;
 }
 
-/* Grid cells (drop targets) */
+/*grid cell settings (drop targets) */
 .grid-cell {
   width: 3rem;
   height: 3rem;
