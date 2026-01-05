@@ -61,6 +61,7 @@ h2 , h3 {
   gap: 1rem;
   justify-content: center; /* center the grid horizontally */
   margin-top: 2rem;
+  position: absolute;
 }
 .gamespace {
   width: 3rem;
@@ -68,6 +69,31 @@ h2 , h3 {
   border: 4px;
   border-radius: 1rem;
   border-color: brown;
-  border-style: dashed;
+  border-style: solid;
+  /*testcode below, may break, who knows...*/
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: grab;
+  user-select: none;
+  background-color: #e56830;
+  color: antiquewhite;
 }
+
+/* Grid cells (drop targets) */
+.grid-cell {
+  width: 3rem;
+  height: 3rem;
+  border: 2px dashed gray;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 

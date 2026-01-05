@@ -42,9 +42,53 @@ console.log(lettersbank);
 //board[7][7] = "A";
 
 const gameboardSpaces = document.querySelector('.grid-container');
-
+/*
 for (let i = 0; i < 225; i++) {
   const square = document.createElement('div');
   square.classList.add('gamespace');
   gameboardSpaces.appendChild(square);
-}
+}*/
+
+  // ----- GENERATE GRID -----
+  for (let row = 0; row < 15; row++) {
+    for (let col = 0; col < 15; col++) {
+      const square = document.createElement('div');
+      square.classList.add('grid-cell');
+      square.dataset.row = row;
+      square.dataset.col = col;
+
+      // Allow drop
+      square.addEventListener('dragover', (e) => e.preventDefault());
+
+      square.addEventListener('drop', (e) => {
+        e.preventDefault();
+        const tileId = e.dataTransfer.getData('text');
+        const tile = document.getElementById(tileId);
+
+        // Only drop if cell is empty
+        if (square.children.length === 0) {
+          square.appendChild(tile);
+          tile.style.position = 'static';
+
+          // Update your gameboard array
+          gameboard[row][col] = tile.textContent;
+          console.log(`Placed ${tile.textContent} at [${row}, ${col}]`);
+        }
+      });
+
+      gameboardSpaces.appendChild(square);
+    }
+  }
+
+  // ----- DRAG EVENTS FOR TILE -----
+  const tile = document.getElementById('tile');
+
+  tile.addEventListener('dragstart', (e) => {
+    e.dataTransfer.setData('text', e.target.id);
+    setTimeout(() => (e.target.style.visibility = 'hidden'), 0);
+  });
+
+  tile.addEventListener('dragend', (e) => {
+    e.target.style.visibility = 'visible';
+  });
+
