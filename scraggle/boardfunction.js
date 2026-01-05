@@ -7,6 +7,7 @@ console.log(gameboard);
 
 let lettersbank = [];
 //generate a letters array, no blanks just yet
+//let's put some letters into that array...
 lettersbank.push(
   ...Array(9).fill("A"),
   ...Array(2).fill("B"),
@@ -39,3 +40,11 @@ console.log(lettersbank);
 
 // fill example
 //board[7][7] = "A";
+
+const gameboardSpaces = document.querySelector('.grid-container');
+
+for (let i = 0; i < 225; i++) {
+  const square = document.createElement('div');
+  square.classList.add('gamespace');
+  gameboardSpaces.appendChild(square);
+}

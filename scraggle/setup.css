@@ -52,3 +52,22 @@ h2 , h3 {
     border-style: solid;
 }
 
+/*BOARD SETUP*/
+.grid-container {
+  display: grid;
+  /*note to self-- set a tile size in :root*/
+  grid-template-columns: repeat(15, 3rem);
+  grid-template-rows: repeat(15, 3rem);
+  gap: 1rem;
+  justify-content: center; /* center the grid horizontally */
+  margin-top: 2rem;
+}
+.gamespace {
+  width: 3rem;
+  height: 3rem;
+  border: 4px;
+  border-radius: 1rem;
+  border-color: brown;
+  border-style: dashed;
+}
+
