@@ -68,10 +68,8 @@ h2 , h3 {
 .gamespace {
   width: 3rem; /*establish width and height of tiles, change this in root*/
   height: 3rem;
-  border: 4px;
+  /*border: 4px dashed brown;*/
   border-radius: 1rem;
-  border-color: brown;
-  border-style: solid;
   /*testcode below, may break, who knows...*/
   box-sizing: border-box;
   display: flex;
@@ -82,21 +80,52 @@ h2 , h3 {
   font-weight: bold;
   cursor: grab;
   user-select: none;
-  background-color: #e56830;
-  color: #ffefd5;
+  background-color: transparent;
+
+}
+
+.gamespace img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none; /* IMPORTANT: lets drag work correctly */
+}
+/*test code, delete later*/
+#tile-rack {
+  display: flex;
+  flex-direction: row;
+  max-width: fit-content;
+  min-width: 26rem;
+  gap: 0.5rem;
+  margin-left: auto;
+  right: 20vw;
+  margin-top: 5rem;
+  z-index: 1;
+  position: fixed;
+  justify-content: center;
+  border: 4px solid brown;
+  padding: .5rem;
 }
 
 /*grid cell settings (drop targets) */
 .grid-cell {
   width: 3rem;
   height: 3rem;
-  border: 2px dashed gray;
-  border-radius: 1rem;
+  border: 2px dashed rgba(240, 128, 128, 0.637);
+  border-radius: .5rem;
   box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.grid-cell.filled {
+  border: none;
+}
+
+
+
+/*cookout accounting office: 336 313 5226*/
+/*don't mind this....*/
 
 

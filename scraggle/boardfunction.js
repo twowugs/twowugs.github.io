@@ -72,7 +72,7 @@ for (let i = 0; i < 225; i++) {
 
           // Update your gameboard array
           gameboard[row][col] = tile.textContent;
-          console.log(`Placed ${tile.textContent} at [${row}, ${col}]`);
+          console.log([row, col]);
         }
       });
 
@@ -82,13 +82,60 @@ for (let i = 0; i < 225; i++) {
 
   // ----- DRAG EVENTS FOR TILE -----
   const tile = document.getElementById('tile');
-
-  tile.addEventListener('dragstart', (e) => {
-    e.dataTransfer.setData('text', e.target.id);
-    setTimeout(() => (e.target.style.visibility = 'hidden'), 0);
+  document.addEventListener('dragstart', (e) => {
+    const tile = e.target.closest('.tile');
+    if (!tile) return;
+  
+    e.dataTransfer.setData('text/plain', tile.id);
+    setTimeout(() => (tile.style.visibility = 'hidden'), 0);
   });
-
-  tile.addEventListener('dragend', (e) => {
-    e.target.style.visibility = 'visible';
+  
+  document.addEventListener('dragend', (e) => {
+    const tile = e.target.closest('.tile');
+    if (!tile) return;
+  
+    tile.style.visibility = 'visible';
   });
+  
+
+
+  // TILE RACK
+  const MAX_RACK_TILES = 7;
+  const tileRack = document.getElementById('tile-rack');
+  
+  // letters you currently have PNGs for
+  const availableTiles = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+  
+  function drawTiles() {
+    while (
+      tileRack.children.length < MAX_RACK_TILES &&
+      lettersbank.length > 0
+    ) {
+      const index = Math.floor(Math.random() * lettersbank.length);
+      const letter = lettersbank[index];
+  
+      // Skip letters without images
+      if (!availableTiles.includes(letter)) continue;
+  
+      lettersbank.splice(index, 1);
+  
+      const tile = document.createElement('div');
+      tile.classList.add('gamespace', 'tile');
+      tile.draggable = true;
+      tile.id = `tile-${letter}-${crypto.randomUUID()}`;
+      tile.dataset.letter = letter;
+  
+      const img = document.createElement('img');
+      img.src = `visuals/tiles/${letter}.png`;
+      img.alt = letter;
+      img.draggable = false;
+  
+      tile.appendChild(img);
+      tileRack.appendChild(tile);
+    }
+  }
+  
+  // Initial draw
+  drawTiles();
+  
 
